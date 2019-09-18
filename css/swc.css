@@ -38,3 +38,13 @@
 .popupoption2:hover{
 	color: red;
 }
+.sani{
+  width: 450px;
+}
+@media screen and (max-width:768px) {
+  .sani{
+    width: 100%;
+  }
+  #boxes #dialog  {
+    width: 80%;
+}
