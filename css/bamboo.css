@@ -72,6 +72,6 @@ figure.slider figure figcaption {
       position: absolute; bottom: 0;
       background: rgba(0,0,0,0.4);
       color: #fff; width: 100%;
-      font-size: 1.3rem; padding: .6rem;
+      font-size: 12px; padding: .6rem;
     }
   }
