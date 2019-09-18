@@ -1,0 +1,321 @@
+@media screen and (min-width:1200px) {
+  .slider {
+    position: relative;
+  }
+  .slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9 {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+  }
+  .slide1 {
+    background: url(../images/banner1.jpg)no-repeat center;
+        background-size: cover;
+      animation:fade 65s infinite;
+  -webkit-animation:fade 65s infinite;
+
+  }
+  .slide2 {
+    background: url(../images/banner2.jpg)no-repeat center;
+        background-size: cover;
+      animation:fade2 65s infinite;
+  -webkit-animation:fade2 65s infinite;
+  }
+  .slide3 {
+      background: url(../images/banner3.jpg)no-repeat center;
+        background-size: cover;
+      animation:fade3 65s infinite;
+  -webkit-animation:fade3 65s infinite;
+  }
+  .slide4 {
+      background: url(../images/banner4.jpg)no-repeat center;
+        background-size: cover;
+      animation:fade4 65s infinite;
+  -webkit-animation:fade4 65s infinite;
+  }
+  .slide5 {
+      background: url(../images/banner5.jpg)no-repeat center;
+        background-size: cover;
+      animation:fade5 65s infinite;
+  -webkit-animation:fade5 65s infinite;
+  }
+  .slide6 {
+      background: url(../images/banner6.jpg)no-repeat center;
+        background-size: cover;
+      animation:fade6 65s infinite;
+  -webkit-animation:fade6 65s infinite;
+  }
+  @keyframes fade
+  {
+    0%   {opacity:1}
+    16.666% { opacity: 0}
+    33.333% { opacity: 0}
+    49.998% { opacity: 0}
+    66.666% { opacity: 0}
+    83.333% { opacity: 0}
+    100% { opacity: 1}
+  }
+  @keyframes fade2
+  {
+    0%   {opacity:0}
+    16.666% { opacity: 1}
+    33.333% { opacity: 0}
+    49.998% { opacity: 0}
+    66.666% { opacity: 0}
+    83.333% { opacity: 0}
+    100% { opacity: 0}
+  }
+  @keyframes fade3
+  {
+    0%   {opacity:0}
+    16.666% { opacity: 0}
+    33.333% { opacity: 1}
+    49.998% { opacity: 0}
+    66.666% { opacity: 0}
+    83.333% { opacity: 0}
+    100% { opacity: 0}
+  }
+  @keyframes fade4
+  {
+    0%   {opacity:0}
+    16.666% { opacity: 0}
+    33.333% { opacity: 0}
+    49.998% { opacity: 1}
+    66.666% { opacity: 0}
+    83.333% { opacity: 0}
+    100% { opacity: 0}
+  }
+  @keyframes fade5
+  {
+    0%   {opacity:0}
+    16.666% { opacity: 0}
+    33.333% { opacity: 0}
+    49.998% { opacity: 0}
+    66.666% { opacity: 1}
+    83.333% { opacity: 0}
+    100% { opacity: 0}
+  }
+  @keyframes fade6
+  {
+    0%   {opacity:0}
+    16.666% { opacity: 0}
+    33.333% { opacity: 0}
+    49.998% { opacity: 0}
+    66.666% { opacity: 0}
+    83.333% { opacity: 1}
+    100% { opacity: 0}
+  }
+}
+@media screen and (min-width:769px) and (max-width:1199px) {
+  .slider {
+    position: relative;
+  }
+  .slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9 {
+    position: absolute;
+    width: 100%;
+    height: 290px;
+  }
+  .slide1 {
+    background: url(../images/banner1.jpg)no-repeat center;
+        background-size: cover;
+      animation:fade 65s infinite;
+  -webkit-animation:fade 65s infinite;
+
+  }
+  .slide2 {
+    background: url(../images/banner2.jpg)no-repeat center;
+        background-size: cover;
+      animation:fade2 65s infinite;
+  -webkit-animation:fade2 65s infinite;
+  }
+  .slide3 {
+      background: url(../images/banner3.jpg)no-repeat center;
+        background-size: cover;
+      animation:fade3 65s infinite;
+  -webkit-animation:fade3 65s infinite;
+  }
+  .slide4 {
+      background: url(../images/banner4.jpg)no-repeat center;
+        background-size: cover;
+      animation:fade4 65s infinite;
+  -webkit-animation:fade4 65s infinite;
+  }
+  .slide5 {
+      background: url(../images/banner5.jpg)no-repeat center;
+        background-size: cover;
+      animation:fade5 65s infinite;
+  -webkit-animation:fade5 65s infinite;
+  }
+  .slide6 {
+      background: url(../images/banner6.jpg)no-repeat center;
+        background-size: cover;
+      animation:fade6 65s infinite;
+  -webkit-animation:fade6 65s infinite;
+  }
+  @keyframes fade
+  {
+    0%   {opacity:1}
+    16.666% { opacity: 0}
+    33.333% { opacity: 0}
+    49.998% { opacity: 0}
+    66.666% { opacity: 0}
+    83.333% { opacity: 0}
+    100% { opacity: 1}
+  }
+  @keyframes fade2
+  {
+    0%   {opacity:0}
+    16.666% { opacity: 1}
+    33.333% { opacity: 0}
+    49.998% { opacity: 0}
+    66.666% { opacity: 0}
+    83.333% { opacity: 0}
+    100% { opacity: 0}
+  }
+  @keyframes fade3
+  {
+    0%   {opacity:0}
+    16.666% { opacity: 0}
+    33.333% { opacity: 1}
+    49.998% { opacity: 0}
+    66.666% { opacity: 0}
+    83.333% { opacity: 0}
+    100% { opacity: 0}
+  }
+  @keyframes fade4
+  {
+    0%   {opacity:0}
+    16.666% { opacity: 0}
+    33.333% { opacity: 0}
+    49.998% { opacity: 1}
+    66.666% { opacity: 0}
+    83.333% { opacity: 0}
+    100% { opacity: 0}
+  }
+  @keyframes fade5
+  {
+    0%   {opacity:0}
+    16.666% { opacity: 0}
+    33.333% { opacity: 0}
+    49.998% { opacity: 0}
+    66.666% { opacity: 1}
+    83.333% { opacity: 0}
+    100% { opacity: 0}
+  }
+  @keyframes fade6
+  {
+    0%   {opacity:0}
+    16.666% { opacity: 0}
+    33.333% { opacity: 0}
+    49.998% { opacity: 0}
+    66.666% { opacity: 0}
+    83.333% { opacity: 1}
+    100% { opacity: 0}
+  }
+}
+@media screen and (max-width:768px) {
+  .slider {
+    position: relative;
+  }
+  .slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9 {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+  }
+  .slide1 {
+    background: url(../images/banner1.jpg)no-repeat center;
+        background-size: cover;
+      animation:fade 65s infinite;
+  -webkit-animation:fade 65s infinite;
+
+  }
+  .slide2 {
+    background: url(../images/banner2.jpg)no-repeat center;
+        background-size: cover;
+      animation:fade2 65s infinite;
+  -webkit-animation:fade2 65s infinite;
+  }
+  .slide3 {
+      background: url(../images/banner11.jpg)no-repeat center;
+        background-size: cover;
+      animation:fade3 65s infinite;
+  -webkit-animation:fade3 65s infinite;
+  }
+  .slide4 {
+      background: url(../images/banner4.jpg)no-repeat center;
+        background-size: cover;
+      animation:fade4 65s infinite;
+  -webkit-animation:fade4 65s infinite;
+  }
+  .slide5 {
+      background: url(../images/banner12.jpg)no-repeat center;
+        background-size: cover;
+      animation:fade5 65s infinite;
+  -webkit-animation:fade5 65s infinite;
+  }
+  .slide6 {
+      background: url(../images/banner13.jpg)no-repeat center;
+        background-size: cover;
+      animation:fade6 65s infinite;
+  -webkit-animation:fade6 65s infinite;
+  }
+  @keyframes fade
+  {
+    0%   {opacity:1}
+    16.666% { opacity: 0}
+    33.333% { opacity: 0}
+    49.998% { opacity: 0}
+    66.666% { opacity: 0}
+    83.333% { opacity: 0}
+    100% { opacity: 1}
+  }
+  @keyframes fade2
+  {
+    0%   {opacity:0}
+    16.666% { opacity: 1}
+    33.333% { opacity: 0}
+    49.998% { opacity: 0}
+    66.666% { opacity: 0}
+    83.333% { opacity: 0}
+    100% { opacity: 0}
+  }
+  @keyframes fade3
+  {
+    0%   {opacity:0}
+    16.666% { opacity: 0}
+    33.333% { opacity: 1}
+    49.998% { opacity: 0}
+    66.666% { opacity: 0}
+    83.333% { opacity: 0}
+    100% { opacity: 0}
+  }
+  @keyframes fade4
+  {
+    0%   {opacity:0}
+    16.666% { opacity: 0}
+    33.333% { opacity: 0}
+    49.998% { opacity: 1}
+    66.666% { opacity: 0}
+    83.333% { opacity: 0}
+    100% { opacity: 0}
+  }
+  @keyframes fade5
+  {
+    0%   {opacity:0}
+    16.666% { opacity: 0}
+    33.333% { opacity: 0}
+    49.998% { opacity: 0}
+    66.666% { opacity: 1}
+    83.333% { opacity: 0}
+    100% { opacity: 0}
+  }
+  @keyframes fade6
+  {
+    0%   {opacity:0}
+    16.666% { opacity: 0}
+    33.333% { opacity: 0}
+    49.998% { opacity: 0}
+    66.666% { opacity: 0}
+    83.333% { opacity: 1}
+    100% { opacity: 0}
+  }
+}

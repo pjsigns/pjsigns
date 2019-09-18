@@ -1,0 +1,671 @@
+a{
+  color: white;
+  font-weight: 600px;
+}
+h2{
+  font-family: 'yellow_peas_demoregular';
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  text-align: left;
+}
+p{
+    font-family: 'yellow_peas_demoregular';
+    font-weight: 600px;
+    font-size: 16px;
+}
+.feedback img{
+  height: 50px;
+}
+body{
+  user-select: none;
+}
+
+@media screen and (min-width:1200px) {
+
+
+  .footer{
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    color:white;
+    align-items: center;
+  }
+  .contc {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 50px 75px 0 75px;
+  }
+  .sign{
+    margin-top: -15px;
+  }
+  .sign a:hover{
+    color: #ed3237;
+  }
+  .contc div{
+    width: 100%;
+  }
+  .fa:hover{
+    background-color: gray;
+  }
+  .arrow  {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-right:10px;
+  }
+  .side {
+    transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+  }
+  ::placeholder{
+    padding-left: 10px;
+  }
+  input{
+    margin: auto;
+    margin-bottom: 8px;
+    /* border: 1px solid gray; */
+    color: white;
+  }
+  #gmap_canvas{
+    border-radius: 10px;
+  }
+  .fb-page iframe{
+    border-radius: 10px;
+  }
+  .mapp{
+    display: flex;
+  }
+  .mapp article{
+    margin-right: 10px;
+  }
+  .msg{
+    height: 77px;
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+  .ico{
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+  .add{
+    margin-top: -37px;
+  }
+  .add h2{
+    color: white;
+    font-weight: 1000;
+  }
+  .icons{
+    margin-top: 8px;
+    text-align: center;
+  }
+  .icon p{
+    margin: 15px 20px 0 0;
+    width: 160px;
+  }
+  .fa{
+    color: white;
+  }
+  .cat{
+    width: 400px;
+    display: flex;
+    margin-left: -145px;
+    padding-top: 10px;
+  }
+  .cat p{
+    float: right;
+  }
+  .cat a:hover{
+    color: #ed3237;
+  }
+  .bro{
+    text-align: center;
+    width: 200px;
+  }
+  .bro p{
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #ed3237;
+  }
+  .bro p:hover{
+    background-color: #ed3237;
+    color: black;
+  }
+  .bro p a{
+    color: #ed3237;
+  }
+  .bro p a:hover{
+    color: white;
+  }
+  select{
+    background-color: black;
+    color: gray;
+  }
+  select:focus{
+    color: white;
+  }
+  .msg:focus{
+    color: white;
+  }
+  input:focus textarea{
+    color: white;
+  }
+  .con{
+    margin: auto;
+    width: 98%;
+    text-align: center;
+    cursor: pointer;
+  }
+  .copy{
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .copy p{
+    margin: auto;
+  }
+  .moree{
+    text-align: center;
+    width: 100%;
+  }
+  .moree article{
+    color: #ed3237;
+    font-size: 20px;
+  }
+  .moree article p{
+    border-radius: 25px;
+    cursor: pointer;
+    width: 400px;
+    border: 1px solid #ed3237;
+    margin: auto;
+  }
+  .moree article p:hover{
+    background-color: #ed3237;
+    color: black;
+  }
+  .moree article p a:hover{
+    color: white;
+  }
+  input:focus {
+    color: white;
+  }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  .facebook{
+    width: 400px;
+    height: 350px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  #mybutton {
+  position: fixed;
+  bottom: 70px;
+  right: 50px;
+  }
+  .mob{
+    display: none;
+  }
+}
+@media screen and (min-width:769px) and (max-width:1199px) {
+  .footer{
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    color:white;
+    align-items: center;
+  }
+  .contc {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 50px 25px 0 25px;
+  }
+  .sign{
+    margin-top: -15px;
+  }
+  .sign a:hover{
+    color: #ed3237;
+  }
+  .contc div{
+    width: 100%;
+  }
+  .fa:hover{
+    background-color: gray;
+  }
+  .arrow  {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-right:10px;
+  }
+  .side {
+    transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+  }
+  ::placeholder{
+    padding-left: 10px;
+  }
+  input{
+    margin: auto;
+    margin-bottom: 8px;
+    /* border: 1px solid gray; */
+    color: white;
+  }
+  #gmap_canvas{
+    border-radius: 10px;
+  }
+  iframe{
+    width: 150px;
+    height: 120px;
+  }
+  .fb-page iframe{
+    border-radius: 10px;
+  }
+  .mapp{
+    display: flex;
+  }
+  .mapp article{
+    margin-right: 10px;
+  }
+  .msg{
+    height: 77px;
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+  .ico{
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+  .add{
+    margin-top: -37px;
+  }
+  .add h2{
+    color: white;
+    font-weight: 1000;
+  }
+  .icons{
+    margin-top: 8px;
+    text-align: center;
+  }
+  .icon p{
+    margin: 15px 20px 0 0;
+    width: 160px;
+  }
+  .fa{
+    color: white;
+  }
+  .cat{
+    width: 400px;
+    display: flex;
+    margin-left: -145px;
+    margin-top: 160px;
+    padding-top: 10px;
+  }
+  .cat p{
+    float: right;
+  }
+  .cat a:hover{
+    color: #ed3237;
+  }
+  .bro{
+    text-align: center;
+    width: 200px;
+  }
+  .bro p{
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #ed3237;
+  }
+  .bro p:hover{
+    background-color: #ed3237;
+    color: black;
+  }
+  .bro p a{
+    color: #ed3237;
+  }
+  .bro p a:hover{
+    color: white;
+  }
+  select{
+    background-color: black;
+    color: gray;
+  }
+  select:focus{
+    color: white;
+  }
+  .msg:focus{
+    color: white;
+  }
+  input:focus textarea{
+    color: white;
+  }
+  .con{
+    margin: auto;
+    width: 98%;
+    text-align: center;
+    cursor: pointer;
+  }
+  .copy{
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .copy p{
+    margin: auto;
+  }
+  .moree{
+    text-align: center;
+    width: 100%;
+  }
+  .moree article{
+    color: #ed3237;
+    font-size: 20px;
+  }
+  .moree article p{
+    border-radius: 25px;
+    cursor: pointer;
+    width: 400px;
+    border: 1px solid #ed3237;
+    margin: auto;
+  }
+  .moree article p:hover{
+    background-color: #ed3237;
+    color: black;
+  }
+  .moree article p a:hover{
+    color: white;
+  }
+  input:focus {
+    color: white;
+  }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  .facebook{
+    width: 400px;
+    height: 350px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  #mybutton {
+  position: fixed;
+  bottom: 70px;
+  right: 50px;
+  }
+  .mob{
+    display: none;
+  }
+}
+@media screen and (max-width:768px) {
+  .footer{
+    width: 100%;
+    margin: auto;
+    background-color: #141414;
+    color:white;
+    align-items: center;
+  }
+  .contc {
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+  }
+  .sign{
+    display: none;
+  }
+  .sign a:hover{
+    color: #ed3237;
+  }
+  .mob{
+    display: block;
+  }
+  .contc div{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .fa:hover{
+    background-color: gray;
+  }
+  .arrow  {
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 1px;
+    margin-right:10px;
+  }
+  .side {
+    transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+  }
+  ::placeholder{
+    padding-left: 10px;
+  }
+  input{
+    margin: auto;
+    margin-bottom: 8px;
+    /* border: 1px solid gray; */
+    color: white;
+    height: 30px;
+  }
+  #gmap_canvas{
+    width: 100%;
+  }
+  .fb-page iframe{
+    width: 100%;
+    border-radius: 0px;
+  }
+
+  .msg{
+    width: 100%;
+    background-color: black;
+    height: 77px;
+    color: white;
+  }
+  .ico{
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+  .add{
+    margin-top: -37px;
+  }
+  .add h2{
+    color: white;
+    font-weight: 400;
+  }
+  .icons{
+    margin-top: 8px;
+    text-align: center;
+  }
+  .icon p{
+    margin: 15px 20px 0 0;
+    width: 100%;
+  }
+  .fa{
+    color: white;
+  }
+  .cat{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    display: none;
+  }
+  .cats{
+    width: 100%;
+    padding: 0;
+    display: flex;
+  }
+  .cat p{
+    width: 100%;
+  }
+  .cat a:hover{
+    color: #ed3237;
+  }
+  .bro{
+    text-align: center;
+    width: 100%;
+    margin: 50px 50px 0 0;
+  }
+  .bro p{
+    float: right;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #ed3237;
+  }
+  .bro p:hover{
+    background-color: #ed3237;
+    color: black;
+  }
+  .bro p a{
+    color: #ed3237;
+    padding: 30px;
+  }
+  input:focus {
+    color: white;
+  }
+  select{
+    background-color: black;
+    height: 30px;
+    color: gray;
+  }
+  select:focus{
+    color: white;
+  }
+  .msg:focus{
+    color: white;
+  }
+  .bro p a:hover{
+    color: white;
+  }
+  .con{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    color: gray;
+  }
+  .copy{
+    width: 100%;
+    margin: auto;
+    background-color: #141414;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .copy p{
+    margin: auto;
+  }
+  .moree{
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .moree article{
+    color: #ed3237;
+    font-size: 20px;
+  }
+  .moree article p{
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #ed3237;
+    margin: auto;
+  }
+  .moree article p:hover{
+    background-color: #ed3237;
+    color: black;
+  }
+  .moree article p a:hover{
+    color: white;
+  }
+
+  .hideme
+  {
+    opacity:0;
+  }
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  .facebook{
+    width: 400px;
+    height: 350px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  #mybutton {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  }
+}

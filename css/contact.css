@@ -1,0 +1,215 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+span{
+  margin-right: 10px;
+}
+body{
+    height: 100%;
+    width: 100%;
+    user-select: none;
+    background-image: url(../images/earth.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: 'yellow_peas_demoregular';
+    src: url('yellow_peas_demo-webfont.woff2') format('woff2'),
+         url('yellow_peas_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.cf{
+  content: " ";
+  display: table;
+  clear: both;
+}
+html{
+   scroll-behavior: smooth;
+}
+strong{
+  color: #ed3237;
+}
+.mapouter{position:relative;text-align:right;height:300px;width:450px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}
+a,img {
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: white;
+}
+ul{
+  list-style: none;
+}
+body{
+  font-family: 'yellow_peas_demoregular';
+  color: black;
+  font-size:16px;
+  background-image: url(../images/earth.jpg);
+  background-attachment: fixed;
+}
+#gmap_canvas{
+  border-radius: 0px;
+}
+p{
+  font-family: 'yellow_peas_demoregular';
+  font-size: 15px;
+}
+h1{
+  letter-spacing: 2px;
+  font-family: 'yellow_peas_demoregular';
+  font-size: 20px;
+}
+h2{
+  font-family: 'yellow_peas_demoregular';
+}
+.fa:hover{
+  background-color: gray;
+}
+::placeholder{
+  font-size: 12px;
+}
+.mySlides {
+  display:none;
+  height: 600px;
+}
+.slide{
+  display: block;
+}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+
+.w3-badge {height:13px;width:13px;padding:0}
+
+.cs h2 strong{
+  color: white;
+  font-style: italic;
+}
+@media screen and (min-width:1200px) {
+  .contact{
+    width: 100%;
+    padding-top: 120px;
+    background-color: rgba(0,0,0,0.9);;
+  }
+  .contact div{
+    display: flex;
+  }
+  .icons{
+    padding-top: 100px;
+  }
+  .cform{
+    margin: 50px 50px 0 0px;
+  }
+  .contact div article{
+    color: white;
+    width: 100%;
+    margin-right: 10px;
+  }
+  input{
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+  }
+  .cont{
+    width: 350px;
+    margin-left: 50px;
+  }
+  .add{
+    margin: 100px 75px 0 50px;
+  }
+  .drp{
+    width: 100%;
+  }
+  .form div{
+    display: flex;
+  }
+  .cont p a:hover{
+    color: #ed3237;
+  }
+}
+@media screen and (min-width:769px) and (max-width:1199px) {
+  .contact{
+    width: 100%;
+    padding-top: 120px;
+    background-color: rgba(0,0,0,0.9);
+  }
+  .contact div{
+    display: flex;
+  }
+  .icons{
+    padding-top: 100px;
+  }
+  .cform{
+    margin: 30px 30px 0 0px;
+  }
+  .contact div article{
+    color: white;
+    width: 100%;
+    margin-right: 10px;
+  }
+  input{
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+  }
+  .cont{
+    width: 350px;
+    margin-left: 50px;
+  }
+  .add{
+    margin: 100px 75px 0 50px;
+  }
+  .drp{
+    width: 100%;
+  }
+  .form div{
+    display: flex;
+  }
+  .cont p a:hover{
+    color: #ed3237;
+  }
+}
+@media screen and (max-width:768px) {
+  .contact{
+    width: 100%;
+    padding-top: 120px;
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .icons{
+    padding-top: 100px;
+  }
+  .cform{
+    margin: 50px 50px 0 0px;
+  }
+  .contact div article{
+    color: white;
+    width: 100%;
+    margin-right: 10px;
+  }
+  input{
+    height: 35px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+  }
+ iframe{
+   height: 200px;
+ }
+  .cont{
+    flex-direction: column;
+  }
+  .add{
+    margin: 100px 75px 0 50px;
+  }
+  .drp{
+    width: 100%;
+  }
+  .form div{
+  }
+  .cont p a:hover{
+    color: #ed3237;
+  }
+}

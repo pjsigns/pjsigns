@@ -1,0 +1,863 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+span{
+  margin-right: 10px;
+}
+@font-face {
+    font-family: 'yellow_peas_demoregular';
+    src: url('yellow_peas_demo-webfont.woff2') format('woff2'),
+         url('yellow_peas_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cf{
+  content: " ";
+  display: table;
+  clear: both;
+}
+html{
+   scroll-behavior: smooth;
+}
+a,img {
+  font-family: 'yellow_peas_demoregular';
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+strong{
+  color: #ed3237;
+}
+ul{
+  list-style: none;
+}
+h2{
+  font-family: 'yellow_peas_demoregular';
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+body{
+  font-family: 'yellow_peas_demoregular';
+  color: black;
+}
+p{
+  font-family: 'yellow_peas_demoregular';
+  font-size:15px;
+  font-weight: 1000;
+  letter-spacing: 1px;
+}
+.row{
+  margin: auto;
+}
+.mapouter{position:relative;text-align:right;border-radius:10px;height:300px;width:450px;}.gmap_canvas {overflow:hidden; background:none!important;height:200px;width:350px;}
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+div#slider figure img { width: 20%; float: left; }
+div#slider figure {
+  position: absolute;
+  z-index: -1;
+  width: 500%;
+  box-sizing: border-box;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite;
+}
+.title {
+	font-family: "Montserrat";
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;98
+	letter-spacing: 1px;
+  margin-right: 200px;
+}
+
+
+/* styling my button */
+
+.white-mode {
+	text-decoration: none;
+	padding: 7px 10px;
+	background-color: #122;
+	border-radius: 3px;
+	color: #FFF;
+	transition: .35s ease-in-out;
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	font-family: "Montserrat";
+}
+
+.white-mode:hover {
+	background-color: #FFF;
+	color: #122;
+}
+@media screen and (min-width:1200px) {
+  body{
+      height: 100%;
+      width: 100%;
+      user-select: none;
+      background-image: url(../images/earth.gif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+  }
+  .banner{
+    width: 100%;
+    margin: auto;
+    padding-top: 120px;
+  }
+  .bannerslide{
+    display: none;
+  }
+  .demo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+
+      width: 100%;
+      height: 420px;
+      overflow: hidden;
+  }
+  .about{
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    text-align: center;
+  }
+  .about h2{
+    margin: 0;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .abt p  {
+    color: white;
+    text-align: center;
+    margin: 0px 100px 0px 100px;
+  }
+
+  .about div img{
+    height: 300px;
+    margin: 50px 0 50px 100px;
+  }
+  .counts{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    color: white;
+    padding: 50px 0 30px 0;
+  }
+
+  .counts article{
+    width: 100%;
+    margin: auto;
+  }
+  .counts div p{
+    padding: 0;
+  }
+  .counts article span{
+    font-size: 40px;
+  }
+  .counts div p:last-child{
+    margin-bottom: 50px;
+  }
+  .arrow  {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left:10px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .side {
+    transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+  }
+  .whyd{
+    background-color: rgba(0,0,0,0.9);
+    width: 100%;
+  }
+  .title h1 {
+  	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  	background-size: cover;
+  	color: transparent;
+  	-moz-background-clip: text;
+  	-webkit-background-clip: text;
+  	text-transform: uppercase;
+  	font-size: 140px;
+  	line-height: .75;
+  	margin: 10px 0;
+  }
+  .wysd{
+    display: flex;
+    color: white;
+    margin: 0px 100px 0px 100px;
+  }
+  .whyd h2{
+    text-align: center;
+    margin: auto;
+  }
+  .wysd img{
+    width: 450px;
+    height: 300px;
+    margin-right: 100px;
+  }
+  .wysd div {
+    margin-top: 50px;
+  }
+  .works{
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    padding: 50px 0 50px 0;
+  }
+  .works h2{
+    margin: 0;
+    text-align: center;
+  }
+  .works div{
+    text-align: center;
+    display: flex;
+    margin: 50px 100px 0px 100px;
+  }
+  .works div article{
+    width: 100%;
+  }
+  .works div article img{
+    border: 5px solid gray;
+    border-radius: 10px;
+    height: 260px;
+  }
+  .works div article img:hover{
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  .works div article p{
+    color: #ed3237;
+    padding-left: 340px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+  }
+  /* Slideshow container */
+  .container {
+    position: relative;
+    background-image: url(../images/nizu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+  }
+  .map{
+    display: flex;
+  }
+  .map article{
+    margin-right: 10px;
+  }
+  .container h2{
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+  }
+  /* Slides */
+  .mySlide {
+    display: none;
+    padding: 20px 550px;
+    text-align: center;
+  }
+  .author {color: cornflowerblue;}
+  .carousel-inner{
+    text-align: -webkit-center;
+  }
+  .item{
+    width:500px;
+  }
+  .item p{
+    text-align: center;
+    color: white;
+  }
+  .item p:last-child{
+    color: #ed3237;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .item img{
+    margin-bottom: 20px;
+    height: 90px;
+    width: 90px;
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 25%;
+  }
+  .google p:last-child{
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #ed3237;
+    color: #ed3237;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .google p:last-child:hover{
+    background-color: #ed3237;
+    color: black;
+  }
+  .more{
+    text-align: center;
+    width: 100%;
+  }
+  .more article{
+    color: #ed3237;
+    font-size: 20px;
+  }
+  .more article p{
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #ed3237;
+    margin: auto;
+    width: 400px;
+  }
+  .more article p:hover{
+    background-color: #ed3237;
+    color: black;
+  }
+  .more article p a:hover{
+    color: white;
+  }
+}
+@media screen and (min-width:769px) and (max-width:1199px) {
+  body{
+      height: 100%;
+      width: 100%;
+      user-select: none;
+      background-image: url(../images/earth.gif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+  }
+  .banner{
+    width: 100%;
+    margin: auto;
+    padding-top: 100px;
+    height: 290px;
+  }
+  .bannerslide{
+    display: none;
+  }
+  .demo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+
+      width: 100%;
+      height: 420px;
+      overflow: hidden;
+  }
+
+  .about{
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    text-align: center;
+    padding-top: 10%;
+  }
+  .about h2{
+    margin: 0;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .abt p  {
+    color: white;
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+  }
+  .about div{
+    /* display: flex; */
+  }
+  .about div img{
+    height: 300px;
+    margin: 50px 0 50px 100px;
+  }
+  .counts{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    color: white;
+    padding: 50px 0 30px 0;
+  }
+
+  .counts article{
+    width: 100%;
+    margin: auto;
+  }
+  .counts div p{
+    padding: 0;
+  }
+  .counts article span{
+    font-size: 40px;
+  }
+  .counts div p:last-child{
+    margin-bottom: 50px;
+  }
+  .arrow  {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left:10px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .side {
+    transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+  }
+  .whyd{
+    background-color: rgba(0,0,0,0.9);
+    width: 100%;
+  }
+  .wysd{
+    display: flex;
+    color: white;
+    margin: 0px 50px 0px 50px;
+  }
+  .title h1 {
+  	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  	background-size: cover;
+  	color: transparent;
+  	-moz-background-clip: text;
+  	-webkit-background-clip: text;
+  	text-transform: uppercase;
+  	font-size: 100px;
+  	line-height: .75;
+  	margin: 10px 0;
+  }
+  .whyd h2{
+    text-align: center;
+    margin: auto;
+  }
+  .wysd img{
+    width: 350px;
+    height: 300px;
+    margin-right: 60px;
+  }
+  .wysd div {
+    margin-top: 50px;
+  }
+  .works{
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    padding: 50px 0 50px 0;
+  }
+  .works h2{
+    margin: 0;
+    text-align: center;
+  }
+  .works div{
+    text-align: center;
+    display: flex;
+  }
+  .works div article{
+    width: 100%;
+  }
+  .works div article img{
+    border: 5px solid gray;
+    border-radius: 10px;
+    width: 210px;
+    margin-top: 30px;
+  }
+  .works div article img:hover{
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  .works div article p{
+    color: #ed3237;
+    padding-left: 340px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+  }
+  /* Slideshow container */
+  .container {
+    position: relative;
+    background-image: url(../images/nizu.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+  }
+  .map{
+    display: flex;
+  }
+  .map article{
+    margin-right: 10px;
+  }
+  .container h2{
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+  }
+  /* Slides */
+  .mySlide {
+    display: none;
+    padding: 20px 550px;
+    text-align: center;
+  }
+  .author {color: cornflowerblue;}
+
+  .slide{
+    display: block;
+  }
+  .carousel-inner{
+    text-align: -webkit-center;
+  }
+  .item{
+    width:500px;
+  }
+  .item p{
+    text-align: center;
+    color: white;
+  }
+  .item p:last-child{
+    color: #ed3237;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .item img{
+    margin-bottom: 20px;
+    height: 90px;
+    width: 90px;
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 25%;
+  }
+  .google p:last-child{
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #ed3237;
+    color: #ed3237;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .google p:last-child:hover{
+    background-color: #ed3237;
+    color: black;
+  }
+  .more{
+    text-align: center;
+    width: 100%
+  }
+  .more article{
+    color: #ed3237;
+    font-size: 20px;
+  }
+  .more article p{
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #ed3237;
+    width: 400px;
+    margin: auto;
+  }
+  .more article p:hover{
+    background-color: #ed3237;
+    color: black;
+  }
+  .more article p a:hover{
+    color: white;
+  }
+}
+@media screen and (max-width:768px) {
+  body{
+      height: 100%;
+      width: 100%;
+      user-select: none;
+      background-image: url(../images/earth.gif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+  }
+  .banner{
+    width: 100%;
+    margin: auto;
+    padding-top: 70px;
+  }
+  .bannerslide1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      width: 100%;
+      height: 0px;
+      overflow: hidden;
+  }
+  .bannerslide1 img{
+    width: 100%;
+  }
+  .about{
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;
+  }
+  .about h2{
+    margin: 0;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .abt p  {
+    color: white;
+    text-align: center;
+    margin: 30px 30px 30px 30px;
+  }
+
+  .about div img{
+    height: 300px;
+    margin: 50px 0 50px 100px;
+  }
+  .counts{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 50px 0 30px 0;
+  }
+  .counts{
+    display: flex;
+  }
+  .counts article{
+    width: 100%;
+    margin: auto;
+  }
+  .counts div p{
+    padding: 0;
+  }
+  .counts article span{
+    font-size: 30px;
+  }
+  .counts div p:last-child{
+    margin-bottom: 50px;
+  }
+  .arrow  {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left:10px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .side {
+    transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+  }
+  .whyd{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    padding-top: 30px;
+  }
+  .title h1 {
+  	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  	background-size: cover;
+  	color: transparent;
+  	-moz-background-clip: text;
+  	-webkit-background-clip: text;
+  	text-transform: uppercase;
+  	font-size: 80px;
+    padding-left: 30px;
+  	line-height: .75;
+  }
+  .wysd{
+    color: white;
+    margin: 0px 30px 0px 30px;
+  }
+  .whyd h2{
+    text-align: center;
+    margin: auto;
+  }
+  .wysd img{
+    text-align: center;
+    width: 350px;
+    height: 300px;
+  }
+  .wysd div {
+    margin-top: 30px;
+  }
+  .why_text{
+    margin: 0px;
+  }
+  .works{
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .works h2{
+    margin: 0;
+    text-align: center;
+  }
+  .works div{
+    text-align: center;
+  }
+  .works div article{
+    width: 100%;
+  }
+  .works div article img{
+    border: 5px solid gray;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .works div article img:hover{
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  .works div article p{
+    color: #ed3237;
+    padding-left: 340px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+  }
+  /* Slideshow container */
+  .container {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0;
+    margin: auto;
+  }
+  .map{
+    display: flex;
+  }
+  .map article{
+    margin-right: 10px;
+  }
+  .container h2{
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+  }
+  /* Slides */
+  .mySlide {
+    display: none;
+    padding: 20px 550px;
+    text-align: center;
+  }
+  .author {color: cornflowerblue;}
+
+  .slide{
+    display: block;
+  }
+  .carousel-inner{
+    text-align: -webkit-center;
+  }
+  .item p{
+    text-align: center;
+    margin: 0 30px 0 30px;
+    color: white;
+  }
+  .item p:last-child{
+    color: #ed3237;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .item img{
+    margin-bottom: 20px;
+    height: 90px;
+    width: 90px;
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 25%;
+  }
+  .google p:last-child{
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #ed3237;
+    color: #ed3237;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .google p:last-child:hover{
+    background-color: #ed3237;
+    color: black;
+  }
+  .more{
+    text-align: center;
+    width: 100%
+  }
+  .more article{
+    color: #ed3237;
+    font-size: 20px;
+  }
+  .more article p{
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #ed3237;
+    margin: auto;
+  }
+  .more article p:hover{
+    background-color: #ed3237;
+    color: black;
+  }
+  .more article p a:hover{
+    color: white;
+  }
+}
