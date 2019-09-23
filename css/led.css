@@ -47,9 +47,8 @@ strong{
 h1{
   font-family: 'yellow_peas_demoregular';
   margin: 0;
-  font-size: 20px;
 }
-h1{
+h2{
   font-family: 'yellow_peas_demoregular';
   margin: 0;
   font-size: 20px;
@@ -64,7 +63,6 @@ body{
 p{
   font-family: 'yellow_peas_demoregular';
   font-size:15px;
-  font-weight: 700;
   letter-spacing: 1px;
 }
 @media screen and (min-width:1200px) {
@@ -83,7 +81,6 @@ p{
   .channel h1{
     font-weight: 1000;
     padding-top: 50px;
-    font-size: 36px;
   }
   .more{
     text-align: center;
@@ -109,7 +106,7 @@ p{
   .more article p a:hover{
     color: white;
   }
-  .channel h1{
+  .channel h2{
     text-align: center;
     color: white;
     padding: 50px 0 50px 0;
@@ -122,7 +119,7 @@ p{
     background-color: rgba(0,0,0,0.9);
     padding-top: 50px;
   }
-  .photos h1{
+  .photos h2{
     color: white;
     width: 430px;
     margin-left: 50px;
@@ -160,8 +157,7 @@ p{
   }
   .channel h1{
     font-weight: 1000;
-    padding-top: 50px;
-    font-size: 36px;
+    padding-top: 50px
   }
   .channel img{
     width: 100%;
@@ -190,7 +186,7 @@ p{
   .more article p a:hover{
     color: white;
   }
-  .channel h1{
+  .channel h2{
     text-align: center;
     color: white;
     padding: 50px 0 50px 0;
@@ -202,7 +198,7 @@ p{
     width: 100%;
     background-color: rgba(0,0,0,0.9);
   }
-  .photos h1{
+  .photos h2{
     color: white;
     width: 430px;
     margin-left: 50px;
@@ -240,8 +236,7 @@ p{
   }
   .channel h1{
     font-weight: 1000;
-    padding-top: 50px;
-    font-size: 30px;
+    padding-top: 50px
   }
   .channel img{
     width: 100%;
@@ -270,7 +265,7 @@ p{
   .more article p a:hover{
     color: white;
   }
-  .channel h1{
+  .channel h2{
     text-align: center;
     color: white;
     padding: 50px 0 50px 0;
@@ -282,7 +277,7 @@ p{
     width: 100%;
     background-color: rgba(0,0,0,0.8);
   }
-  .photos h1{
+  .photos h2{
     color: white;
     padding: 30px 0 0 30px;
     text-align: left;

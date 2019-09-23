@@ -111,7 +111,7 @@ p{
     width: 100%;
     background-color: rgba(0,0,0,0.9);
   }
-  .photos h1{
+  .photos h2{
     /* border: 2px solid white; */
     color: white;
     width: 430px;
@@ -181,7 +181,7 @@ p{
     width: 100%;
     background-color: rgba(0,0,0,0.9);
   }
-  .photos h1{
+  .photos h2{
     border: 2px solid white;
     color: white;
     width: 430px;
@@ -260,7 +260,7 @@ p{
     width: 100%;
     background-color: rgba(0,0,0,0.8);
   }
-  .photos h1{
+  .photos h2{
     border: 2px solid white;
     color: white;
     margin-left: 50px;

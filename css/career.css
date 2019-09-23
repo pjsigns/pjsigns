@@ -119,8 +119,6 @@ body{
   }
   .file{
     border: none;
-    font-size: 12px;
-    margin: 0px;
   }
   .submit input{
     width: 250px;
@@ -205,8 +203,6 @@ body{
   }
   .file{
     border: none;
-    margin: 0px;
-    font-size: 12px;
   }
   .submit input{
     width: 250px;
@@ -291,7 +287,6 @@ body{
   .file{
     border: none;
     font-size: 12px;
-    margin: 0px;
   }
   .submit input{
     color: white;

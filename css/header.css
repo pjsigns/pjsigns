@@ -18,7 +18,13 @@ header .fa{
     width: 100%;
     height: 30px;
   }
-  .scroll a p{
+  .scroll a:hover{
+    color: black;
+  }
+  .ar{
+    width: 50px;
+  }
+  .scroll a {
     background-color: #ed3237;
     height: 30px;
     padding: 5px 10px 0 10px;
@@ -39,14 +45,23 @@ header .fa{
     border-radius: 50%;
     background-color: rgba(225,225,225,0);
     text-orientation: upright;
-    padding: 10px 10px 10px 10px  ;
+    padding: 14px 10px 14px 10px  ;
     text-align: center;
     font-family: 'yellow_peas_demoregular';
     font-weight: lighter;
   }
-
+  .quote a p{
+    letter-spacing: 2px;
+  }
   .quote a:hover{
     color: #ed3237;
+  }
+  .arrow  {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left:10px;
   }
   .down {
     transform: rotate(45deg);
@@ -65,7 +80,7 @@ header .fa{
     display: flex;
     z-index: 11;
   }
-  .llogo img{
+  .header img{
     width: 110px;
     height: 100px;
     margin-left: 100px;
@@ -73,7 +88,11 @@ header .fa{
   }
   .nav{
     width: 100%;
-    margin: 90px 50px 0 0;
+    margin: 90px 0px 0 0;
+    padding-right: 50px;
+    padding-top: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+
   }
   .nave{
     display: none;
@@ -140,8 +159,7 @@ header .fa{
   .sign section{
     display: flex;
     height: 120px;
-    width: 450px;
-    margin-left: 100px;
+    width: 651px;
     background-color:  #282828;
   }
   .sign section article{
@@ -159,8 +177,16 @@ header .fa{
     display: flex;
     width: 100%;
     height: 30px;
+    /* margin-top: 150px; */
   }
-  .scroll a p{
+  .scroll a:hover{
+    color: black;
+  }
+  .ar{
+    width: 30px;
+    background-color: transparent;
+  }
+  .scroll a {
     background-color: #ed3237;
     height: 30px;
     padding: 5px 10px 0 10px;
@@ -181,12 +207,14 @@ header .fa{
     border-radius: 50%;
     background-color: rgba(225,225,225,0);
     text-orientation: upright;
-    padding: 10px 10px 10px 10px  ;
+    padding: 14px 10px 14px 10px  ;
     text-align: center;
     font-family: 'yellow_peas_demoregular';
     font-weight: lighter;
   }
-
+  .quote a p{
+    letter-spacing: 2px;
+  }
   .quote a:hover{
     color: #ed3237;
   }
@@ -219,7 +247,7 @@ header .fa{
     display: flex;
     z-index: 1;
   }
-  .llogo img{
+  .header img{
     width: 75px;
     height: 65px;
     margin-left: 50px;
@@ -300,35 +328,48 @@ header .fa{
   .scroll{
     display: flex;
     width: 100%;
-    height: 20px;
+    height: 30px;
   }
-  .scroll a p{
+  .ar{
+    width: 30px;
+  }
+  .scroll a {
     background-color: #ed3237;
-    height: 20px;
+    height: 30px;
     padding: 5px 10px 0 10px;
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
+  }
+  .scroll a:hover{
+    color: black;
+  }
+  .scroll a p{
+    font-weight: 1000;
   }
   .scroll marquee{
     background-color: rgba(0, 0, 0, 1);
     color: white;
     padding-top: 5px;
-    font-size: 10px;
+    font-size: 15px;
   }
   .quote{
     position: fixed;
     bottom: 21%;
     margin-right: 20px;
     right: 0;
-    font-size: 9px;
+    font-size: 8px;
     border: 2px solid #ed3237;
     border-radius: 50%;
     background-color: rgba(225,225,225,0);
     text-orientation: upright;
-    padding: 10px 10px 10px 10px  ;
+    padding: 14px 10px 14px 10px  ;
     text-align: center;
     font-family: 'yellow_peas_demoregular';
-    font-weight: lighter;
+    font-weight: 400;
+  }
+
+  .quote a{
+    letter-spacing: 2px;
   }
 
   .quote a:hover{
@@ -363,7 +404,7 @@ header .fa{
     display: flex;
     z-index: 1;
   }
-  .llogo img{
+  .header img{
     width: 60px;
     position: absolute;
     height: 50px;
