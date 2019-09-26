@@ -22,6 +22,6 @@ $pp->attachFiles(['image']);
 $pp->attachFiles(['images']);
 
 
-$pp->sendEmailTo('sales@pjsigns.com'); // ← Your email here
+$pp->sendEmailTo('sales@pjsigns.in'); // ← Your email here
 
 echo $pp->process($_POST);
