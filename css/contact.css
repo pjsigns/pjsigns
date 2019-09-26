@@ -60,6 +60,10 @@ body{
 p{
   font-family: 'yellow_peas_demoregular';
   font-size: 15px;
+  letter-spacing: 2px;
+}
+a p{
+  letter-spacing: 2px;
 }
 h1{
   letter-spacing: 2px;
