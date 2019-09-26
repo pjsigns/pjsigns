@@ -1,4 +1,4 @@
-.container h2{
+.container h1{
   font-family: 'yellow_peas_demoregular';
   text-align:center;
   padding: 20px;
@@ -20,7 +20,7 @@
   width: 500px;
   margin-left: 35%;
 }
-.client_text h2{
+.client_text h1{
   text-align:center;
   color: red;
   font-weight: 500;
