@@ -110,7 +110,7 @@ p{
   .channel h1{
     text-align: center;
     color: white;
-    padding: 50px 0 50px 0;
+    /* padding: 50px 0 50px 0; */
   }
   .channel p{
     margin: 50px 100px 0px 100px;
