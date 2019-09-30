@@ -148,28 +148,28 @@ header .fa{
   nav article:hover > div {
     display: block;
   }
-  .sign article img{
+  .signs article img{
     height: 70px;
     margin: auto;
     border: 3px solid gray;
     border-radius: 10px;
   }
   .es a{
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
-  .sign section{
+  .signs section{
     display: flex;
     height: 120px;
-    width: 651px;
     background-color:  #282828;
   }
-  .sign section article{
+  .signs section article{
     text-align: center;
     width: 149px;
     line-height: 20px;
+    margin-left: 15px;
     height: 100px;
   }
-  .sign section article a:hover{
+  .signs section article a:hover{
     color: black;
   }
 }
