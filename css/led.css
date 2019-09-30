@@ -115,6 +115,25 @@ p{
   .channel p{
     margin: 50px 100px 0px 100px;
   }
+  .subs{
+    background-color: rgba(0,0,0,0.9);
+    height: 100%;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .subs article {
+    width: 100%;
+    display: flex;
+  }
+  .subs article  p{
+    width: 100%;
+  }
+  .subs article p a{
+    color: white;
+  }
+  .subs article p a:hover{
+    color: #ed3237;
+  }
   .photos{
     width: 100%;
     background-color: rgba(0,0,0,0.9);
@@ -162,6 +181,25 @@ p{
   }
   .channel img{
     width: 100%;
+  }
+  .subs{
+    background-color: rgba(0,0,0,0.9);
+    height: 100%;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .subs article {
+    width: 100%;
+    display: flex;
+  }
+  .subs article  p{
+    width: 100%;
+  }
+  .subs article p a{
+    color: white;
+  }
+  .subs article p a:hover{
+    color: #ed3237;
   }
   .more{
     text-align: center;
@@ -265,6 +303,24 @@ p{
   }
   .more article p a:hover{
     color: white;
+  }
+  .subs{
+    background-color: rgba(0,0,0,0.8);
+    height: 100%;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .subs article {
+    width: 100%;
+  }
+  .subs article  p{
+    width: 100%;
+  }
+  .subs article p a{
+    color: white;
+  }
+  .subs article p a:hover{
+    color: #ed3237;
   }
   .channel h1{
     text-align: center;
