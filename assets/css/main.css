@@ -1070,7 +1070,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 			#viewer .inner .toggle {
 				-webkit-tap-highlight-color: transparent;
 				position: absolute;
-				top: 15%;
+				top: 20%;
 				width: 4em;
 				height: 4em;
 				background-image: url("images/close.svg");
