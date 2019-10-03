@@ -95,6 +95,28 @@ h2{
   font-style: italic;
 }
 @media screen and (min-width:1200px) {
+  .quote{
+    position: fixed;
+    bottom: 20%;
+    margin-right: 50px;
+    right: 0;
+    font-size: 9px;
+    border: 2px solid #ed3237;
+    border-radius: 50%;
+    letter-spacing: 1px;
+    background-color: rgba(225,225,225,0);
+    text-orientation: upright;
+    padding: 16px 7px 16px 7px  ;
+    text-align: center;
+    font-family: 'yellow_peas_demoregular';
+    font-weight: lighter;
+  }
+  .quote a p{
+    letter-spacing: 2px;
+  }
+  .quote a:hover{
+    color: #ed3237;
+  }
   .contact{
     width: 100%;
     padding-top: 120px;
@@ -136,6 +158,28 @@ h2{
   }
 }
 @media screen and (min-width:769px) and (max-width:1199px) {
+  .quote{
+    position: fixed;
+    bottom: 20%;
+    margin-right: 50px;
+    right: 0;
+    font-size: 9px;
+    border: 2px solid #ed3237;
+    border-radius: 50%;
+    background-color: rgba(225,225,225,0);
+    text-orientation: upright;
+    letter-spacing: 1px;
+    padding: 16px 7px 16px 7px  ;
+    text-align: center;
+    font-family: 'yellow_peas_demoregular';
+    font-weight: lighter;
+  }
+  .quote a p{
+    letter-spacing: 2px;
+  }
+  .quote a:hover{
+    color: #ed3237;
+  }
   .contact{
     width: 100%;
     padding-top: 120px;
@@ -177,6 +221,30 @@ h2{
   }
 }
 @media screen and (max-width:768px) {
+  .quote{
+    position: fixed;
+    bottom: 21%;
+    margin-right: 20px;
+    right: 0;
+    font-size: 8px;
+    border: 2px solid #ed3237;
+    letter-spacing: 1px;
+    border-radius: 50%;
+    background-color: rgba(225,225,225,0);
+    text-orientation: upright;
+    padding: 16px 7px 16px 7px  ;
+    text-align: center;
+    font-family: 'yellow_peas_demoregular';
+    font-weight: 400;
+  }
+
+  .quote a{
+    letter-spacing: 2px;
+  }
+
+  .quote a:hover{
+    color: #ed3237;
+  }
   .contact{
     width: 100%;
     padding-top: 120px;
