@@ -70,7 +70,15 @@ p{
   letter-spacing: 1px;
 }
 @media screen and (min-width:1200px) {
-
+  .stb{
+    display: none;
+  }
+  #myBtn{
+    display: none;
+  }
+  #dots{
+    display: none;
+  }
   .channel{
     width: 100%;
     background-color: rgba(0,0,0,0.9);
@@ -84,6 +92,9 @@ p{
   .channel h1{
     font-weight: 1000;
     padding-top: 50px;
+  }
+  .channel p a{
+    color: #00a2ff;
   }
   .more{
     text-align: center;
@@ -170,6 +181,15 @@ p{
   }
 }
 @media screen and (min-width:769px) and (max-width:1199px) {
+  .stb{
+    display: none;
+  }
+  #myBtn{
+    display: none;
+  }
+  #dots{
+    display: none;
+  }
   .channel{
     width: 100%;
     background-color: rgba(0,0,0,0.9);
@@ -268,6 +288,15 @@ p{
   }
 }
 @media screen and (max-width:768px) {
+  #more {display: none;}
+  #myBtn{
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    color: #ed3237;
+  }
+  .stbb{
+    display: none;
+  }
   .channel{
     width: 100%;
     background-color: rgba(0,0,0,0.8);
@@ -277,10 +306,11 @@ p{
   }
   .channel h1{
     font-weight: 1000;
-    padding-top: 50px
+    padding-top: 30px
   }
   .channel img{
     width: 100%;
+    height: 220px;
   }
   .more{
     text-align: center;
@@ -289,7 +319,7 @@ p{
   }
   .more article{
     color: #ed3237;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     font-size: 20px;
   }
   .more article p{
@@ -327,10 +357,9 @@ p{
   .channel h1{
     text-align: center;
     color: white;
-    padding: 50px 0 50px 0;
   }
   .channel p{
-    margin: 50px 30px 0px 30px;
+    margin: 20px 30px 0px 30px;
   }
   .photos{
     width: 100%;
