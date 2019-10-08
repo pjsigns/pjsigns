@@ -7,8 +7,8 @@
   width: device-width ;
   zoom: 1.0 ;
 }
-span{
-  margin-right: 10px;
+.morelink{
+  color: #ed3237;
 }
 @font-face {
     font-family: 'yellow_peas_demoregular';
@@ -70,6 +70,15 @@ p{
   letter-spacing: 1px;
 }
 @media screen and (min-width:1200px) {
+  .morecontent span {
+      display: inline-flex;
+  }
+  .moreellipses{
+    display: none;
+  }
+  .morelink {
+      display: none;
+  }
   .stb{
     display: none;
   }
@@ -97,8 +106,6 @@ p{
     color: #00a2ff;
   }
   .more{
-    text-align: center;
-    width: 100%;
     margin-bottom: 10px;
   }
   .more article{
@@ -181,6 +188,15 @@ p{
   }
 }
 @media screen and (min-width:769px) and (max-width:1199px) {
+  .morecontent span {
+      display: inline-flex;
+  }
+  .moreellipses{
+    display: none;
+  }
+  .morelink {
+      display: none;
+  }
   .stb{
     display: none;
   }
@@ -288,11 +304,11 @@ p{
   }
 }
 @media screen and (max-width:768px) {
-  #more {display: none;}
-  #myBtn{
-    background-color: rgba(0, 0, 0, 0);
-    border: 0px;
-    color: #ed3237;
+  .morecontent span {
+      display: none;
+  }
+  .morelink {
+      /* display: block; */
   }
   .stbb{
     display: none;
@@ -313,8 +329,6 @@ p{
     height: 220px;
   }
   .more{
-    text-align: center;
-    width: 100%;
     margin-bottom: 10px;
   }
   .more article{
