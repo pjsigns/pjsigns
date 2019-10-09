@@ -65,6 +65,9 @@ p{
 }
 .mapouter{position:relative;text-align:right;border-radius:10px;height:300px;width:450px;}.gmap_canvas {overflow:hidden; background:none!important;height:200px;width:350px;}
 @media screen and (min-width:1200px) {
+  .stb{
+    display: none;
+  }
   .channel{
     width: 100%;
     background-color: rgba(0,0,0,0.9);
@@ -136,6 +139,9 @@ p{
   }
 }
 @media screen and (min-width:769px) and (max-width:1199px) {
+  .stb{
+    display: none;
+  }
   .channel{
     width: 100%;
     background-color: rgba(0,0,0,0.9);
@@ -206,6 +212,9 @@ p{
   }
 }
 @media screen and (max-width:768px) {
+  .stbb{
+    display: none;
+  }
   body{
       height: 100%;
       width: 100%;
