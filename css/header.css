@@ -46,7 +46,7 @@ header .fa{
     letter-spacing: 1px;
     background-color: rgba(225,225,225,0);
     text-orientation: upright;
-    padding: 16px 7px 16px 7px  ;
+    padding: 17px 7px 17px 7px  ;
     text-align: center;
     font-family: 'yellow_peas_demoregular';
     font-weight: lighter;
@@ -55,6 +55,78 @@ header .fa{
     letter-spacing: 2px;
   }
   .quote a:hover{
+    color: #ed3237;
+  }
+  .search{
+    position: fixed;
+    bottom: 2%;
+    margin-right: 50px;
+    right: 0;
+    font-size: 9px;
+    border: 2px solid #ed3237;
+    border-radius: 50%;
+    letter-spacing: 1px;
+    background-color: rgba(225,225,225,0);
+    text-orientation: upright;
+    padding: 12px  ;
+    text-align: center;
+    font-family: 'yellow_peas_demoregular';
+    font-weight: lighter;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .search a p{
+    letter-spacing: 2px;
+  }
+  .search a:hover{
+    color: #ed3237;
+  }
+  .search a{
+    color: white;
+    font-size: 20px;
+  }
+  .search_box {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    bottom: 2%;
+    margin-right: 50px;
+    right: 0;
+    font-size: 9px;
+    letter-spacing: 1px;
+    background-color: rgba(0,0,0,0.5);
+    text-orientation: upright;
+    z-index: 111;
+    padding: 12px;
+    font-family: 'yellow_peas_demoregular';
+    font-weight: lighter;
+  }
+  .search_box div{
+    display: flex;
+  }
+  .search_box div article{
+    margin-right: 20px;
+  }
+  .search_box div h1{
+    font-size: 18px;
+    font-weight: 700;
+    color: #ed3237;
+    text-decoration: underline;
+  }
+  .search_box div a{
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .search_box div a:hover{
+    font-weight: 400;
     color: #ed3237;
   }
   .arrow  {
@@ -220,6 +292,78 @@ header .fa{
   .quote a:hover{
     color: #ed3237;
   }
+  .search{
+    position: fixed;
+    bottom: 2%;
+    margin-right: 50px;
+    right: 0;
+    font-size: 9px;
+    border: 2px solid #ed3237;
+    border-radius: 50%;
+    letter-spacing: 1px;
+    background-color: rgba(225,225,225,0);
+    text-orientation: upright;
+    padding: 12px  ;
+    text-align: center;
+    font-family: 'yellow_peas_demoregular';
+    font-weight: lighter;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .search a p{
+    letter-spacing: 2px;
+  }
+  .search a:hover{
+    color: #ed3237;
+  }
+  .search a{
+    color: white;
+    font-size: 20px;
+  }
+  .search_box {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    bottom: 2%;
+    margin-right: 50px;
+    right: 0;
+    font-size: 9px;
+    letter-spacing: 1px;
+    background-color: rgba(0,0,0,0.5);
+    text-orientation: upright;
+    z-index: 111;
+    padding: 12px;
+    font-family: 'yellow_peas_demoregular';
+    font-weight: lighter;
+  }
+  .search_box div{
+    display: flex;
+  }
+  .search_box div article{
+    margin-right: 20px;
+  }
+  .search_box div h1{
+    font-size: 18px;
+    font-weight: 700;
+    color: #ed3237;
+    text-decoration: underline;
+  }
+  .search_box div a{
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .search_box div a:hover{
+    font-weight: 400;
+    color: #ed3237;
+  }
   .arrow  {
     border: solid white;
     border-width: 0 3px 3px 0;
@@ -376,6 +520,78 @@ header .fa{
   }
 
   .quote a:hover{
+    color: #ed3237;
+  }
+  .search{
+    position: fixed;
+    bottom: 2%;
+    margin-right: 20px;
+    right: 0;
+    font-size: 9px;
+    border: 2px solid #ed3237;
+    border-radius: 50%;
+    letter-spacing: 1px;
+    background-color: rgba(225,225,225,0);
+    text-orientation: upright;
+    padding: 12px  ;
+    text-align: center;
+    font-family: 'yellow_peas_demoregular';
+    font-weight: lighter;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .search a p{
+    letter-spacing: 2px;
+  }
+  .search a:hover{
+    color: #ed3237;
+  }
+  .search a{
+    color: white;
+    font-size: 20px;
+  }
+  .search_box {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    bottom: 2%;
+    right: 0;
+    font-size: 9px;
+    letter-spacing: 1px;
+    background-color: rgba(0,0,0,0.5);
+    text-orientation: upright;
+    z-index: 111;
+    padding: 12px;
+    font-family: 'yellow_peas_demoregular';
+    font-weight: lighter;
+    width: 100%;
+  }
+  .search_box div{
+    display: flex;
+  }
+  .search_box div article{
+    margin-right: 20px;
+  }
+  .search_box div h1{
+    font-size: 18px;
+    font-weight: 700;
+    color: #ed3237;
+    text-decoration: underline;
+  }
+  .search_box div a{
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .search_box div a:hover{
+    font-weight: 400;
     color: #ed3237;
   }
   .arrow  {

@@ -220,9 +220,6 @@ p{
   .channel img{
     width: 100%;
   }
-  .channel p a{
-    color: #00a2ff;
-  }
   .subs{
     background-color: rgba(0,0,0,0.9);
     height: 100%;
@@ -330,9 +327,6 @@ p{
   .channel img{
     width: 100%;
     height: 220px;
-  }
-  .channel p a{
-    color: #00a2ff;
   }
   .more{
     margin-bottom: 10px;
