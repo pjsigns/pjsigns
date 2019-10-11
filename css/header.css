@@ -37,38 +37,47 @@ header .fa{
   }
   .quote{
     position: fixed;
-    bottom: 20%;
+    bottom: 10%;
     margin-right: 50px;
     right: 0;
-    font-size: 9px;
-    border: 2px solid #ed3237;
-    border-radius: 50%;
+    display: grid;
+    font-size: 8px;
     letter-spacing: 1px;
-    background-color: rgba(225,225,225,0);
     text-orientation: upright;
-    padding: 17px 7px 17px 7px  ;
     text-align: center;
     font-family: 'yellow_peas_demoregular';
-    font-weight: lighter;
+    font-weight: 400;
   }
-  .quote a p{
+  .feedback{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 50px;
+  }
+  .quoote{
+    border: 2px solid #ed3237;
     letter-spacing: 2px;
+    border-radius: 50%;
+    background-color: rgba(225,225,225,0);
+    padding: 16px 0px 16px 0px ;
   }
+
   .quote a:hover{
     color: #ed3237;
   }
   .search{
     position: fixed;
-    bottom: 2%;
+    /* bottom: 2%; */
     margin-right: 50px;
     right: 0;
+    height: 50px;
+    width: 50px;
     font-size: 9px;
     border: 2px solid #ed3237;
     border-radius: 50%;
     letter-spacing: 1px;
     background-color: rgba(225,225,225,0);
     text-orientation: upright;
-    padding: 12px  ;
+    /* padding: 12px  ; */
     text-align: center;
     font-family: 'yellow_peas_demoregular';
     font-weight: lighter;
@@ -93,6 +102,7 @@ header .fa{
   .search a{
     color: white;
     font-size: 20px;
+    padding-top: 12px;
   }
   .search_box {
     background-color: rgba(0, 0, 0, 0.5);
@@ -155,8 +165,7 @@ header .fa{
     display: flex;
     z-index: 11;
   }
-  .header img{
-    width: 110px;
+  .llogo{
     height: 100px;
     margin-left: 100px;
     margin-top: 10px;
@@ -272,40 +281,51 @@ header .fa{
     color: white;
     padding-top: 5px;
   }
+  .feedback{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 50px;
+  }
+
   .quote{
     position: fixed;
-    bottom: 20%;
+    bottom: 10%;
     margin-right: 50px;
     right: 0;
-    font-size: 9px;
-    border: 2px solid #ed3237;
-    border-radius: 50%;
-    background-color: rgba(225,225,225,0);
-    text-orientation: upright;
+    display: grid;
+    font-size: 8px;
     letter-spacing: 1px;
-    padding: 16px 7px 16px 7px  ;
+    text-orientation: upright;
     text-align: center;
     font-family: 'yellow_peas_demoregular';
-    font-weight: lighter;
+    font-weight: 400;
   }
-  .quote a p{
+
+  .quoote{
+    border: 2px solid #ed3237;
     letter-spacing: 2px;
+    border-radius: 50%;
+    background-color: rgba(225,225,225,0);
+    padding: 16px 0px 16px 0px ;
   }
+
   .quote a:hover{
     color: #ed3237;
   }
   .search{
     position: fixed;
-    bottom: 2%;
+    /* bottom: 2%; */
     margin-right: 50px;
     right: 0;
+    height: 50px;
+    width: 50px;
     font-size: 9px;
     border: 2px solid #ed3237;
     border-radius: 50%;
     letter-spacing: 1px;
     background-color: rgba(225,225,225,0);
     text-orientation: upright;
-    padding: 12px  ;
+    /* padding: 12px  ; */
     text-align: center;
     font-family: 'yellow_peas_demoregular';
     font-weight: lighter;
@@ -330,6 +350,7 @@ header .fa{
   .search a{
     color: white;
     font-size: 20px;
+    padding-top: 12px;
   }
   .search_box {
     background-color: rgba(0, 0, 0, 0.5);
@@ -500,25 +521,31 @@ header .fa{
     padding-top: 5px;
     font-size: 15px;
   }
+  .feedback{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 50px;
+  }
   .quote{
     position: fixed;
-    bottom: 21%;
+    bottom: 10%;
     margin-right: 20px;
     right: 0;
+    display: grid;
     font-size: 8px;
-    border: 2px solid #ed3237;
     letter-spacing: 1px;
-    border-radius: 50%;
-    background-color: rgba(225,225,225,0);
     text-orientation: upright;
-    padding: 16px 7px 16px 7px  ;
     text-align: center;
     font-family: 'yellow_peas_demoregular';
     font-weight: 400;
   }
 
-  .quote a{
+  .quoote{
+    border: 2px solid #ed3237;
     letter-spacing: 2px;
+    border-radius: 50%;
+    background-color: rgba(225,225,225,0);
+    padding: 16px 0px 16px 0px ;
   }
 
   .quote a:hover{
@@ -526,16 +553,18 @@ header .fa{
   }
   .search{
     position: fixed;
-    bottom: 2%;
+    /* bottom: 2%; */
     margin-right: 20px;
     right: 0;
+    height: 50px;
+    width: 50px;
     font-size: 9px;
     border: 2px solid #ed3237;
     border-radius: 50%;
     letter-spacing: 1px;
     background-color: rgba(225,225,225,0);
     text-orientation: upright;
-    padding: 12px  ;
+    /* padding: 12px  ; */
     text-align: center;
     font-family: 'yellow_peas_demoregular';
     font-weight: lighter;
@@ -559,6 +588,7 @@ header .fa{
   }
   .search a{
     color: white;
+    padding-top: 12px;
     font-size: 20px;
   }
   .search_box {
@@ -626,12 +656,12 @@ header .fa{
     display: flex;
     z-index: 1;
   }
-  .header img{
-    width: 60px;
-    position: absolute;
+  .llogo{
+    /* width: 60px; */
+    /* position: absolute; */
     height: 50px;
-    left: 30px;
-    top: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
   }
   .nave{
     width: 100%;

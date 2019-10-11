@@ -225,11 +225,11 @@ body{
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
-  #mybutton {
+  /* #mybutton {
   position: fixed;
-  bottom: 70px;
+  bottom: 11%;
   right: 50px;
-  }
+  } */
   .mob{
     display: none;
   }
@@ -441,11 +441,11 @@ body{
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
-  #mybutton {
+  /* #mybutton {
   position: fixed;
-  bottom: 70px;
+  bottom: 11%;
   right: 50px;
-  }
+  } */
   .mob{
     display: none;
   }
@@ -663,9 +663,5 @@ body{
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
-  #mybutton {
-  position: fixed;
-  bottom: 70px;
-  right: 20px;
-  }
+
 }
