@@ -635,7 +635,6 @@ div#slider figure {
     padding: 50px 0 30px 0;
   }
   .counts{
-    display: flex;
   }
   .counts article{
     width: 100%;

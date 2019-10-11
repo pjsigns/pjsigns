@@ -658,14 +658,16 @@ header .fa{
   }
   .llogo{
     /* width: 60px; */
-    /* position: absolute; */
+    position: absolute;
     height: 50px;
     margin-left: 30px;
+    z-index: 1;
     margin-top: 10px;
   }
   .nave{
     width: 100%;
     margin: 20px 0px 0 0;
+    position: absolute;
   }
   .nav{
     display: none;
@@ -708,6 +710,9 @@ header .fa{
   nav div div div  {
     left: 100%;
     top: 0;
+  }
+  nav div article div{
+    padding-top: 45px;
   }
   nav div article div article{
     width: 100%;
