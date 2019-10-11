@@ -115,6 +115,7 @@ header .fa{
     letter-spacing: 1px;
     background-color: rgba(0,0,0,0.9);
     text-orientation: upright;
+    text-align: left;
     z-index: 111;
     padding: 12px;
     font-family: 'yellow_peas_demoregular';
@@ -359,6 +360,7 @@ header .fa{
     margin-right: 50px;
     right: 0;
     font-size: 9px;
+    text-align: left;
     letter-spacing: 1px;
     background-color: rgba(0,0,0,0.5);
     text-orientation: upright;
@@ -602,6 +604,7 @@ header .fa{
     text-orientation: upright;
     z-index: 111;
     padding: 12px;
+    text-align: left;
     font-family: 'yellow_peas_demoregular';
     font-weight: lighter;
     width: 100%;
