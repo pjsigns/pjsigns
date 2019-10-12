@@ -107,7 +107,7 @@ p{
     padding-top: 12px;
   }
   .search_box {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(225, 225, 225, .9);
     position: fixed;
     bottom: 2%;
     margin-right: 50px;
@@ -115,7 +115,6 @@ p{
     font-size: 9px;
     border-radius: 10px;
     letter-spacing: 1px;
-    background-color: rgba(0,0,0,0.9);
     text-orientation: upright;
     text-align: left;
     z-index: 111;
@@ -169,8 +168,9 @@ p{
     text-decoration: underline;
   }
   .search_box div a{
-    font-size: 13px;
-    font-weight: 400;
+    color: black;
+    font-size: 14px;
+    font-weight: 1000;
   }
   .search_box div a:hover{
     font-weight:700;
@@ -420,7 +420,7 @@ p{
       100% {transform: scale(1);}
       }/*End of Zoom out Keyframes */
   .search_box {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(225, 225, 225, .9);
     position: fixed;
     bottom: 2%;
     margin-right: 50px;
@@ -428,7 +428,6 @@ p{
     font-size: 9px;
     text-align: left;
     letter-spacing: 1px;
-    background-color: rgba(0,0,0,0.5);
     text-orientation: upright;
     z-index: 111;
     padding: 12px;
@@ -448,11 +447,12 @@ p{
     text-decoration: underline;
   }
   .search_box div a{
-    font-size: 13px;
-    font-weight: 400;
+    color: black;
+    font-size: 14px;
+    font-weight: 1000;
   }
   .search_box div a:hover{
-    font-weight: 400;
+    font-weight: 1000;
     color: #ed3237;
   }
   .arrow  {
@@ -693,7 +693,7 @@ p{
     font-size: 20px;
   }
   .search_box {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(225, 225, 225, .9);
     position: fixed;
     bottom: 2%;
     right: 0;
@@ -722,11 +722,12 @@ p{
     text-decoration: underline;
   }
   .search_box div a{
-    font-size: 13px;
-    font-weight: 400;
+    color: black;
+    font-size: 14px;
+    font-weight: 1000;
   }
   .search_box div a:hover{
-    font-weight: 400;
+    font-weight: 1000;
     color: #ed3237;
   }
   .arrow  {
