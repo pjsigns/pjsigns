@@ -120,6 +120,7 @@
             <a href="" class="fa fa-search"></a>
           </div>
           <div class="search_box dropdown-content">
+            <a class="clz"><img src="images/close.png" alt="close"></a>
             <div class="">
               <article class="">
                 <h1>Illuminated Signs :</h1>
@@ -309,6 +310,13 @@
       return false;
     }
   };
+  </script>
+  <script>
+    $(document).ready(function(){
+      $(".clz").click(function(){
+        $(".dropdown-content").hide();
+      });
+    });
   </script>
 </body>
 </html>

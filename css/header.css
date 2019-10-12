@@ -15,6 +15,10 @@ p{
   font-weight: 700;
 }
 @media screen and (min-width:1200px) {
+  .clz{
+    float: right;
+    cursor: pointer;
+  }
   .scroll{
     display: flex;
     width: 100%;
@@ -292,6 +296,10 @@ p{
   }
 }
 @media screen and (min-width:769px) and (max-width:1199px) {
+  .clz{
+    float: right;
+    cursor: pointer;
+  }
   .scroll{
     display: flex;
     width: 100%;
@@ -563,6 +571,10 @@ p{
   }
 }
 @media screen and (max-width:768px) {
+  .clz{
+    float: right;
+    cursor: pointer;
+  }
   .scroll{
     display: flex;
     width: 100%;
