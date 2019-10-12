@@ -11,7 +11,9 @@ header .fa{
     font-weight: normal;
     font-style: normal;
 }
-
+p{
+  font-weight: 700;
+}
 @media screen and (min-width:1200px) {
   .scroll{
     display: flex;
