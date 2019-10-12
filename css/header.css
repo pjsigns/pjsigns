@@ -127,6 +127,38 @@ header .fa{
   .search_box div article{
     margin-right: 20px;
   }
+  .fa-search{
+    position: relative;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   -webkit-animation: zoomin 3s ease-in infinite;
+   animation: zoomin 3s ease-in infinite;
+   transition: all .5s ease-in-out;
+  }
+  /* Zoom in Keyframes */
+  @-webkit-keyframes zoomin {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.5);}
+    100% {transform: scale(1);}
+  }
+  @keyframes zoomin {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.5);}
+    100% {transform: scale(1);}
+    } /*End of Zoom in Keyframes */
+
+    /* Zoom out Keyframes */
+    @-webkit-keyframes zoomout {
+      0% {transform: scale(1);}
+      50% {transform: scale(0.67);}
+      100% {transform: scale(1);}
+    }
+    @keyframes zoomout {
+      0% {transform: scale(1);}
+      50% {transform: scale(0.67);}
+      100% {transform: scale(1);}
+      }/*End of Zoom out Keyframes */
   .search_box div h1{
     font-size: 18px;
     font-weight: 700;
@@ -353,6 +385,38 @@ header .fa{
     font-size: 20px;
     padding-top: 12px;
   }
+  .fa-search{
+    position: relative;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   -webkit-animation: zoomin 3s ease-in infinite;
+   animation: zoomin 3s ease-in infinite;
+   transition: all .5s ease-in-out;
+  }
+  /* Zoom in Keyframes */
+  @-webkit-keyframes zoomin {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.5);}
+    100% {transform: scale(1);}
+  }
+  @keyframes zoomin {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.5);}
+    100% {transform: scale(1);}
+    } /*End of Zoom in Keyframes */
+
+    /* Zoom out Keyframes */
+    @-webkit-keyframes zoomout {
+      0% {transform: scale(1);}
+      50% {transform: scale(0.67);}
+      100% {transform: scale(1);}
+    }
+    @keyframes zoomout {
+      0% {transform: scale(1);}
+      50% {transform: scale(0.67);}
+      100% {transform: scale(1);}
+      }/*End of Zoom out Keyframes */
   .search_box {
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
@@ -572,6 +636,38 @@ header .fa{
     font-family: 'yellow_peas_demoregular';
     font-weight: lighter;
   }
+  .fa-search{
+    position: relative;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   -webkit-animation: zoomin 3s ease-in infinite;
+   animation: zoomin 3s ease-in infinite;
+   transition: all .5s ease-in-out;
+  }
+  /* Zoom in Keyframes */
+  @-webkit-keyframes zoomin {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.5);}
+    100% {transform: scale(1);}
+  }
+  @keyframes zoomin {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.5);}
+    100% {transform: scale(1);}
+    } /*End of Zoom in Keyframes */
+
+    /* Zoom out Keyframes */
+    @-webkit-keyframes zoomout {
+      0% {transform: scale(1);}
+      50% {transform: scale(0.67);}
+      100% {transform: scale(1);}
+    }
+    @keyframes zoomout {
+      0% {transform: scale(1);}
+      50% {transform: scale(0.67);}
+      100% {transform: scale(1);}
+      }/*End of Zoom out Keyframes */
   .dropdown-content {
     display: none;
     position: absolute;
