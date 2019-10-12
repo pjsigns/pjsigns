@@ -424,6 +424,8 @@ p{
   }
   .channel p{
     margin: 20px 30px 0px 30px;
+    text-align: justify;
+    text-justify: inter-word;
   }
   .photos{
     width: 100%;

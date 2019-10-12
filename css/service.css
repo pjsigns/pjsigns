@@ -148,6 +148,8 @@ p{
   .serv p{
     margin: 50px 30px 0px 30px;
     font-weight: 700;
+    text-align: justify;
+    text-justify: inter-word;
   }
   .photos{
     width: 100%;
