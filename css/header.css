@@ -439,6 +439,7 @@ header .fa{
     color: : #fff;
   }
   .sub{
+    /* padding: 0; */
     left: -169px;
   }
   .sub article{
@@ -682,7 +683,9 @@ header .fa{
   nav div {
     color: : #fff;
   }
-
+  .sub{
+    padding: 0px;
+  }
   .sub article{
     width: 100%;
     border: 0.1px solid gray;
