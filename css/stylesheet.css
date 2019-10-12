@@ -281,7 +281,8 @@ div#slider figure {
   .container h1{
     text-align: center;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30PX;
   }
   /* Slides */
   .mySlide {
@@ -515,7 +516,8 @@ div#slider figure {
   .container h1{
     text-align: center;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30PX;
   }
   /* Slides */
   .mySlide {
@@ -746,6 +748,7 @@ div#slider figure {
     position: relative;
     background-color: rgba(0, 0, 0, 0.1);
     width: 100%;
+    height: 450PX;
     margin-bottom: 30px;
     padding: 0;
     margin: auto;
