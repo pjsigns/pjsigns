@@ -27,6 +27,27 @@
   background-color: rgba(0, 0, 0, 0.9);
   padding-top: 50px;
 }
+@media screen and (max-width:768px) {
+  .containers{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-top: 10px;
+  }
+  .slick-slider {
+      position: relative;
+      display: block;
+      box-sizing: border-box;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+              user-select: none;
+      -webkit-touch-callout: none;
+      -khtml-user-select: none;
+      -ms-touch-action: pan-y;
+          touch-action: pan-y;
+      -webkit-tap-highlight-color: transparent;
+      padding: 00px 0 00px 0;
+  }
+}
 .containers h2{
   text-align: center;
   font-size: 23px;

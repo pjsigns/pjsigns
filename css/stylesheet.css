@@ -665,7 +665,7 @@ div#slider figure {
     -webkit-transform: rotate(315deg);
   }
   .whyd{
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.1);
     width: 100%;
     padding-top: 30px;
   }
@@ -698,6 +698,7 @@ div#slider figure {
   }
   .why_text{
     margin: 0px;
+    padding-bottom: 10px;
   }
   .works{
     width: 100%;
@@ -743,7 +744,7 @@ div#slider figure {
   /* Slideshow container */
   .container {
     position: relative;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.1);
     width: 100%;
     margin-bottom: 30px;
     padding: 0;
@@ -758,7 +759,8 @@ div#slider figure {
   .container h1{
     text-align: center;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   /* Slides */
   .mySlide {
@@ -811,6 +813,7 @@ div#slider figure {
   .more article{
     color: #ed3237;
     font-size: 20px;
+    padding-bottom: 30px;
   }
   .more article p{
     border-radius: 25px;

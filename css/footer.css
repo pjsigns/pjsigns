@@ -31,6 +31,9 @@ body{
     color:white;
     align-items: center;
   }
+  .contact2{
+    display: none;
+  }
   .contc {
     display: flex;
     width: 100%;
@@ -239,6 +242,9 @@ body{
     background-color: black;
     color:white;
     align-items: center;
+  }
+  .contact2{
+    display: none;
   }
   .contc {
     display: flex;
@@ -454,10 +460,13 @@ body{
     color:white;
     align-items: center;
   }
+  .contact1{
+    display: none;
+  }
   .contc {
     width: 100%;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 20px;
   }
   .sign{
     display: none;
@@ -469,7 +478,6 @@ body{
     display: block;
   }
   .contc div{
-    width: 100%;
     margin-bottom: 30px;
   }
   .fa:hover{
@@ -520,7 +528,7 @@ body{
     border-radius: 50%;
   }
   .add{
-    margin-top: -37px;
+    margin-left: 15px;
   }
   .add h2{
     color: white;
@@ -532,7 +540,6 @@ body{
   }
   .icon p{
     margin: 15px 20px 0 0;
-    width: 100%;
   }
   .fa{
     color: white;
@@ -557,12 +564,13 @@ body{
   .bro{
     text-align: center;
     width: 100%;
-    margin: 50px 50px 0 0;
+    margin: 0px 50px 0 0;
   }
   .bro p{
     float: right;
     border-radius: 25px;
     cursor: pointer;
+    width: 150px;
     border: 1px solid #ed3237;
   }
   .bro p:hover{
@@ -620,6 +628,7 @@ body{
   .moree article p{
     border-radius: 25px;
     cursor: pointer;
+    width: 200px;
     border: 1px solid #ed3237;
     margin: auto;
   }
