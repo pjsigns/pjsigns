@@ -1,4 +1,2 @@
-RewriteEngine On
-RewriteCond %{SERVER_PORT} 80
-RewriteCond %{HTTP_HOST} ^(www\.)?pjsigns\.in
-RewriteRule ^(.*)$ https://www.pjsigns.in/$1 [R,L]
+RewriteCond %{HTTP_HOST} ^www\.pjsigns\.in$
+RewriteRule ^/?$ "http\:\/\/pjsigns\.in\/" [R=301,L]

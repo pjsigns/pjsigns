@@ -115,6 +115,19 @@ div#slider figure {
 	background-color: #FFF;
 	color: #122;
 }
+.fa-handshake-o{
+  font-size:48px;
+  color:#ed3237
+}
+.fb-page iframe{
+  overflow:hidden;
+}
+.fa-street-view{
+  font-size:48px;color:#ed3237
+}
+.signs{
+  margin-left:-110px;
+}
 @media screen and (min-width:1200px) {
   body{
       height: 100%;
