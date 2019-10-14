@@ -46,6 +46,14 @@ h1{
   text-align: center;
   color: white;
 }
+h2{
+  font-family: 'yellow_peas_demoregular';
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
 body{
   font-family: 'yellow_peas_demoregular';
   color: black;
@@ -117,13 +125,14 @@ div#slider figure {
 }
 .fa-handshake-o{
   font-size:48px;
-  color:#ed3237
+  color:#ed3237;
 }
 .fb-page iframe{
   overflow:hidden;
 }
 .fa-street-view{
-  font-size:48px;color:#ed3237
+  font-size:48px;
+  color:#ed3237;
 }
 .signs{
   margin-left:-110px;
@@ -223,7 +232,7 @@ div#slider figure {
     color: white;
     margin: 0px 100px 0px 100px;
   }
-  .whyd h1{
+  .whyd h2{
     text-align: center;
     margin: auto;
   }
@@ -240,7 +249,7 @@ div#slider figure {
     background-color: rgba(0,0,0,0.9);
     padding: 50px 0 50px 0;
   }
-  .works h1{
+  .works h2{
     margin: 0;
     text-align: center;
   }
@@ -291,7 +300,7 @@ div#slider figure {
   .map article{
     margin-right: 10px;
   }
-  .container h1{
+  .container h2{
     text-align: center;
     margin: auto;
     padding-top: 30px;
@@ -476,7 +485,7 @@ div#slider figure {
     background-color: rgba(0,0,0,0.9);
     padding: 50px 0 50px 0;
   }
-  .works h1{
+  .works h2{
     margin: 0;
     text-align: center;
   }
@@ -526,7 +535,7 @@ div#slider figure {
   .map article{
     margin-right: 10px;
   }
-  .container h1{
+  .container h2{
     text-align: center;
     margin: auto;
     padding-top: 30px;
@@ -627,7 +636,7 @@ div#slider figure {
     background-color: rgba(0,0,0,0.8);
     text-align: center;
   }
-  .about h1{
+  .about h2{
     margin: 0;
     padding-top: 30px;
     text-align: center;
