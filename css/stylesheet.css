@@ -2490,13 +2490,14 @@ div#slider figure {
     color: white;
     font-weight: 400;
     text-align: left;
+    padding-top: 15px;
   }
   .icons{
     margin-top: 8px;
     text-align: center;
   }
   .icon p{
-    margin: 15px 20px 0 0;
+    margin: 5px 20px 0 0;
   }
 
   .cat{
@@ -2527,6 +2528,7 @@ div#slider figure {
     cursor: pointer;
     width: 150px;
     border: 1px solid #ed3237;
+    margin-bottom: 15px;
   }
   .bro p:hover{
     background-color: #ed3237;

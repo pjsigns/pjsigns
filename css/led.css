@@ -52,6 +52,12 @@ h1{
   font-size: 20px;
   font-weight: 700;
 }
+h2{
+  font-family: 'yellow_peas_demoregular';
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
 ul{
   list-style: none;
 }
@@ -1300,7 +1306,6 @@ p{
 /* footer */
 @media screen and (min-width:1200px) {
 
-
   .footer{
     width: 100%;
     margin: auto;
@@ -1380,7 +1385,7 @@ p{
     padding: 10px 13px 10px 13px;
   }
   .add{
-    margin-top: -37px;
+    margin-top: -20px;
   }
   .add h2{
     color: white;
@@ -1598,7 +1603,7 @@ p{
     padding: 10px 13px 10px 13px;
   }
   .add{
-    margin-top: -37px;
+    margin-top: -20px;
   }
   .add h2{
     color: white;
@@ -1733,7 +1738,9 @@ p{
   }
 }
 @media screen and (max-width:768px) {
-
+  .mape{
+    display: none;
+  }
   .footer{
     width: 100%;
     margin: auto;
@@ -1823,7 +1830,7 @@ p{
     text-align: center;
   }
   .icon p{
-    margin: 15px 20px 0 0;
+    margin: 05px 20px 0 0;
   }
 
   .cat{
@@ -1854,6 +1861,7 @@ p{
     cursor: pointer;
     width: 150px;
     border: 1px solid #ed3237;
+    margin-bottom: 15px;
   }
   .bro p:hover{
     background-color: #ed3237;
@@ -1929,10 +1937,6 @@ p{
   /* width */
   ::-webkit-scrollbar {
     width: 10px;
-  }
-  .facebook{
-    width: 400px;
-    height: 350px;
   }
   /* Track */
   ::-webkit-scrollbar-track {
