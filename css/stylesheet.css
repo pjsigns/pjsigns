@@ -860,6 +860,12 @@ div#slider figure {
 /* //contact// */
 
 @media screen and (min-width:1200px) {
+  .ced{
+    display: none;
+  }
+  .socl{
+    padding-top: 100px;
+  }
   .contact{
     width: 100%;
     padding-top: 120px;
@@ -867,9 +873,6 @@ div#slider figure {
   }
   .contact div{
     display: flex;
-  }
-  .icons{
-    padding-top: 100px;
   }
   .cform{
     margin: 50px 50px 0 0px;
@@ -887,6 +890,9 @@ div#slider figure {
     width: 350px;
     margin-left: 50px;
   }
+  .cont h2{
+    text-align: left;
+  }
   .add{
     margin: 100px 75px 0 50px;
   }
@@ -901,7 +907,9 @@ div#slider figure {
   }
 }
 @media screen and (min-width:769px) and (max-width:1199px) {
-
+  .ced{
+    display: none;
+  }
   .contact{
     width: 100%;
     padding-top: 120px;
@@ -910,7 +918,7 @@ div#slider figure {
   .contact div{
     display: flex;
   }
-  .icons{
+  .socl{
     padding-top: 100px;
   }
   .cform{
@@ -943,14 +951,16 @@ div#slider figure {
   }
 }
 @media screen and (max-width:768px) {
-
+  .ceed{
+    display: none;
+  }
   .contact{
     width: 100%;
     padding-top: 120px;
     background-color: rgba(0,0,0,0.8);
   }
 
-  .icons{
+  .socl{
     padding-top: 30px;
   }
   .cform{
@@ -968,7 +978,7 @@ div#slider figure {
   input{
     height: 35px;
     width: 100%;
-    background-color: rgba(0,0,0,0.8);
+    /* background-color: rgba(0,0,0,0.8); */
   }
  iframe{
    height: 200px;
@@ -1987,7 +1997,7 @@ div#slider figure {
     width: 100%;
     margin: auto;
     height: 300px;
-    padding: 50px 75px 0 75px;
+    padding: 50px 50px 0 50px;
   }
   .sign{
     margin-top: -15px;
@@ -2453,7 +2463,7 @@ div#slider figure {
     margin: auto;
     margin-bottom: 8px;
     /* border: 1px solid gray; */
-    color: white;
+    color: black;
     height: 30px;
   }
   #gmap_canvas{
@@ -2466,9 +2476,8 @@ div#slider figure {
 
   .msg{
     width: 100%;
-    background-color: black;
     height: 77px;
-    color: white;
+    color: black;
   }
   .ico{
     padding: 10px;
@@ -2539,18 +2548,17 @@ div#slider figure {
     padding: 30px;
   }
   input:focus {
-    color: white;
+    color: black;
   }
   select{
-    background-color: black;
     height: 30px;
     color: gray;
   }
   select:focus{
-    color: white;
+    color: black;
   }
   .msg:focus{
-    color: white;
+    color: black;
   }
   .bro p a:hover{
     color: white;
