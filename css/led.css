@@ -1824,6 +1824,8 @@ p{
   .add h2{
     color: white;
     font-weight: 400;
+    text-align: left;
+    padding-top: 15px;
   }
   .icons{
     margin-top: 8px;
