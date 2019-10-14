@@ -2048,6 +2048,9 @@ div#slider figure {
     border: 1px solid white;
     border-radius: 50%;
   }
+  .fa-facebook{
+    padding: 10px 13px 10px 13px;
+  }
   .add{
     margin-top: -15px;
   }
@@ -2264,6 +2267,9 @@ div#slider figure {
     border: 1px solid white;
     border-radius: 50%;
   }
+  .fa-facebook{
+    padding: 10px 13px 10px 13px;
+  }
   .add{
     margin-top: -12px;
   }
@@ -2472,6 +2478,9 @@ div#slider figure {
     margin: 5px 2px;
     border: 1px solid white;
     border-radius: 50%;
+  }
+  .fa-facebook{
+    padding: 10px 13px 10px 13px;
   }
   .add{
     margin-left: 15px;
