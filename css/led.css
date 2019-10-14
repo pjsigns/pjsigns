@@ -62,7 +62,7 @@ ul{
   list-style: none;
 }
 .strink{
-  color: #ed3237;
+  color: #428bca;
 }
 body{
   font-family: 'yellow_peas_demoregular';
@@ -127,7 +127,7 @@ p{
     padding-top: 50px;
   }
   .channel p a{
-    color: #00a2ff;
+    color: #428bca;
   }
   .more{
     margin-bottom: 10px;
@@ -258,7 +258,7 @@ p{
     width: 100%;
   }
   .channel p a{
-    color: #00a2ff;
+    color: #428bca;
   }
   .subs{
     background-color: rgba(0,0,0,0.9);
@@ -377,7 +377,7 @@ p{
     padding-top: 30px
   }
   .channel p a{
-    color: #00a2ff;
+    color: #428bca;
   }
   .channel img{
     width: 100%;

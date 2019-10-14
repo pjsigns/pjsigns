@@ -1102,6 +1102,8 @@ div#slider figure {
   }
   .design p{
     margin: 30px 30px 0 30px;
+    text-align: justify;
+    text-justify: inter-word;
 
   }
   .design img{
@@ -2417,6 +2419,9 @@ div#slider figure {
   }
 }
 @media screen and (max-width:768px) {
+  .mape{
+    display: none;
+  }
   .footer{
     width: 100%;
     margin: auto;
