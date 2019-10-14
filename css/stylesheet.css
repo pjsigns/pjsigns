@@ -17,7 +17,10 @@ span{
     font-weight: normal;
     font-style: normal;
 }
-
+header{
+  position: absolute;
+  z-index: 2;
+}
 .cf{
   content: " ";
   display: table;
@@ -1694,6 +1697,10 @@ div#slider figure {
   }
 }
 @media screen and (max-width:768px) {
+  header{
+    position: absolute;
+    z-index: 2;
+  }
   .clz{
     float: right;
     cursor: pointer;
@@ -1939,6 +1946,7 @@ div#slider figure {
     color: white;
     font-weight: 700;
   }
+
   nav article  a:hover{
     color: black;
   }
