@@ -168,6 +168,7 @@ div#slider figure {
     margin: 0;
     padding-top: 50px;
     text-align: center;
+    font-size: 42px;
   }
   .abt p  {
     color: white;
@@ -801,6 +802,7 @@ div#slider figure {
 
   .slide{
     display: block;
+    margin-top: 20px;
   }
   .carousel-inner{
     text-align: -webkit-center;
@@ -967,7 +969,7 @@ div#slider figure {
     padding-top: 30px;
   }
   .cform{
-    margin: 50px 50px 0 0px;
+    margin: 50px 50px 0 0;
   }
   .cform h2{
     text-align: left;
@@ -975,7 +977,7 @@ div#slider figure {
   }
   .contact div article{
     color: white;
-    width: 100%;
+    width: 98%;
     margin-right: 10px;
   }
   input{
@@ -996,8 +998,6 @@ div#slider figure {
   }
   .drp{
     width: 100%;
-  }
-  .form div{
   }
   .cont p a:hover{
     color: #ed3237;
@@ -1618,7 +1618,7 @@ div#slider figure {
     display: flex;
     z-index: 1;
   }
-  .header img{
+  .llogo{
     width: 75px;
     height: 65px;
     margin-left: 50px;
@@ -2652,7 +2652,7 @@ clientsicon
   .slick-slide {
       margin: 0px 20px;
   }
-  .slide{
+  .slick-slide{
     margin-right: 20px;
   }
 
