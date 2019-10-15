@@ -141,6 +141,7 @@ div#slider figure {
 .feedback img{
   height: 50px;
 }
+
 @media screen and (min-width:1200px) {
   body{
       height: 100%;
@@ -2259,10 +2260,10 @@ div#slider figure {
   #gmap_canvas{
     border-radius: 10px;
   }
-  iframe{
+  /* iframe{
     width: 150px;
     height: 120px;
-  }
+  } */
   .fb-page iframe{
     border-radius: 10px;
   }
