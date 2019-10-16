@@ -168,10 +168,15 @@ div#slider figure {
     width: 100%;
     background-color: rgba(0,0,0,0.9);
     text-align: center;
+    padding-top: 20px;
+  }
+  .about h2{
+    font-size: 32px;
+    padding-top: 30px;
   }
   .about h1{
     margin: 0;
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: center;
     font-size: 42px;
   }
@@ -408,6 +413,10 @@ div#slider figure {
     margin: 0;
     padding-top: 50px;
     text-align: center;
+  }
+  .about h2{
+    font-size: 32px;
+    padding-top: 30px;
   }
   .abt p  {
     color: white;
