@@ -885,6 +885,9 @@ div#slider figure {
   .socl{
     padding-top: 100px;
   }
+  .formmob{
+    display: none;
+  }
   .contact{
     width: 100%;
     padding-top: 120px;
@@ -934,6 +937,9 @@ div#slider figure {
     padding-top: 120px;
     background-color: rgba(0,0,0,0.9);
   }
+  .formmob{
+    display: none;
+  }
   .contact div{
     display: flex;
   }
@@ -978,7 +984,9 @@ div#slider figure {
     padding-top: 120px;
     background-color: rgba(0,0,0,0.8);
   }
-
+  .formall{
+    display: none;
+  }
   .socl{
     padding-top: 30px;
   }
@@ -991,8 +999,8 @@ div#slider figure {
   }
   .contact div article{
     color: white;
-    width: 98%;
-    margin-right: 10px;
+    /* width: 98%;
+    margin-right: 10px; */
   }
   input{
     height: 35px;
@@ -1011,7 +1019,7 @@ div#slider figure {
     /* margin: 100px 75px 0 50px; */
   }
   .drp{
-    width: 100%;
+    width: 99%;
   }
   .cont p a:hover{
     color: #ed3237;
@@ -2488,7 +2496,7 @@ div#slider figure {
   input{
     margin: auto;
     margin-bottom: 8px;
-    /* border: 1px solid gray; */
+    border: 1px solid gray;
     color: black;
     height: 30px;
   }

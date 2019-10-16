@@ -169,7 +169,7 @@
         </article>
         <article class="cform">
           <h1><strong>Feel</strong> free to contact us...</h1>
-          <form role="form" method="post" class="form" method="POST" action="https://formspree.io/sales@pjsigns.in" >
+          <form role="form" method="post" class="form formall" method="POST" action="https://formspree.io/sales@pjsigns.in" >
             <div class="">
               <article class="ffci">
                 <input type="text" name="Name"  placeholder="Full Name" required>
@@ -187,6 +187,27 @@
               <article class="ffci">
                 <input type="text" name="Company Name"  placeholder="Company Name" required>
                 <textarea name="message" placeholder="Message..." rows="4" cols="21" class="msg" required></textarea>
+              </article>
+            </div>
+            <input type="submit" value="Submit" class="con">
+          </form>
+        </article>
+          <form role="form" method="post" class="form formmob" method="POST" action="https://formspree.io/sales@pjsigns.in" >
+            <div class="">
+              <article class="ffci">
+                <input class="drp" type="text" name="Name"  placeholder="Full Name" required>
+                <input class="drp" type="text" name="Email id" placeholder="Email Address" required>
+                <input class="drp" type="tel" name="phone" placeholder="Mobile Number" pattern="[0-9]{10}" required>
+                <select class="drp" name="Profession">
+                  <option value=""  disabled selected>Your Primary Role</option>
+                  <option value="Contractor">Contractor</option>
+                  <option value="Facility Manager">Facility Manager</option>
+                  <option value="Interior Designers">Interior Designers</option>
+                  <option value="Exterior Designers">Exterior Designers</option>
+                  <option value="Others">Others</option>
+                </select>
+                <input class="drp" type="text" name="Company Name"  placeholder="Company Name" required>
+                <textarea class="drp" name="message" placeholder="Message..." rows="4" cols="21" class="msg" required></textarea>
               </article>
             </div>
             <input type="submit" value="Submit" class="con">
@@ -210,7 +231,7 @@
       <p>© 2019 Pjsigns.in All rights reserved.</p>
     </div>
   </footer>
-  <script language="JavaScript">
+  <!-- <script language="JavaScript">
   /**
   * Disable right-click of mouse, F12 key, and save key combinations on page
   * By Arthur Gareginyan (arthurgareginyan@gmail.com)
@@ -253,7 +274,7 @@
       return false;
     }
   };
-  </script>
+  </script> -->
   <script>
     $(document).ready(function(){
       $(".clz").click(function(){
