@@ -171,54 +171,14 @@ div#slider figure {
     padding-top: 20px;
   }
   .abot p:first-child{
-      font: 700 2em/1 "Oswald", sans-serif;
+      font-size: 24px;
+      color: white;
   }
   .abot p {
-  text-transform: uppercase;
-  letter-spacing: .5em;
-  display: inline-block;
-  /* border: 4px double rgba(255,255,255,.25); */
-  /* border-width: 4px 0; */
-  /* padding: 1.5em 0em; */
-  /* position: absolute; */
-  top: 18%;
-  left: 50%;
-  /* width: 40em; */
-  margin: 0 0 0 0em;}
-  .abot  span {
-
-    font: 700 3em/1 "Oswald", sans-serif;
-    letter-spacing: 0;
-    /* padding: .25em 0 .325em; */
-    display: block;
-    margin: 0 auto;
-    text-shadow: 0 0 80px rgba(255,255,255,.5);
-
-  /* Clip Background Image */
-
-    background: url(https://www.pjsigns.in/images/animated_text_fill.png) repeat-y;
-    -webkit-background-clip: text;
-    background-clip: text;
-
-  /* Animate Background Image */
-
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: aitf 80s linear infinite;
-
-  /* Activate hardware acceleration for smoother animations */
-
-    -webkit-transform: translate3d(0,0,0);
-    -webkit-backface-visibility: hidden;
-
+    color: #dcd9d9;
+    font-size: 18px;
+    margin: 0 50px 0 50px;
   }
-
-  /* Animate Background Image */
-
-  @-webkit-keyframes aitf {
-  0% { background-position: 0% 50%; }
-  100% { background-position: 100% 50%; }
-  }
-
   .abt p  {
     color: white;
     text-align: center;
@@ -448,49 +408,14 @@ div#slider figure {
     background-color: rgba(0,0,0,0.9);
     text-align: center;
   }
-  .abot p {
-  text-transform: uppercase;
-  letter-spacing: .5em;
-  display: inline-block;
-  /* border: 4px double rgba(255,255,255,.25); */
-  /* border-width: 4px 0; */
-  /* padding: 1.5em 0em; */
-  /* position: absolute; */
-  top: 18%;
-  left: 50%;
-  /* width: 40em; */
-  margin: 0 0 0 0em;}
-  .abot  span {
-
-    font: 700 4em/1 "Oswald", sans-serif;
-    letter-spacing: 0;
-    /* padding: .25em 0 .325em; */
-    display: block;
-    margin: 0 auto;
-    text-shadow: 0 0 80px rgba(255,255,255,.5);
-
-  /* Clip Background Image */
-
-    background: url(https://www.pjsigns.in/images/animated_text_fill.png) repeat-y;
-    -webkit-background-clip: text;
-    background-clip: text;
-
-  /* Animate Background Image */
-
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: aitf 80s linear infinite;
-
-  /* Activate hardware acceleration for smoother animations */
-
-    -webkit-transform: translate3d(0,0,0);
-    -webkit-backface-visibility: hidden;
-
+  .abot p:first-child{
+      font-size: 22px;
+      color: white;
   }
-  /* Animate Background Image */
-
-  @-webkit-keyframes aitf {
-  0% { background-position: 0% 50%; }
-  100% { background-position: 100% 50%; }
+  .abot p {
+    color: #dcd9d9;
+    font-size: 16px;
+    margin: 0 50px 0 50px;
   }
 
   .abt p  {
@@ -729,50 +654,19 @@ div#slider figure {
     width: 100%;
     background-color: rgba(0,0,0,0.8);
     text-align: center;
-    margin-top: 30px;
+    padding-top: 30px;
   }
   .abot p:first-child{
-      font: 700 1.7em/1 "Oswald", sans-serif;
+      font-size: 24px;
+      color: white;
+      text-align: center;
   }
   .abot p {
-  text-transform: uppercase;
-  letter-spacing: .5em;
-  display: inline-block;
-  top: 18%;
-  left: 50%;
-  margin: 10px 0 0 0em;}
-  .abot  span {
-
-    font: 700 1.5em/1 "Oswald", sans-serif;
-    letter-spacing: 0;
-    /* padding: .25em 0 .325em; */
-    display: block;
-    margin: 0 auto;
-    text-shadow: 0 0 80px rgba(255,255,255,.5);
-
-  /* Clip Background Image */
-
-    background: url(https://www.pjsigns.in/images/animated_text_fill.png) repeat-y;
-    -webkit-background-clip: text;
-    background-clip: text;
-
-  /* Animate Background Image */
-
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: aitf 80s linear infinite;
-
-  /* Activate hardware acceleration for smoother animations */
-
-    -webkit-transform: translate3d(0,0,0);
-    -webkit-backface-visibility: hidden;
-
-  }
-
-  /* Animate Background Image */
-
-  @-webkit-keyframes aitf {
-  0% { background-position: 0% 50%; }
-  100% { background-position: 100% 50%; }
+    color: #dcd9d9;
+    font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 0 30px 0 30px;
   }
 
   .abt p  {
