@@ -42,7 +42,7 @@
             </article>
             <article>
               <a href="#">Signage<i class="arrow down"></i></a>
-              <div class="signs" style="margin-left:-110px;">
+              <div class="signs">
                 <section>
                   <article><a href="led.html"><img src="images/led/1.jpg" alt="Illuminated Signs"><br>Illuminated Signs</a></article>
                   <article><a href="ml.html"><img src="images/ml/1.jpg" alt="Non-Lit signs"><br>Non-Lit signs</a></article>
@@ -70,9 +70,30 @@
         </nav>
       </div>
       <div class="nave">
-        <nav>
+        <a href="#menu" id="toggle"><span></span></a>
+        <div id="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="design.html">Design</a></li>
+            <li><a>Signage<i class="arrow down"></i></a></li>
+            <li><a class="navigation" href="led.html"> &#8618; Illuminated Signs</a></li>
+            <li><a class="navigation" href="ml.html"> &#8618; Non-Lit signs</a></li>
+            <li><a class="navigation" href="ss.html"> &#8618; Safety Signs</a></li>
+            <li><a class="navigation" href="modular.html"> &#8618; Modular Signs</a></li>
+            <li><a>Printing<i class="arrow down"></i></a></li>
+            <li><a class="navigation" href="digitalprinting.html"> &#8618; Digital Printing</a></li>
+            <li><a class="navigation" href="standee.html"> &#8618; standees</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+
+        <!-- <nav>
           <div>
-            <article><a class="fa fa-bars drop"></a>
+            <article>
+              <a href="#menu" id="toggle"><span></span></a>
               <div>
                 <article><a href="index.html">Home</a></article>
                 <article><a href="aboutus.html">About Us</a></article>
@@ -103,17 +124,16 @@
               </div>
             </article>
           </div>
-        </nav>
+        </nav> -->
       </div>
       <div class="quote">
         <a class="quoote" href="quote.html">Quote</a>
         <a class="feedback" href="tel:+919884898484"><img src="images/call.gif" alt="call"></a>
         <div class="dropdown">
           <div class="search">
-            <a class="fa fa-search"></a>
+            <a onclick="myFunction(this)" class="fa fa-search"></a>
           </div>
           <div class="search_box dropdown-content">
-            <a class="clz"><img src="images/close.png" alt="close"></a>
             <div class="">
               <article class="">
                 <h1>Illuminated Signs :</h1>
@@ -281,6 +301,62 @@
         $(".dropdown-content").hide();
       });
     });
+  </script>
+  <script type="text/javascript">
+    var theToggle = document.getElementById('toggle');
+
+    // based on Todd Motto functions
+    // https://toddmotto.com/labs/reusable-js/
+
+    // hasClass
+    function hasClass(elem, className) {
+    return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+    }
+    // addClass
+    function addClass(elem, className) {
+      if (!hasClass(elem, className)) {
+        elem.className += ' ' + className;
+      }
+    }
+    // removeClass
+    function removeClass(elem, className) {
+    var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
+    if (hasClass(elem, className)) {
+          while (newClass.indexOf(' ' + className + ' ') >= 0 ) {
+              newClass = newClass.replace(' ' + className + ' ', ' ');
+          }
+          elem.className = newClass.replace(/^\s+|\s+$/g, '');
+      }
+    }
+    // toggleClass
+    function toggleClass(elem, className) {
+    var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, " " ) + ' ';
+      if (hasClass(elem, className)) {
+          while (newClass.indexOf(" " + className + " ") >= 0 ) {
+              newClass = newClass.replace( " " + className + " " , " " );
+          }
+          elem.className = newClass.replace(/^\s+|\s+$/g, '');
+      } else {
+          elem.className += ' ' + className;
+      }
+    }
+
+    theToggle.onclick = function() {
+     toggleClass(this, 'on');
+     return false;
+    }
+  </script>
+  <script>
+    $(document).ready(function(){
+      $(".search").click(function(){
+        $(".search_box").toggle("slow",);
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    function myFunction(x) {
+    x.classList.toggle("fa-close");
+  }
   </script>
 </body>
 </html>
