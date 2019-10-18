@@ -1200,6 +1200,9 @@ div#slider figure {
     /* width: 98%;
     margin-right: 10px; */
   }
+  .qute p{
+    margin: 30px 20px 0 0;
+  }
   input{
     height: 35px;
     width: 100%;
