@@ -806,7 +806,7 @@ div#slider figure {
   .works div article img{
     border: 5px solid gray;
     border-radius: 10px;
-    width: 140px;
+    width: 120px;
     margin-top: 30px;
   }
   .works div article img:hover{
