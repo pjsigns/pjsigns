@@ -70,6 +70,7 @@ p{
   font-size:15px;
   font-weight: 1000;
   letter-spacing: 1px;
+  color: white;
 }
 .row{
   margin: auto;
@@ -639,6 +640,39 @@ div#slider figure {
       background-size: cover;
       background-attachment: fixed;
   }
+  strong{
+    color: white;
+  }
+  h1{
+    font-family: 'yellow_peas_demoregular';
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: gray;
+  }
+  h2{
+    font-family: 'yellow_peas_demoregular';
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: gray;
+  }
+  p{
+    font-family: 'yellow_peas_demoregular';
+    font-size:15px;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    color: gray;
+  }
+  .fa-handshake-o{
+    font-size:48px;
+    color:#dcd9d9;
+  }
+  .fa-street-view{
+    font-size:48px;
+    color:#dcd9d9;
+  }
   .bans {
     display: none;
   }
@@ -764,6 +798,7 @@ div#slider figure {
   }
   .works div{
     text-align: center;
+    display: flex;
   }
   .works div article{
     width: 100%;
@@ -771,7 +806,7 @@ div#slider figure {
   .works div article img{
     border: 5px solid gray;
     border-radius: 10px;
-    width: 100%;
+    width: 140px;
     margin-top: 30px;
   }
   .works div article img:hover{
@@ -787,7 +822,7 @@ div#slider figure {
     transform: rotate(360deg);
   }
   .works div article p{
-    color: #ed3237;
+    color: #dcd9d9;
     padding-left: 340px;
     font-size: 20px;
     font-weight: bold;
@@ -836,7 +871,7 @@ div#slider figure {
     color: white;
   }
   .item p:last-child{
-    color: #ed3237;
+    color: #dcd9d9;
     font-size: 20px;
     font-weight: 700;
   }
@@ -1172,6 +1207,9 @@ div#slider figure {
 /* //header// */
 
 @media screen and (min-width:1200px) {
+  .wrappers{
+    display: none;
+  }
   .clz{
     float: right;
     cursor: pointer;
@@ -1234,6 +1272,7 @@ div#slider figure {
     right: 0;
     height: 50px;
     width: 50px;
+    cursor: pointer;
     font-size: 9px;
     border: 2px solid #ed3237;
     border-radius: 50%;
@@ -1248,13 +1287,6 @@ div#slider figure {
   .dropdown-content {
     display: none;
     position: absolute;
-  }
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  .dropdown:hover .dropdown-content {
-    display: block;
   }
   .search a p{
     letter-spacing: 2px;
@@ -1271,7 +1303,7 @@ div#slider figure {
     background-color: rgba(225, 225, 225, .9);
     position: fixed;
     bottom: 2%;
-    margin-right: 50px;
+    margin-right: 100px;
     right: 0;
     font-size: 9px;
     border-radius: 10px;
@@ -1769,8 +1801,8 @@ div#slider figure {
     width: 50px;
   }
   .quote{
+    bottom: 0;
     position: fixed;
-    bottom: 10%;
     margin-right: 20px;
     right: 0;
     display: grid;
@@ -1782,10 +1814,55 @@ div#slider figure {
     font-weight: 400;
   }
 
+
+      .wrappers {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        margin: 10px auto;
+      }
+      .menu {
+        width: 100%;
+      }
+
+      .menu__list {
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
+      }
+
+      .menu__list__item {
+        position: relative;
+        list-style: none;
+        padding-bottom: 15px;
+        top: 0px;
+      }
+
+      .menu__list__item a {
+        text-decoration: none;
+        color: grey;
+        text-align: center;
+        font-size: 1.5em;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      .menu__list__item {
+        opacity: 0;
+      }
+
+      .menu__list--animate .menu__list__item {
+        animation: drop 0.9s;
+        animation-fill-mode: forwards;
+        opacity: 1;
+      }
+
+
+
   .quoote{
     border: 2px solid #ed3237;
     letter-spacing: 2px;
     border-radius: 50%;
+    display: none;
     background-color: rgba(225,225,225,0);
     padding: 16px 0px 16px 0px ;
   }
@@ -1795,13 +1872,14 @@ div#slider figure {
   }
   .search{
     position: fixed;
-    /* bottom: 2%; */
     margin-right: 20px;
+    padding-top: 15px;
     right: 0;
+    top: 0;
+    cursor: pointer;
     height: 50px;
     width: 50px;
     font-size: 9px;
-    border: 2px solid #ed3237;
     border-radius: 50%;
     letter-spacing: 1px;
     background-color: rgba(225,225,225,0);
@@ -1811,49 +1889,11 @@ div#slider figure {
     font-family: 'yellow_peas_demoregular';
     font-weight: lighter;
   }
-  .fa-search{
-    position: relative;
-   -webkit-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
-   -webkit-animation: zoomin 3s ease-in infinite;
-   animation: zoomin 3s ease-in infinite;
-   transition: all .5s ease-in-out;
-  }
-  /* Zoom in Keyframes */
-  @-webkit-keyframes zoomin {
-    0% {transform: scale(1);}
-    50% {transform: scale(1.5);}
-    100% {transform: scale(1);}
-  }
-  @keyframes zoomin {
-    0% {transform: scale(1);}
-    50% {transform: scale(1.5);}
-    100% {transform: scale(1);}
-    } /*End of Zoom in Keyframes */
-
-    /* Zoom out Keyframes */
-    @-webkit-keyframes zoomout {
-      0% {transform: scale(1);}
-      50% {transform: scale(0.67);}
-      100% {transform: scale(1);}
-    }
-    @keyframes zoomout {
-      0% {transform: scale(1);}
-      50% {transform: scale(0.67);}
-      100% {transform: scale(1);}
-      }/*End of Zoom out Keyframes */
   .dropdown-content {
     display: none;
     position: absolute;
   }
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+
   .search a p{
     letter-spacing: 2px;
   }
@@ -1866,9 +1906,9 @@ div#slider figure {
     font-size: 20px;
   }
   .search_box {
-    background-color: rgba(225, 225, 225, .9);
+    background-color: rgba(0, 0, 0, 1);
     position: fixed;
-    bottom: 2%;
+    top: 70px;
     right: 0;
     font-size: 9px;
     letter-spacing: 1px;
@@ -1880,6 +1920,7 @@ div#slider figure {
     font-family: 'yellow_peas_demoregular';
     font-weight: lighter;
     width: 100%;
+    height: 200%;
   }
   .search_box div{
     display: flex;
@@ -1895,7 +1936,7 @@ div#slider figure {
     text-decoration: underline;
   }
   .search_box div a{
-    color: black;
+    color: white;
     font-size: 14px;
     font-weight: 1000;
   }
@@ -1925,9 +1966,7 @@ div#slider figure {
     margin: auto;
     position: fixed;
     height: 70px;
-    background-image: url(../images/header1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
     margin: auto;
     display: flex;
     z-index: 1;
@@ -1936,92 +1975,126 @@ div#slider figure {
     /* width: 60px; */
     position: absolute;
     height: 50px;
-    margin-left: 30px;
+    margin-left: 45%;
     z-index: 1;
     margin-top: 10px;
   }
   .nave{
-    width: 100%;
     margin: 20px 0px 0 0;
     position: absolute;
+    width: 100%;
   }
   .nav{
     display: none;
   }
-  nav{
-    float: right;
-    color: black;
-  }
-  nav div {
-    color: : #fff;
-  }
-  .sub{
-    padding: 0px;
-  }
-  .sub article{
-    width: 100%;
-    border: 0.1px solid gray;
-    background-color: black;
-  }
-  nav article {
-    float: left;
-    display: inline;
-    position: relative;
-    list-style: none;
-    width: 100%;
-  }
-  nav article  a{
-    font-family: 'yellow_peas_demoregular';
-    font-size: 15px;
-    font-weight:lighter;
-    color: white;
-    font-weight: 700;
-  }
-
-  nav article  a:hover{
-    color: black;
-  }
-  nav div div {
-    top: 100%;
-    display: none;
-  }
-
-  nav div div div  {
-    left: 100%;
-    top: 0;
-  }
-  nav div article div{
-    padding-top: 45px;
-  }
-  nav div article div article{
-    width: 100%;
-    padding-top: 10px;
-    background-color: #282828;
-    color: white;
-  }
-  nav div article div article:hover{
-    background-color: #ed3237;
-  }
-  nav div article div article a{
-    margin: 10px;
-
-  }
-  nav article:hover > div {
+  /* Important styles */
+  #toggle {
     display: block;
-    right: 0;
+    width: 26px;
+    height: 20px;
+    padding-top: 10px;
+    margin-left: 30px;
   }
-  .drop{
-    float: right;
-    color: black;
-    font-size: 24px;
-    margin-right: 30px;
+
+  #toggle span:after,
+  #toggle span:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -9px;
+  }
+  #toggle span:after{
+    top: 9px;
+  }
+  #toggle span {
+    position: relative;
+    display: block;
+  }
+
+  #toggle span,
+  #toggle span:after,
+  #toggle span:before {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+    border-radius: 2px;
+  }
+
+  /* on activation */
+  #toggle.on span {
+    background-color: transparent;
+  }
+  #toggle.on span:before {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  #toggle.on span:after {
+    transform: rotate(-45deg) translate(7px, -8px);
+  }
+  #toggle.on + #menu {
+    opacity: 1;
+    visibility: visible;
+  }
+  .navigation{
+    padding-left: 15px;
+  }
+  /* menu appearance*/
+  #menu {
+    position: absolute;
+    color: #999;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+  /*   margin: auto; */
+    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+    border-radius: 4px;
+    background: black;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+    /* just for this demo */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .8s;
+  }
+  #menu:after {
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    content: "";
+    display: block;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid black;
+  }
+  #toggle.on + #menue {
+    opacity: 1;
+    visibility: visible;
+  }
+  ul, li, li a {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  li a {
+    padding: 5px;
+    color: #888;
+    text-decoration: none;
+    transition: all .2s;
+  }
+  li a:hover,
+  li a:focus {
+    background: #ed3237;
+    color: #fff;
+  }
+  #menu ul li:last-child{
+    padding-bottom: 200%;
   }
 }
 
 
 /* footer */
 @media screen and (min-width:1200px) {
-
 
   .footer{
     width: 100%;
@@ -2489,16 +2562,9 @@ div#slider figure {
     background-color: gray;
   }
   .arrow  {
-    border: solid white;
-    border-width: 0 1px 1px 0;
-    display: inline-block;
-    padding: 1px;
-    margin-right:10px;
+    display: none;
   }
-  .side {
-    transform: rotate(315deg);
-    -webkit-transform: rotate(315deg);
-  }
+
   ::placeholder{
     padding-left: 10px;
   }
@@ -2562,10 +2628,14 @@ div#slider figure {
     width: 100%;
     padding: 0;
     display: flex;
+    padding-top: 20px;
   }
-  .cat p{
+  .cats p{
     width: 100%;
+    text-align: center;
+    text-decoration: underline;
   }
+
   .cat a:hover{
     color: #ed3237;
   }
@@ -2579,7 +2649,7 @@ div#slider figure {
     border-radius: 25px;
     cursor: pointer;
     width: 150px;
-    border: 1px solid #ed3237;
+    border: 1px solid gray;
     margin-bottom: 15px;
   }
   .bro p:hover{
@@ -2587,7 +2657,7 @@ div#slider figure {
     color: black;
   }
   .bro p a{
-    color: #ed3237;
+    color: white;
     padding: 30px;
   }
   input:focus {
@@ -2618,7 +2688,7 @@ div#slider figure {
     margin: auto;
     background-color: #141414;
     color: white;
-    padding-top: 30px;
+    padding-top: 10px;
     text-align: center;
   }
   .copy p{
@@ -2637,11 +2707,11 @@ div#slider figure {
     border-radius: 25px;
     cursor: pointer;
     width: 200px;
-    border: 1px solid #ed3237;
+    border: 1px solid gray;
     margin: auto;
   }
   .moree article p:hover{
-    background-color: #ed3237;
+    background-color: gray;
     color: black;
   }
   .moree article p a:hover{
