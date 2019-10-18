@@ -809,18 +809,7 @@ div#slider figure {
     width: 120px;
     margin-top: 30px;
   }
-  .works div article img:hover{
-    transition: 0.70s;
-    -webkit-transition: 0.70s;
-    -moz-transition: 0.70s;
-    -ms-transition: 0.70s;
-    -o-transition: 0.70s;
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+  
   .works div article p{
     color: #dcd9d9;
     padding-left: 340px;
