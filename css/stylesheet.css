@@ -2119,9 +2119,11 @@ div#slider figure {
   }
   .search_box div{
     /* padding-top: 10PX; */
+    overflow: auto;
   }
   .search_box div article{
     margin-TOP: 10px;
+
   }
   .search_box div h1{
     font-size: 18px;
