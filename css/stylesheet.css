@@ -1208,7 +1208,7 @@ div#slider figure {
   .quootee{
     display: none;
   }
-  .dropdown{
+  .dropdownn{
     display: none;
   }
   .contact{
@@ -2104,6 +2104,7 @@ div#slider figure {
     font-size: 9px;
     letter-spacing: 1px;
     border-radius: 10px;
+    overflow: auto;
     text-orientation: upright;
     z-index: 111;
     padding: 12px;
@@ -2112,6 +2113,9 @@ div#slider figure {
     font-weight: lighter;
     width: 100%;
     height: 200%;
+  }
+  .search_box h1 {
+    display: none;
   }
   .search_box div{
     /* padding-top: 10PX; */
