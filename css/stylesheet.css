@@ -2243,6 +2243,7 @@ div#slider figure {
     box-shadow: 0 1px 8px rgba(0,0,0,0.05);
     /* just for this demo */
     opacity: 0;
+    overflow: auto;
     visibility: hidden;
     transition: opacity .8s;
   }
@@ -2251,6 +2252,7 @@ div#slider figure {
     top: -15px;
     left: 30px;
     content: "";
+    overflow: auto;
     display: block;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
@@ -2259,6 +2261,7 @@ div#slider figure {
   #toggle.on + #menue {
     opacity: 1;
     visibility: visible;
+    overflow: auto;
   }
   ul, li, li a {
     list-style: none;
