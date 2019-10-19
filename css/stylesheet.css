@@ -2112,7 +2112,7 @@ div#slider figure {
     font-family: 'yellow_peas_demoregular';
     font-weight: lighter;
     width: 100%;
-    height: 200%;
+    height: 100%;
   }
   .search_box h1 {
     display: none;
@@ -2123,8 +2123,7 @@ div#slider figure {
   }
   .search_box div article{
     margin-TOP: 10px;
-    overflow: auto;
-
+    /* overflow: auto; */
   }
   .search_box div a{
     color: white;
