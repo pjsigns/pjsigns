@@ -1353,6 +1353,9 @@ div#slider figure {
   .stbb{
     display: none;
   }
+  p{
+    margin: 0;
+  }
   .design{
     width: 100%;
     background-color: rgba(0,0,0,0.8);
@@ -1389,9 +1392,6 @@ div#slider figure {
     border-radius: 50%;
     width: 250px;
     height: 250px;
-  }
-  .photos article p{
-    text-align: ;
   }
 }
 
