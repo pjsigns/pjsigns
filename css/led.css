@@ -822,7 +822,7 @@ p{
         color: grey;
         text-align: center;
         font-size: 1.5em;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'yellow_peas_demoregular';
       }
 
       .menu__list__item {
@@ -1024,8 +1024,7 @@ p{
     width: 100%;
     margin-top: 20px;
     padding: 10px;
-  /*   margin: auto; */
-    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+    font-family: 'yellow_peas_demoregular';
     border-radius: 4px;
     background: black;
     box-shadow: 0 1px 8px rgba(0,0,0,0.05);
@@ -1358,8 +1357,7 @@ p{
     width: 100%;
     margin-top: 20px;
     padding: 10px;
-  /*   margin: auto; */
-    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+    font-family: 'yellow_peas_demoregular';
     border-radius: 4px;
     background: black;
     box-shadow: 0 1px 8px rgba(0,0,0,0.05);
