@@ -1102,11 +1102,23 @@ div#slider figure {
   }
   .cform{
     margin: 50px 50px 0 0px;
+    text-align: left;
+  }
+  .search{
+    width: 45px;
+    height: 45px;
+  }
+  .quootee{
+    border: 2px solid #ed3237;
+    letter-spacing: 2px;
+    border-radius: 50%;
+    background-color: rgba(225,225,225,0);
+    padding: 18px 0px 18px 0px ;
   }
   .contact div article{
     color: white;
     width: 100%;
-    margin-right: 10px;
+    text-align: -webkit-center
   }
   input{
     width: 100%;
@@ -1116,11 +1128,15 @@ div#slider figure {
     width: 350px;
     margin-left: 50px;
   }
-  .cont h2{
+  .cont h2 {
+    text-align: left;
+  }
+  .cont p{
     text-align: left;
   }
   .add{
     margin: 100px 75px 0 50px;
+    text-align: left;
   }
   .drp{
     width: 100%;
@@ -1128,12 +1144,18 @@ div#slider figure {
   .form div{
     display: flex;
   }
+  form div article:first-child{
+    padding-right: 10px;
+  }
   .cont p a:hover{
     color: #ed3237;
   }
 }
 @media screen and (min-width:769px) and (max-width:1199px) {
   .ced{
+    display: none;
+  }
+  .quootee{
     display: none;
   }
   .contact{
@@ -1181,6 +1203,9 @@ div#slider figure {
 }
 @media screen and (max-width:768px) {
   .ceed{
+    display: none;
+  }
+  .quootee{
     display: none;
   }
   .contact{
@@ -2086,10 +2111,10 @@ div#slider figure {
     height: 200%;
   }
   .search_box div{
-    display: flex;
+    /* padding-top: 10PX; */
   }
   .search_box div article{
-    margin-right: 20px;
+    margin-TOP: 10px;
   }
   .search_box div h1{
     font-size: 18px;
@@ -2305,7 +2330,7 @@ div#slider figure {
   input{
     margin: auto;
     margin-bottom: 8px;
-    /* border: 1px solid gray; */
+    border: 1px solid gray;
     color: white;
   }
   #gmap_canvas{
@@ -2369,10 +2394,10 @@ div#slider figure {
   }
   .bro{
     text-align: center;
-    width: 200px;
   }
   .bro p{
     border-radius: 25px;
+    width: 200px;
     cursor: pointer;
     border: 1px solid #ed3237;
   }
@@ -2400,9 +2425,7 @@ div#slider figure {
     color: white;
   }
   .con{
-    margin: auto;
-    width: 98%;
-    text-align: center;
+
     cursor: pointer;
   }
   .copy{
@@ -2822,7 +2845,6 @@ div#slider figure {
   }
   .bro p a{
     color: white;
-    padding: 30px;
   }
   input:focus {
     color: black;
