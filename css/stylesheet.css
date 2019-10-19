@@ -2103,6 +2103,7 @@ div#slider figure {
     border-radius: 10px;
     text-orientation: upright;
     z-index: 111;
+    overflow: scroll;
     padding: 12px;
     text-align: left;
     font-family: 'yellow_peas_demoregular';
