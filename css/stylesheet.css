@@ -2123,14 +2123,8 @@ div#slider figure {
   }
   .search_box div article{
     margin-TOP: 10px;
+    overflow: auto;
 
-  }
-  .search_box div h1{
-    font-size: 18px;
-    font-weight: 700;
-    text-align: left;
-    color: #ed3237;
-    text-decoration: underline;
   }
   .search_box div a{
     color: white;
