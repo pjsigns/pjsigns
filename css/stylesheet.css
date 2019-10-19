@@ -2112,7 +2112,7 @@ div#slider figure {
     font-family: 'yellow_peas_demoregular';
     font-weight: lighter;
     width: 100%;
-    height: 110%;
+    height: 90%;
   }
   .search_box h1 {
     display: none;
@@ -2402,6 +2402,7 @@ div#slider figure {
     width: 200px;
     cursor: pointer;
     border: 1px solid #ed3237;
+    text-align: center;
   }
   .bro p:hover{
     background-color: #ed3237;
