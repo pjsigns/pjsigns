@@ -275,9 +275,12 @@ div#slider figure {
     text-align: center;
   }
   .works div{
+    margin: 30px 50px 50px 15px;
+  }
+  .tumbworks div{
     text-align: center;
     display: flex;
-    margin: 50px 100px 0px 100px;
+    width: 100%;
   }
   .works div article{
     width: 100%;
@@ -2472,7 +2475,7 @@ div#slider figure {
     color: black;
   }
   .bro p a{
-    color: #ed3237;
+    color: white;
   }
   .bro p a:hover{
     color: white;
@@ -2690,7 +2693,7 @@ div#slider figure {
     color: black;
   }
   .bro p a{
-    color: #ed3237;
+    color: white;
   }
   .bro p a:hover{
     color: white;
