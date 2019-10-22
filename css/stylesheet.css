@@ -37,7 +37,7 @@ a,img {
   letter-spacing: 2px;
 }
 strong{
-  color: #ed3237;
+  color: #c3102e;
 }
 ul{
   list-style: none;
@@ -133,14 +133,14 @@ div#slider figure {
 }
 .fa-handshake-o{
   font-size:48px;
-  color:#ed3237;
+  color:#c3102e;
 }
 .fb-page iframe{
   overflow:hidden;
 }
 .fa-street-view{
   font-size:48px;
-  color:#ed3237;
+  color:#c3102e;
 }
 
 .feedback img{
@@ -275,12 +275,52 @@ div#slider figure {
     text-align: center;
   }
   .works div{
-    margin: 30px 50px 50px 15px;
+    margin: 50px 50px 50px 45px;
+    height: 222px;
   }
   .tumbworks div{
-    text-align: center;
+    /* text-align: center; */
     display: flex;
     width: 100%;
+  }
+  .tumbworks article:hover {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+
+  .tumbworks article img {
+  	position: absolute;
+  }
+
+  .top {
+  	animation-name: fade;
+  	/* animation-timing-function: ease-in-out; */
+  	animation-iteration-count: infinite;
+  	animation-duration: 5s;
+  	animation-direction: alternate;
+  }
+
+  @keyframes fade {
+  	0% {
+  		opacity: 1;
+  	}
+  	25% {
+  		opacity: 1;
+  	}
+  	75% {
+  		opacity: 0;
+  	}
+  	100% {
+  		opacity: 0;
+  	}
   }
   .works div article{
     width: 100%;
@@ -290,7 +330,7 @@ div#slider figure {
     border-radius: 10px;
     height: 260px;
   }
-  .works div article img:hover{
+  .works div article:hover{
     transition: 0.70s;
     -webkit-transition: 0.70s;
     -moz-transition: 0.70s;
@@ -303,7 +343,7 @@ div#slider figure {
     transform: rotate(360deg);
   }
   .works div article p{
-    color: #ed3237;
+    color: #c3102e;
     padding-left: 340px;
     font-size: 20px;
     font-weight: bold;
@@ -348,7 +388,7 @@ div#slider figure {
     color: white;
   }
   .item p:last-child{
-    color: #ed3237;
+    color: #c3102e;
     font-size: 20px;
     font-weight: 700;
   }
@@ -363,13 +403,13 @@ div#slider figure {
   .google p:last-child{
     border-radius: 25px;
     cursor: pointer;
-    border: 1px solid #ed3237;
-    color: #ed3237;
+    border: 1px solid #c3102e;
+    color: #c3102e;
     font-size: 20px;
     margin-top: 30px;
   }
   .google p:last-child:hover{
-    background-color: #ed3237;
+    background-color: #c3102e;
     color: black;
   }
   .more{
@@ -377,18 +417,18 @@ div#slider figure {
     width: 100%;
   }
   .more article{
-    color: #ed3237;
+    color: #c3102e;
     font-size: 20px;
   }
   .more article p{
     border-radius: 25px;
     cursor: pointer;
-    border: 1px solid #ed3237;
+    border: 1px solid #c3102e;
     margin: auto;
     width: 400px;
   }
   .more article p:hover{
-    background-color: #ed3237;
+    background-color: #c3102e;
     color: black;
   }
   .more article p a:hover{
@@ -550,7 +590,7 @@ div#slider figure {
     transform: rotate(360deg);
   }
   .works div article p{
-    color: #ed3237;
+    color: #c3102e;
     padding-left: 340px;
     font-size: 20px;
     font-weight: bold;
@@ -598,7 +638,7 @@ div#slider figure {
     color: white;
   }
   .item p:last-child{
-    color: #ed3237;
+    color: #c3102e;
     font-size: 30px;
     font-weight: 700;
   }
@@ -613,13 +653,13 @@ div#slider figure {
   .google p:last-child{
     border-radius: 25px;
     cursor: pointer;
-    border: 1px solid #ed3237;
-    color: #ed3237;
+    border: 1px solid #c3102e;
+    color: #c3102e;
     font-size: 20px;
     margin-top: 30px;
   }
   .google p:last-child:hover{
-    background-color: #ed3237;
+    background-color: #c3102e;
     color: black;
   }
   .more{
@@ -627,18 +667,18 @@ div#slider figure {
     width: 100%
   }
   .more article{
-    color: #ed3237;
+    color: #c3102e;
     font-size: 20px;
   }
   .more article p{
     border-radius: 25px;
     cursor: pointer;
-    border: 1px solid #ed3237;
+    border: 1px solid #c3102e;
     width: 400px;
     margin: auto;
   }
   .more article p:hover{
-    background-color: #ed3237;
+    background-color: #c3102e;
     color: black;
   }
   .more article p a:hover{
@@ -1049,13 +1089,13 @@ div#slider figure {
   .google p:last-child{
     border-radius: 25px;
     cursor: pointer;
-    border: 1px solid #ed3237;
-    color: #ed3237;
+    border: 1px solid #c3102e;
+    color: #c3102e;
     font-size: 20px;
     margin-top: 30px;
   }
   .google p:last-child:hover{
-    background-color: #ed3237;
+    background-color: #c3102e;
     color: black;
   }
   .more{
@@ -1063,18 +1103,18 @@ div#slider figure {
     width: 100%
   }
   .more article{
-    color: #ed3237;
+    color: #c3102e;
     font-size: 20px;
     padding-bottom: 30px;
   }
   .more article p{
     border-radius: 25px;
     cursor: pointer;
-    border: 1px solid #ed3237;
+    border: 1px solid #c3102e;
     margin: auto;
   }
   .more article p:hover{
-    background-color: #ed3237;
+    background-color: #c3102e;
     color: black;
   }
   .more article p a:hover{
@@ -1112,7 +1152,7 @@ div#slider figure {
     height: 45px;
   }
   .quootee{
-    border: 2px solid #ed3237;
+    border: 2px solid #c3102e;
     letter-spacing: 2px;
     border-radius: 50%;
     background-color: rgba(225,225,225,0);
@@ -1151,7 +1191,7 @@ div#slider figure {
     padding-right: 10px;
   }
   .cont p a:hover{
-    color: #ed3237;
+    color: #c3102e;
   }
 }
 @media screen and (min-width:769px) and (max-width:1199px) {
@@ -1201,7 +1241,7 @@ div#slider figure {
     display: flex;
   }
   .cont p a:hover{
-    color: #ed3237;
+    color: #c3102e;
   }
 }
 @media screen and (max-width:768px) {
@@ -1260,7 +1300,7 @@ div#slider figure {
     width: 99%;
   }
   .cont p a:hover{
-    color: #ed3237;
+    color: #c3102e;
   }
 }
 
@@ -1422,7 +1462,7 @@ div#slider figure {
     width: 50px;
   }
   .scroll a {
-    background-color: #ed3237;
+    background-color: #c3102e;
     height: 30px;
     padding: 5px 10px 0 10px;
     text-align: center;
@@ -1451,7 +1491,7 @@ div#slider figure {
     width: 50px;
   }
   .quoote{
-    border: 2px solid #ed3237;
+    border: 2px solid #c3102e;
     letter-spacing: 2px;
     border-radius: 50%;
     background-color: rgba(225,225,225,0);
@@ -1459,7 +1499,7 @@ div#slider figure {
   }
 
   .quote a:hover{
-    color: #ed3237;
+    color: #c3102e;
   }
   .search{
     position: fixed;
@@ -1470,7 +1510,7 @@ div#slider figure {
     width: 50px;
     cursor: pointer;
     font-size: 9px;
-    border: 2px solid #ed3237;
+    border: 2px solid #c3102e;
     border-radius: 50%;
     letter-spacing: 1px;
     background-color: rgba(225,225,225,0);
@@ -1488,7 +1528,7 @@ div#slider figure {
     letter-spacing: 2px;
   }
   .search a:hover{
-    color: #ed3237;
+    color: #c3102e;
   }
   .search a{
     color: white;
@@ -1553,7 +1593,7 @@ div#slider figure {
     font-size: 18px;
     font-weight: 700;
     text-align: left;
-    color: #ed3237;
+    color: #c3102e;
     text-decoration: underline;
   }
   .search_box div a{
@@ -1563,7 +1603,7 @@ div#slider figure {
   }
   .search_box div a:hover{
     font-weight:700;
-    color: #ed3237;
+    color: #c3102e;
   }
   .arrow  {
     border: solid white;
@@ -1649,7 +1689,7 @@ div#slider figure {
     color: white;
   }
   nav div article div article:hover{
-    background-color: #ed3237;
+    background-color: #c3102e;
   }
 
   nav article:hover > div {
@@ -1698,7 +1738,7 @@ div#slider figure {
     width: 30px;
   }
   .scroll a {
-    background-color: #ed3237;
+    background-color: #c3102e;
     height: 30px;
     padding: 5px 10px 0 10px;
     text-align: center;
@@ -1780,7 +1820,7 @@ div#slider figure {
 
 
   .quoote{
-    border: 2px solid #ed3237;
+    border: 2px solid #c3102e;
     letter-spacing: 2px;
     border-radius: 50%;
     display: none;
@@ -1789,7 +1829,7 @@ div#slider figure {
   }
 
   .quote a:hover{
-    color: #ed3237;
+    color: #c3102e;
   }
   .search{
     position: fixed;
@@ -1819,7 +1859,7 @@ div#slider figure {
     letter-spacing: 2px;
   }
   .search a:hover{
-    color: #ed3237;
+    color: #c3102e;
   }
   .search a{
     color: white;
@@ -1862,7 +1902,7 @@ div#slider figure {
   }
   .search_box div a:hover{
     font-weight: 1000;
-    color: #ed3237;
+    color: #c3102e;
   }
   .arrow  {
     border: solid white;
@@ -2006,7 +2046,7 @@ div#slider figure {
   }
   li a:hover,
   li a:focus {
-    background: #ed3237;
+    background: #c3102e;
     color: #fff;
   }
   #menu ul li:last-child{
@@ -2031,7 +2071,7 @@ div#slider figure {
     width: 30px;
   }
   .scroll a {
-    background-color: #ed3237;
+    background-color: #c3102e;
     height: 30px;
     padding: 5px 10px 0 10px;
     text-align: center;
@@ -2113,7 +2153,7 @@ div#slider figure {
 
 
   .quoote{
-    border: 2px solid #ed3237;
+    border: 2px solid #c3102e;
     letter-spacing: 2px;
     border-radius: 50%;
     display: none;
@@ -2122,7 +2162,7 @@ div#slider figure {
   }
 
   .quote a:hover{
-    color: #ed3237;
+    color: #c3102e;
   }
   .search{
     position: fixed;
@@ -2152,7 +2192,7 @@ div#slider figure {
     letter-spacing: 2px;
   }
   .search a:hover{
-    color: #ed3237;
+    color: #c3102e;
   }
   .search a{
     color: white;
@@ -2195,7 +2235,7 @@ div#slider figure {
   }
   .search_box div a:hover{
     font-weight: 1000;
-    color: #ed3237;
+    color: #c3102e;
   }
   .arrow  {
     border: solid white;
@@ -2340,7 +2380,7 @@ div#slider figure {
   }
   li a:hover,
   li a:focus {
-    background: #ed3237;
+    background: #c3102e;
     color: #fff;
   }
   #menu ul li:last-child{
@@ -2373,7 +2413,7 @@ div#slider figure {
     margin-top: -15px;
   }
   .sign a:hover{
-    color: #ed3237;
+    color: #c3102e;
   }
   .contc div{
     width: 100%;
@@ -2458,7 +2498,7 @@ div#slider figure {
     float: right;
   }
   .cat a:hover{
-    color: #ed3237;
+    color: #c3102e;
   }
   .bro{
     text-align: center;
@@ -2467,11 +2507,11 @@ div#slider figure {
     border-radius: 25px;
     width: 200px;
     cursor: pointer;
-    border: 1px solid #ed3237;
+    border: 1px solid #c3102e;
     text-align: center;
   }
   .bro p:hover{
-    background-color: #ed3237;
+    background-color: #c3102e;
     color: black;
   }
   .bro p a{
@@ -2513,18 +2553,18 @@ div#slider figure {
     width: 100%;
   }
   .moree article{
-    color: #ed3237;
+    color: #c3102e;
     font-size: 20px;
   }
   .moree article p{
     border-radius: 25px;
     cursor: pointer;
     width: 400px;
-    border: 1px solid #ed3237;
+    border: 1px solid #c3102e;
     margin: auto;
   }
   .moree article p:hover{
-    background-color: #ed3237;
+    background-color: #c3102e;
     color: black;
   }
   .moree article p a:hover{
@@ -2587,7 +2627,7 @@ div#slider figure {
     margin-top: -15px;
   }
   .sign a:hover{
-    color: #ed3237;
+    color: #c3102e;
   }
   .contc div{
     width: 100%;
@@ -2677,7 +2717,7 @@ div#slider figure {
     float: right;
   }
   .cat a:hover{
-    color: #ed3237;
+    color: #c3102e;
   }
   .bro{
     text-align: center;
@@ -2686,10 +2726,10 @@ div#slider figure {
   .bro p{
     border-radius: 25px;
     cursor: pointer;
-    border: 1px solid #ed3237;
+    border: 1px solid #c3102e;
   }
   .bro p:hover{
-    background-color: #ed3237;
+    background-color: #c3102e;
     color: black;
   }
   .bro p a{
@@ -2733,18 +2773,18 @@ div#slider figure {
     width: 100%;
   }
   .moree article{
-    color: #ed3237;
+    color: #c3102e;
     font-size: 20px;
   }
   .moree article p{
     border-radius: 25px;
     cursor: pointer;
     width: 400px;
-    border: 1px solid #ed3237;
+    border: 1px solid #c3102e;
     margin: auto;
   }
   .moree article p:hover{
-    background-color: #ed3237;
+    background-color: #c3102e;
     color: black;
   }
   .moree article p a:hover{
@@ -2808,7 +2848,7 @@ div#slider figure {
     display: none;
   }
   .sign a:hover{
-    color: #ed3237;
+    color: #c3102e;
   }
   .mob{
     display: block;
@@ -2893,7 +2933,7 @@ div#slider figure {
   }
 
   .cat a:hover{
-    color: #ed3237;
+    color: #c3102e;
   }
   .bro{
     text-align: center;
@@ -2909,7 +2949,7 @@ div#slider figure {
     margin-bottom: 15px;
   }
   .bro p:hover{
-    background-color: #ed3237;
+    background-color: #c3102e;
     color: black;
   }
   .bro p a{
@@ -2955,7 +2995,7 @@ div#slider figure {
     margin-top: 10px;
   }
   .moree article{
-    color: #ed3237;
+    color: #c3102e;
     font-size: 20px;
   }
   .moree article p{
