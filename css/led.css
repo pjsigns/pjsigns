@@ -1949,7 +1949,7 @@ p{
   .cats{
     width: 100%;
     padding: 0;
-    display: flex;
+    display: none;
     padding-top: 20px;
     padding-left: 95px;
   }
@@ -2020,6 +2020,7 @@ p{
     text-align: center;
     /* background-color: #c3102e; */
     width: 100%;
+    padding-bottom: 30px;
     padding-top: 10px;
   }
   .moree article{

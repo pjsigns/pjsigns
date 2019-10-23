@@ -687,6 +687,9 @@ div#slider figure {
   footer strong{
     color: #c3102e;
   }
+  strong{
+    color: white;
+  }
   .tumbworks{
     display: none;
   }
@@ -939,7 +942,7 @@ div#slider figure {
       text-align: center;
   }
   .abot p {
-    color: #dcd9d9;
+    color: gray;
     font-size: 18px;
     text-align: justify;
     text-justify: inter-word;
@@ -2928,7 +2931,7 @@ div#slider figure {
   .cats{
     width: 100%;
     padding: 0;
-    display: flex;
+    display: none;
     padding-top: 20px;
     padding-left: 95px;
   }
@@ -3000,6 +3003,7 @@ div#slider figure {
     /* background-color: #c3102e; */
     width: 100%;
     padding-top: 10px;
+    padding-bottom: 30px;
   }
   .moree article{
     color: #c3102e;
