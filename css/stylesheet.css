@@ -1195,6 +1195,9 @@ div#slider figure {
   .cont p a:hover{
     color: #c3102e;
   }
+  .qute{
+    display: none;
+  }
 }
 @media screen and (min-width:769px) and (max-width:1199px) {
   .ced{
@@ -1270,9 +1273,14 @@ div#slider figure {
   .cform{
     margin: 50px 50px 0 0;
   }
-  .cform h2{
+  .cform h1{
     text-align: left;
     padding-bottom: 20px;
+    padding-left: 15px;
+  }
+  .cform h2{
+    text-align: left;
+    padding-bottom: 5px;
   }
   .contact div article{
     color: white;
@@ -1280,7 +1288,13 @@ div#slider figure {
     margin-right: 10px; */
   }
   .qute p{
-    margin: 30px 20px 0 0;
+    margin: 30px 20px 30px 15px;
+    border-radius: 25px;
+    width: 150px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid #c3102e;
+    text-align: center;
   }
   input{
     height: 35px;
@@ -1303,6 +1317,9 @@ div#slider figure {
   }
   .cont p a:hover{
     color: #c3102e;
+  }
+  .copy{
+    height: 30px;
   }
 }
 
