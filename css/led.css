@@ -185,7 +185,6 @@ p{
   }
   .photos h2{
     color: white;
-    width: 430px;
     margin-left: 50px;
     text-align: left;
     border-radius: 25px;
@@ -314,7 +313,6 @@ p{
   }
   .photos h2{
     color: white;
-    width: 430px;
     text-align: left;
     border-radius: 25px;
     padding: 5px 30px 5px 30px;
@@ -2349,7 +2347,66 @@ p{
   input:focus textarea{
     color: white;
   }
-input:focus {
+  input:focus {
     color: white;
+  }
+}
+
+
+/* aboutus */
+@media screen and (min-width:1200px) {
+  .companies h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+  }
+  .companies article img{
+    border: 0px;
+    width: 400px;
+    height: 220px;
+  }
+  .review{
+    text-align: center;
+  }
+  .review img{
+    height: 150px;
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width:769px) and (max-width:1199px) {
+  .companies h2{
+    text-align: center;
+    padding-top: 50px;
+  }
+  .companies article img{
+    border: 0px;
+  }
+  .review{
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+  }
+  .review img{
+    text-align: center;
+    height: 80px;
+    margin-right: 70px;
+  }
+}
+@media screen and (max-width:768px) {
+  .companies h2{
+    text-align: center;
+  }
+  .companies article img{
+    border: 0px;
+    padding-top: 30px;
+  }
+  .review{
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+  }
+  .review img{
+    text-align: center;
+    width: 380px;
   }
 }
