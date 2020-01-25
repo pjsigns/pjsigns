@@ -59,6 +59,14 @@ h2{
   margin: 0;
   color: white;
 }
+h3{
+  font-family: 'yellow_peas_demoregular';
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
 body{
   font-family: 'yellow_peas_demoregular';
   color: black;
@@ -164,7 +172,7 @@ div#slider figure {
   .banner{
     width: 100%;
     margin: auto;
-    padding-top: 120px;
+    padding-top: 146px;
   }
   .bannerimg {
     display: none;
@@ -232,10 +240,10 @@ div#slider figure {
     -webkit-transform: rotate(315deg);
   }
   .whyd{
-    background-color: rgba(0,0,0,0.9);
+    background-color: white;
     width: 100%;
   }
-  .title h2 {
+  .title h3 {
   	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
   	background-size: cover;
   	color: transparent;
@@ -254,6 +262,12 @@ div#slider figure {
   .whyd h2{
     text-align: center;
     margin: auto;
+    color: black;
+    padding-top: 15px;
+  }
+  .whyd p{
+    color: black;
+    font-weight: 900;
   }
   .wysd img{
     width: 450px;
@@ -350,7 +364,8 @@ div#slider figure {
   /* Slideshow container */
   .container {
     position: relative;
-    background-image: url(../images/nizu.jpg);
+    /* background-image: url(../images/nizu.jpg); */
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -365,8 +380,10 @@ div#slider figure {
   .container h2{
     text-align: center;
     margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30PX;
+    color: black;
+    font-weight: 1000;
+    padding-top: 10px;
+    padding-bottom: 10PX;
   }
   /* Slides */
   .mySlide {
@@ -375,15 +392,21 @@ div#slider figure {
     text-align: center;
   }
   .author {color: cornflowerblue;}
-  .carousel-inner{
+  .google{
     text-align: -webkit-center;
   }
-  .item{
-    width:500px;
+  .inners{
+    text-align: -webkit-center;
+    display: flex;
+  }
+  .inners article{
+    margin: 50px;
+    width: 500px;
   }
   .item p{
     text-align: center;
-    color: white;
+    color: black;
+    font-weight: 1000;
   }
   .item p:last-child{
     color: #c3102e;
@@ -423,11 +446,8 @@ div#slider figure {
     cursor: pointer;
     border: 1px solid #c3102e;
     margin: auto;
-    width: 400px;
-  }
-  .more article p:hover{
     background-color: #c3102e;
-    color: black;
+    width: 400px;
   }
   .more article p a:hover{
     color: white;
@@ -1641,7 +1661,8 @@ div#slider figure {
     margin: auto;
     position: fixed;
     height: 120px;
-    background-image: url(../images/header1.jpg);
+    /* background-image: url(../images/header1.jpg); */
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
@@ -1655,10 +1676,11 @@ div#slider figure {
   }
   .nav{
     width: 100%;
-    margin: 90px 0px 0 0;
+    /* margin: 90px 0px 0 0; */
     padding-right: 50px;
-    padding-top: 5px;
-    background-color: rgba(0, 0, 0, 0.2);
+    padding-top: 125px;
+    position: fixed;
+    background-color: #ed3237;
 
   }
   .nave{
@@ -1675,7 +1697,7 @@ div#slider figure {
     float: left;
     display: inline;
     position: relative;
-    margin-right: 10px;
+    margin-right: 90px;
     list-style: none;
   }
   nav article  a{
@@ -1702,7 +1724,7 @@ div#slider figure {
   }
   nav div article div article{
     height: 50px;
-    width: 210px;
+    width: 150px;
     padding-top: 10px;
     background-color: #282828;
     color: white;
@@ -1731,6 +1753,7 @@ div#slider figure {
   .signs section article{
     text-align: center;
     width: 149px;
+    margin-right: 10px;
     line-height: 20px;
     margin-left: 15px;
     height: 100px;
