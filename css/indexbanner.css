@@ -31,10 +31,11 @@ figure.slider figure {
 figure.slider img { width: 100%; height: auto; }
 figure.slider figure figcaption {
   position: absolute; bottom: 0;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.8);
   color: #fff; width: 100%;
   font-size: 2rem; padding: .6rem;
 }
+
   @media screen and (max-width:768px) {
     @import url(https://fonts.googleapis.com/css?family=Istok+Web);
     @keyframes slidy {

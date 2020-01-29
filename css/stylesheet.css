@@ -166,6 +166,9 @@ div#slider figure {
     margin: auto;
     padding-top: 120px;
   }
+  .densed{
+    color: black;
+  }
   .bannerimg {
     display: none;
   }

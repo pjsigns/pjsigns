@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE HTML>
 <!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
@@ -5,17 +7,17 @@
 <!--[if (gte IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>PJSIGNS - Offers - led sign boards chennai</title>
+  <title>PJSIGNS-Aboutus Sign boards Manufacturers in Chennai</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="canonical" href="https://www.pjsigns.in/offers.html">
-  <meta name="keywords" content="sign boards, led boards, name boards, acrylic boards, led sign boards in chennai, light boards in chennai, glowing boards, banners, printings, display boards, led, boards, light boards,A stand, vinyl branding, designing, froasted, hospital signs, clipon, metal letters, one way vision printing, restaurant signs, safety signs, roll up standee">
-  <meta name="description" content="sign board manufacturers, sign board manufacturers near me, led sign board dealers, glow sign board manufacturers, flex sign board manufacturers, neon sign board dealers, acrylic sign board dealers, metal sign board dealers, acrylic sign board manufacturers, glow sign board dealers, sign board dealers, digital sign board manufacturers, neon sign board manufacturers, flex sign board dealers, digital sign board dealers, metal sign board manufacturers, steel sign board manufacturers, led sign board manufacturers, led sign board manufacturers in chennai">
+  <meta name="description" content="PJSIGNS was established in 2011, it is one of the famous names when it comes to Sign Makers in Chennai, We design & Manufacture of LED Signs, Light Box Signs,A Stand, Metal Letters, and LED Channel Letters, We have more than 11 years of involvement in the Sign business....">
+  <link rel="canonical" href="https://www.pjsigns.in/aboutus.html">
+  <meta name="keywords" content="sign boards, led boards, Sign boards Manufacturers, name boards, acrylic boards, led sign boards in chennai, light boards in chennai, glowing boards, banners, printings, display boards, led, boards, light boards,A stand, vinyl branding, designing, froasted, hospital signs, clipon, metal letters, one way vision printing, restaurant signs, safety signs, roll up standee">
   <meta name="robots" content="noodp ,index,follow">
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="article">
   <meta property="og:title" content="LED Sign Boards in Chennai –PJSIGNS">
   <meta property="og:description" content="Sign Board Manufacturers | LED Sign Board Dealers | Glow Sign Board Manufacturers | Flex Sign Board Manufacturers | neon Sign Board Dealers | acrylic Sign Board Dealers | metal Sign Board Dealers | acrylic Sign Board Manufacturers | Glow Sign Board Dealers | Sign Board Dealers | Digital Sign Board Manufacturers | Neon Sign Board Manufacturers | Flex Sign Board Dealers | Digital Sign Board Dealers | Metal Sign Board Manufacturers | Steel Sign Board Manufacturers | LED Sign Board Manufacturers">
-  <meta property="og:url" content="https://www.pjsigns.in/offers.html">
+  <meta property="og:url" content="https://www.pjsigns.in/aboutus.html">
   <meta property="og:site_name" content="PJSIGNS">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:description" content="PJSIGNS was established in 2011, it is one of the famous names when it comes to Sign Makers in Chennai, We design & Manufacture of LED Signs, Light Box Signs, Metal Letters, and LED Channel Letters, We have more than 11 years of involvement in the Sign business....">
@@ -30,7 +32,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <style >body{font-family: 'yellow_peasultra_light';}</style>
   <link rel="icon" href="images/logopjj.png" type="image/gif" sizes="16x16">
-  <link rel="stylesheet" href="css/cl.css">
+  <link rel="stylesheet" href="css/led.css">
+  <script src="js/lightbox-plus-jquery.min.js"></script>
   <!-- <link rel="stylesheet" href="css/stylesheet.css"> -->
   <!-- <link rel="stylesheet" href="css/header.css"> -->
 </head>
@@ -188,13 +191,27 @@
   </header>
   <main>
     <div class="channel">
-      <!-- <img src="images/clb.jpg" alt=""> -->
-      <h1><strong>O</strong>ffers</h1>
-      <!-- <p>Channel letters provide a greater flexibility of design and offer a much more dramatic appearance. One of the most attractive benefits of using channel letters is the limitless range of fonts available; the unique construction on channel letters makes it possible for their use to extend beyond the traditional worded sign to consist of contour boxes, logos, and even pictures to give each sign a distinctive appearance.</p> -->
+      <h1><strong>Offers</strong> for u</h1>
+      <img class="stb" src="images/banner17.jpg" alt="signage">
+      <img class="stbb" src="images/banner7.jpg" alt="signage">
     </div>
-    <div class="photos offer">
-      <img src="images/offer.jpg" alt="signage offer">
-    </div>
+    <!-- <div class="photos companies">
+      <div class="review">
+        <img src="images/companies/review.png" alt="">
+        <img src="images/companies/greviews.png" alt="">
+      </div>
+      <h2><strong>Our material</strong> suppliers</h2>
+      <article class="">
+        <img src="images/companies/3m.png" alt="">
+        <img src="images/companies/orient.png" alt="">
+        <img src="images/companies/samsung.png" alt="">
+      </article>
+      <article class="">
+        <img src="images/companies/anabond.png" alt="">
+        <img src="images/companies/philips.png" alt="">
+        <img src="images/companies/samsun.png" alt="">
+      </article>
+    </div> -->
   </main>
   <footer>
     <div class="footer ">
@@ -298,61 +315,106 @@
     }
     }
   </script>
-  <script type="text/javascript">
-    var theToggle = document.getElementById('toggle');
+<script type="text/javascript">
+$(document).ready(function() {
+// Configure/customize these variables.
+var showChar = 250;  // How many characters are shown by default
+var ellipsestext = "";
+var moretext = "Read More";
+var lesstext = "Read Less";
 
-    // based on Todd Motto functions
-    // https://toddmotto.com/labs/reusable-js/
 
-    // hasClass
-    function hasClass(elem, className) {
-    return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
-    }
-    // addClass
-    function addClass(elem, className) {
-      if (!hasClass(elem, className)) {
-        elem.className += ' ' + className;
-      }
-    }
-    // removeClass
-    function removeClass(elem, className) {
-    var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
-    if (hasClass(elem, className)) {
-          while (newClass.indexOf(' ' + className + ' ') >= 0 ) {
-              newClass = newClass.replace(' ' + className + ' ', ' ');
-          }
-          elem.className = newClass.replace(/^\s+|\s+$/g, '');
-      }
-    }
-    // toggleClass
-    function toggleClass(elem, className) {
-    var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, " " ) + ' ';
-      if (hasClass(elem, className)) {
-          while (newClass.indexOf(" " + className + " ") >= 0 ) {
-              newClass = newClass.replace( " " + className + " " , " " );
-          }
-          elem.className = newClass.replace(/^\s+|\s+$/g, '');
-      } else {
-          elem.className += ' ' + className;
-      }
+$('.more').each(function() {
+    var content = $(this).html();
+
+    if(content.length > showChar) {
+
+        var c = content.substr(0, showChar);
+        var h = content.substr(showChar, content.length - showChar);
+
+        var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+
+        $(this).html(html);
     }
 
-    theToggle.onclick = function() {
-     toggleClass(this, 'on');
-     return false;
+});
+
+$(".morelink").click(function(){
+    if($(this).hasClass("less")) {
+        $(this).removeClass("less");
+        $(this).html(moretext);
+    } else {
+        $(this).addClass("less");
+        $(this).html(lesstext);
     }
-  </script>
-  <script>
-    $(document).ready(function(){
-      $(".search").click(function(){
-        $(".search_box").toggle("slow",);
-      });
+    $(this).parent().prev().toggle();
+    $(this).prev().toggle();
+    return false;
+});
+});
+</script>
+<script>
+  $(document).ready(function(){
+    $(".clz").click(function(){
+      $(".dropdown-content").hide();
     });
-  </script>
-  <script type="text/javascript">
-    function myFunction(x) {
-    x.classList.toggle("fa-close");
+  });
+</script>
+<script type="text/javascript">
+  var theToggle = document.getElementById('toggle');
+
+  // based on Todd Motto functions
+  // https://toddmotto.com/labs/reusable-js/
+
+  // hasClass
+  function hasClass(elem, className) {
+  return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
   }
-  </script>
+  // addClass
+  function addClass(elem, className) {
+    if (!hasClass(elem, className)) {
+      elem.className += ' ' + className;
+    }
+  }
+  // removeClass
+  function removeClass(elem, className) {
+  var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
+  if (hasClass(elem, className)) {
+        while (newClass.indexOf(' ' + className + ' ') >= 0 ) {
+            newClass = newClass.replace(' ' + className + ' ', ' ');
+        }
+        elem.className = newClass.replace(/^\s+|\s+$/g, '');
+    }
+  }
+  // toggleClass
+  function toggleClass(elem, className) {
+  var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, " " ) + ' ';
+    if (hasClass(elem, className)) {
+        while (newClass.indexOf(" " + className + " ") >= 0 ) {
+            newClass = newClass.replace( " " + className + " " , " " );
+        }
+        elem.className = newClass.replace(/^\s+|\s+$/g, '');
+    } else {
+        elem.className += ' ' + className;
+    }
+  }
+
+  theToggle.onclick = function() {
+   toggleClass(this, 'on');
+   return false;
+  }
+</script>
+<script>
+  $(document).ready(function(){
+    $(".search").click(function(){
+      $(".search_box").toggle("slow",);
+    });
+  });
+</script>
+<script type="text/javascript">
+  function myFunction(x) {
+  x.classList.toggle("fa-close");
+}
+</script>
 </body>
 </html>
