@@ -70,11 +70,14 @@ figure.slider figure figcaption {
     }
     figure.slider img { width: 100%; height: 220px; }
     figure.slider figure figcaption {
-      /* position: absolute; bottom: 0;
+      position: absolute; bottom: 0;
       background: rgba(0,0,0,0.4);
+      font-family: 'yellow_peas_demoregular';
       color: #fff; width: 100%;
-      font-size: 12px; padding: .6rem; */
-      display: none;
+      font-size: 12px; padding: .6rem;
+    }
+    strong{
+      color: #ed3237;
     }
   }
 
