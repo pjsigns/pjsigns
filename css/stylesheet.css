@@ -1501,7 +1501,7 @@ div#slider figure {
     position: fixed;
     margin-right: 90px;
     display: flex;
-    right: 50px;
+    right: 20px;
     font-size: 8px;
     letter-spacing: 1px;
     text-orientation: upright;
@@ -1527,9 +1527,9 @@ div#slider figure {
     background-color: rgba(225,225,225,0);
     margin-top: 10px ;
     padding: 15px 5px 15px 5px;
-    border: 2px solid gray;
+    border: 2px solid #bebebd;
     margin-right: 30px;
-    color: white;
+    color: #bebebd;
     font-weight: 1400;
   }
   .quote a:hover{
@@ -1542,9 +1542,9 @@ div#slider figure {
     background-color: rgba(225,225,225,0);
     margin-top: 10px ;
     padding: 13px 13px 10px 13px;
-    border: 2px solid gray;
+    border: 2px solid #bebebd;
     margin-right: 30px;
-    color: white;
+    color: #bebebd;
     font-weight: 1400;
   }
   .fa-phone:hover{
@@ -1557,7 +1557,7 @@ div#slider figure {
     font-size: 9px;
     border-radius: 50%;
     letter-spacing: 1px;
-    border: 2px solid gray;
+    border: 2px solid #bebebd;
     background-color: rgba(225,225,225,0);
     text-orientation: upright;
     text-align: center;
@@ -1576,7 +1576,7 @@ div#slider figure {
     color: gray;
   }
   .search a{
-    color: white;
+    color: #bebebd;
     font-size: 20px;
     padding-top: 10px;
   }
