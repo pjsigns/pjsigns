@@ -70,9 +70,7 @@ p{
   letter-spacing: 1px;
   color: white;
 }
-.row{
-  margin: auto;
-}
+
 .mapouter{position:relative;text-align:right;border-radius:10px;height:300px;width:450px;}.gmap_canvas {overflow:hidden; background:none!important;height:200px;width:350px;}
 @keyframes slidy {
 0% { left: 0%; }
@@ -152,11 +150,15 @@ div#slider figure {
   #lightBox{
     display: none;
   }
+  .rows{
+    margin: auto;
+    display: none;
+  }
   body{
       height: 100%;
       width: 100%;
       user-select: none;
-      background-image: url(../images/earth.gif);
+      /* background-image: url(../images/earth.gif); */
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
@@ -174,13 +176,21 @@ div#slider figure {
   }
   .about{
     width: 100%;
-    background-color: rgba(0,0,0,0.9);
-    text-align: center;
-    padding-top: 20px;
+    background-color: black;
+    /* background-image: url(../images/inddz.gif); */
+    background-size: cover;
+    display: flex;
+    padding-top: 50px;
+  }
+  .abot{
+    width: 50%;
+    padding-bottom: 50px;
   }
   .abot h1{
-      font-size: 24px;
-      color: white;
+      font-size: 28px;
+      color: #ed3237;
+      text-align: left;
+      margin: 0 50px 0 50px;
   }
   .abot p {
     color: #dcd9d9;
@@ -189,7 +199,6 @@ div#slider figure {
   }
   .abt p  {
     color: white;
-    text-align: center;
     margin: 0px 100px 0px 100px;
   }
 
@@ -198,17 +207,17 @@ div#slider figure {
     margin: 50px 0 50px 100px;
   }
   .counts{
-    width: 100%;
-    margin: auto;
+    width: 50%;
+    /* margin: auto; */
     display: flex;
     text-align: center;
     color: white;
-    padding: 50px 0 30px 0;
+    padding-top: 20px;
   }
 
   .counts article{
     width: 100%;
-    margin: auto;
+    /* margin: auto; */
   }
   .counts div p{
     padding: 0;
@@ -235,9 +244,10 @@ div#slider figure {
     -webkit-transform: rotate(315deg);
   }
   .whyd{
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,1);
     width: 100%;
   }
+
   .title h2 {
   	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
   	background-size: cover;
@@ -264,12 +274,13 @@ div#slider figure {
     margin-right: 100px;
   }
   .wysd div {
-    margin-top: 50px;
+    margin-top: 30px;
   }
   .works{
     width: 100%;
     background-color: rgba(0,0,0,0.9);
     padding: 50px 0 50px 0;
+    display: none;
   }
   .works h2{
     margin: 0;
@@ -350,14 +361,50 @@ div#slider figure {
     font-weight: bold;
     margin: 10px;
   }
+  .testo{
+    width: 100%;
+    display: flex;
+    background-color: #ed3237;
+    /* background-image: url(../images/backimg.jpg); */
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .clients{
+    width: 50%;
+    padding-top: 50px;
+  }
+  .clients h2{
+    font-size: 40px;
+    text-align: left;
+    padding-left: 100px;
+  }
+  .clients article{
+    padding-left: 100px;
+    background-color: rgba(0,0,0,0.1);
+    display: flex;
+  }
+  .clients article img{
+    width: 110px;
+    filter: grayscale(100%);
+  }
+  .prices{
+    padding-left: 100px;
+  }
+  .clients article img:hover{
+    filter: grayscale(0%);
+  }
   /* Slideshow container */
   .container {
     position: relative;
-    background-image: url(../images/nizu.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-color: rgba(0,0,0,0.8); */
     height: 500px;
-    width: 100%;
+    width: 50%;
+    padding-top: 90px;
+  }
+  .container strong{
+    color: white;
   }
   .map{
     display: flex;
@@ -367,6 +414,7 @@ div#slider figure {
   }
   .container h2{
     text-align: center;
+    display: none;
     margin: auto;
     padding-top: 30px;
     padding-bottom: 30PX;
@@ -389,7 +437,7 @@ div#slider figure {
     color: white;
   }
   .item p:last-child{
-    color: #c3102e;
+    /* color: #c3102e; */
     font-size: 20px;
     font-weight: 700;
   }
@@ -415,7 +463,7 @@ div#slider figure {
   }
   .more{
     text-align: center;
-    width: 100%;
+    /* width: 100%; */
   }
   .more article{
     color: #c3102e;
@@ -426,7 +474,7 @@ div#slider figure {
     cursor: pointer;
     border: 1px solid #c3102e;
     margin: auto;
-    width: 400px;
+    width: 180px;
   }
   .more article p:hover{
     background-color: #c3102e;
@@ -441,6 +489,10 @@ div#slider figure {
     display: none;
   }
   #lightBox{
+    display: none;
+  }
+  .rows{
+    margin: auto;
     display: none;
   }
   body{
@@ -707,7 +759,30 @@ div#slider figure {
     display: block;
     padding: 10px;
   }
-
+  .rows{
+    display: none;
+  }
+  .clients{
+    width: 100%;
+    padding-top: 30px;
+  }
+  .clients h2{
+    font-size: 25px;
+    /* text-align: left; */
+    color: white
+    padding-left: 30px;
+  }
+  .clients article{
+    padding-left: 20px;
+    padding-right: 20px;
+    /* background-color: rgba(0,0,0,0.1); */
+    display: flex;
+    width: 100%;
+  }
+  .clients article img{
+    width: 20%;
+    /* filter: grayscale(100%); */
+  }
   #thumbsList h3 {
     margin-bottom: .5em;
     font-size: 2.3em;
@@ -1152,10 +1227,6 @@ div#slider figure {
     margin: 50px 50px 0 0px;
     text-align: left;
   }
-  .search{
-    width: 45px;
-    height: 45px;
-  }
   .quootee{
     font-size: 14px;
     letter-spacing: 2px;
@@ -1502,7 +1573,6 @@ div#slider figure {
     margin-right: 90px;
     display: flex;
     right: 20px;
-    font-size: 8px;
     letter-spacing: 1px;
     text-orientation: upright;
     text-align: center;
@@ -1521,64 +1591,68 @@ div#slider figure {
     height: 35px;
   }
   .quoote{
-    font-size: 10px;
+    font-size: 15px;
     letter-spacing: 2px;
     border-radius: 50%;
     background-color: rgba(225,225,225,0);
-    margin-top: 10px ;
-    padding: 15px 5px 15px 5px;
-    border: 2px solid #bebebd;
+    margin-top: 20px ;
+    padding: 8px 11px 8px 11px;
+    border: 2px solid black;
     margin-right: 30px;
-    color: #bebebd;
+    color: black;
     font-weight: 1400;
   }
-  .quote a:hover{
-    color: gray;
+  .fa-inr:hover{
+    color: #ed3237;
+    background-color: white;
+    border: 2px solid white;
   }
   .phones{
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 2px;
     border-radius: 50%;
     background-color: rgba(225,225,225,0);
-    margin-top: 10px ;
-    padding: 13px 13px 10px 13px;
-    border: 2px solid #bebebd;
+    margin-top: 20px ;
+    padding: 8px;
+    border: 2px solid black;
     margin-right: 30px;
-    color: #bebebd;
+    color: black;
     font-weight: 1400;
   }
   .fa-phone:hover{
-    color: gray;
+    color: #ed3237;
+    background-color: white;
+    border: 2px solid white;
   }
   .search{
-    /* height: 50px; */
-    /* width: 50px; */
     cursor: pointer;
-    font-size: 9px;
+    font-size: 5px;
     border-radius: 50%;
     letter-spacing: 1px;
-    border: 2px solid #bebebd;
+    border: 2px solid black;
     background-color: rgba(225,225,225,0);
     text-orientation: upright;
     text-align: center;
     font-family: 'yellow_peas_demoregular';
     font-weight: lighter;
-    margin-top: 10px;
+    margin-top: 20px;
+  }
+  .search:hover{
+    background-color: white;
+    border: 2px solid white;
   }
   .dropdown-content {
     display: none;
     position: absolute;
   }
-  .search a p{
-    letter-spacing: 2px;
-  }
+
   .search a:hover{
-    color: gray;
+    color: #ed3237;
   }
   .search a{
-    color: #bebebd;
-    font-size: 20px;
-    padding-top: 10px;
+    color: black;
+    font-size: 15px;
+    padding: 8px;
   }
   .search_box {
     background-color: rgba(225, 225, 225, .9);
@@ -1607,45 +1681,12 @@ div#slider figure {
   .search_box div article{
     margin-right: 20px;
   }
-  .fa-search{
-    /* position: relative;
-   -webkit-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
-   -webkit-animation: zoomin 3s ease-in infinite;
-   animation: zoomin 3s ease-in infinite;
-   transition: all .5s ease-in-out; */
-   padding: 10px;
-  }
-  /* Zoom in Keyframes */
-  @-webkit-keyframes zoomin {
-    0% {transform: scale(1);}
-    50% {transform: scale(1.5);}
-    100% {transform: scale(1);}
-  }
-  @keyframes zoomin {
-    0% {transform: scale(1);}
-    50% {transform: scale(1.5);}
-    100% {transform: scale(1);}
-    } /*End of Zoom in Keyframes */
-
-    /* Zoom out Keyframes */
-    @-webkit-keyframes zoomout {
-      0% {transform: scale(1);}
-      50% {transform: scale(0.67);}
-      100% {transform: scale(1);}
-    }
-    @keyframes zoomout {
-      0% {transform: scale(1);}
-      50% {transform: scale(0.67);}
-      100% {transform: scale(1);}
-      }/*End of Zoom out Keyframes */
   .search_box div h2{
     font-size: 18px;
     font-weight: 700;
     text-align: left;
     color: #c3102e;
-    text-decoration: underline;
+    /* text-decoration: underline; */
   }
   .search_box div a{
     color: black;
@@ -1759,6 +1800,15 @@ div#slider figure {
     display: flex;
     height: 120px;
     background-color:  #282828;
+  }
+  .signs section:last-child{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .prnt{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
   }
   .signs section article{
     text-align: center;
@@ -2455,7 +2505,7 @@ div#slider figure {
   .footer{
     width: 100%;
     margin: auto;
-    background-color: black;
+    background-color: #323232;
     color:white;
     align-items: center;
   }
@@ -2600,7 +2650,7 @@ div#slider figure {
   .copy{
     width: 100%;
     margin: auto;
-    background-color: black;
+    background-color: #323232;
     color: white;
     padding-top: 30px;
     text-align: center;

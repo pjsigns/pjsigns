@@ -1,0 +1,159 @@
+/* Start portfolio Area css
+============================================================================================ */
+.portfolio-area {
+  padding: 60px 0;
+  background-color: rgba(0,0,0,0.9);}
+  .portfolio-area .portfolio-main {
+    padding-left: 14%; }
+    .portfolio-area .portfolio-main .primary-btn {
+      padding-top: 30px; }
+.portfolio-main h1{
+  text-align: left;
+  font-size: 34px;
+  padding-top: 10px;
+}
+@media screen and (max-width:768px) {
+  .portfolio-area {
+    display: none;}
+}
+.latest{
+  background-image: url(../images/backimg.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+.fist{
+  width: 41%;
+}
+.active-gallery-carousel {
+  text-align: center; }
+  .active-gallery-carousel .owl-nav {
+    position: absolute;
+    right: 35%;
+    bottom: -60px; }
+    .active-gallery-carousel .owl-nav .owl-prev,
+    .active-gallery-carousel .owl-nav .owl-next {
+      display: inline-block;
+      margin: 20px;
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+      opacity: 1; }
+      .active-gallery-carousel .owl-nav .owl-prev:hover,
+      .active-gallery-carousel .owl-nav .owl-next:hover {
+        opacity: .5; }
+
+.single-gallery {
+  position: relative;
+  display: inline-block; }
+  .single-gallery img {
+    width: 100%; }
+  .single-gallery:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: black;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+  .single-gallery .gallery-content {
+    position: absolute;
+    padding: 30px;
+    left: -10%;
+    bottom: -20%;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+    .single-gallery .gallery-content p {
+      text-transform: uppercase;
+      color: #4ba0f9;
+      font-weight: 400; }
+    .single-gallery .gallery-content h4 {
+      font-size: 24px;
+      color: #fff;
+      line-height: 35px !important; }
+  .single-gallery .light-box {
+    position: absolute;
+    top: 30px;
+    right: -10px;
+    background: #fff;
+    z-index: 999;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+  .single-gallery:hover:after {
+    opacity: .65;
+    visibility: visible; }
+  .single-gallery:hover .gallery-content {
+    opacity: 1;
+    visibility: visible;
+    bottom: 20px;
+    left: 0; }
+  .single-gallery:hover .light-box {
+    right: 30px;
+    top: 30px;
+    opacity: 1;
+    visibility: visible; }
+
+#project-details .single-details p {
+  padding-right: 0;
+  font-weight: 400; }
+#project-details .single-details h4 {
+  font-size: 24px;
+  margin-bottom: 30px; }
+#project-details .single-details .list {
+  margin-top: 50px; }
+  #project-details .single-details .list li {
+    margin-bottom: 7px;
+    font-weight: normal;
+    font-size: 14px; }
+    #project-details .single-details .list li span {
+      font-size: 14px;
+      color: #000;
+      font-weight: 400;
+      width: 97px;
+      display: inline-block; }
+    #project-details .single-details .list li:last-child {
+      margin-bottom: 0px; }
+    #project-details .single-details .list li i {
+      color: #f1cd09; }
+#project-details .single-details .social_details {
+  margin-top: 40px; }
+  #project-details .single-details .social_details li {
+    display: inline-block;
+    margin-right: 14px; }
+    #project-details .single-details .social_details li a {
+      font-size: 14px;
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s; }
+      #project-details .single-details .social_details li a i {
+        color: #000 !important;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s; }
+        #project-details .single-details .social_details li a i:hover {
+          color: #4ba0f9 !important; }
+    #project-details .single-details .social_details li:last-child {
+      margin-right: 0px; }

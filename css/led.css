@@ -502,7 +502,6 @@ p{
     margin-right: 90px;
     display: flex;
     right: 20px;
-    font-size: 8px;
     letter-spacing: 1px;
     text-orientation: upright;
     text-align: center;
@@ -521,64 +520,68 @@ p{
     height: 35px;
   }
   .quoote{
-    font-size: 10px;
+    font-size: 15px;
     letter-spacing: 2px;
     border-radius: 50%;
     background-color: rgba(225,225,225,0);
-    margin-top: 10px ;
-    padding: 15px 5px 15px 5px;
-    border: 2px solid #bebebd;
+    margin-top: 20px ;
+    padding: 8px 11px 8px 11px;
+    border: 2px solid black;
     margin-right: 30px;
-    color: #bebebd;
+    color: black;
     font-weight: 1400;
   }
-  .quote a:hover{
-    color: gray;
+  .fa-inr:hover{
+    color: #ed3237;
+    background-color: white;
+    border: 2px solid white;
   }
   .phones{
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 2px;
     border-radius: 50%;
     background-color: rgba(225,225,225,0);
-    margin-top: 10px ;
-    padding: 13px 13px 10px 13px;
-    border: 2px solid #bebebd;
+    margin-top: 20px ;
+    padding: 8px;
+    border: 2px solid black;
     margin-right: 30px;
-    color: #bebebd;
+    color: black;
     font-weight: 1400;
   }
   .fa-phone:hover{
-    color: gray;
+    color: #ed3237;
+    background-color: white;
+    border: 2px solid white;
   }
   .search{
-    /* height: 50px; */
-    /* width: 50px; */
     cursor: pointer;
-    font-size: 9px;
+    font-size: 5px;
     border-radius: 50%;
     letter-spacing: 1px;
-    border: 2px solid #bebebd;
+    border: 2px solid black;
     background-color: rgba(225,225,225,0);
     text-orientation: upright;
     text-align: center;
     font-family: 'yellow_peas_demoregular';
     font-weight: lighter;
-    margin-top: 10px;
+    margin-top: 20px;
+  }
+  .search:hover{
+    background-color: white;
+    border: 2px solid white;
   }
   .dropdown-content {
     display: none;
     position: absolute;
   }
-  .search a p{
-    letter-spacing: 2px;
-  }
+
   .search a:hover{
-    color: gray;
+    color: #ed3237;
   }
   .search a{
-    color: #bebebd;
-    font-size: 20px;
-    padding-top: 10px;
+    color: black;
+    font-size: 15px;
+    padding: 8px;
   }
   .search_box {
     background-color: rgba(225, 225, 225, .9);
@@ -607,39 +610,6 @@ p{
   .search_box div article{
     margin-right: 20px;
   }
-  .fa-search{
-    /* position: relative;
-   -webkit-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
-   -webkit-animation: zoomin 3s ease-in infinite;
-   animation: zoomin 3s ease-in infinite;
-   transition: all .5s ease-in-out; */
-   padding: 10px;
-  }
-  /* Zoom in Keyframes */
-  @-webkit-keyframes zoomin {
-    0% {transform: scale(1);}
-    50% {transform: scale(1.5);}
-    100% {transform: scale(1);}
-  }
-  @keyframes zoomin {
-    0% {transform: scale(1);}
-    50% {transform: scale(1.5);}
-    100% {transform: scale(1);}
-    } /*End of Zoom in Keyframes */
-
-    /* Zoom out Keyframes */
-    @-webkit-keyframes zoomout {
-      0% {transform: scale(1);}
-      50% {transform: scale(0.67);}
-      100% {transform: scale(1);}
-    }
-    @keyframes zoomout {
-      0% {transform: scale(1);}
-      50% {transform: scale(0.67);}
-      100% {transform: scale(1);}
-      }/*End of Zoom out Keyframes */
   .search_box div h2{
     font-size: 18px;
     font-weight: 700;
@@ -760,6 +730,15 @@ p{
     height: 120px;
     background-color:  #282828;
   }
+  .signs section:last-child{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .prnt{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+  }
   .signs section article{
     text-align: center;
     width: 149px;
@@ -811,6 +790,7 @@ p{
     padding-bottom: 10px;
     padding-top: 10px;
     width: 50px;
+    display: none;
   }
   .quote{
     bottom: 0;
@@ -1144,6 +1124,9 @@ p{
     padding-bottom: 10px;
     padding-top: 10px;
     width: 50px;
+  }
+  .phones{
+    display: none;
   }
   .quote{
     bottom: 0;
