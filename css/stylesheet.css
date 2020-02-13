@@ -129,14 +129,14 @@ div#slider figure {
 }
 .fa-handshake-o{
   font-size:48px;
-  color:#c3102e;
+  color:rgba(225,225,225,0.7);
 }
 .fb-page iframe{
   overflow:hidden;
 }
 .fa-street-view{
   font-size:48px;
-  color:#c3102e;
+  color:rgba(225,225,225,0.7);
 }
 
 .feedback img{
@@ -188,7 +188,7 @@ div#slider figure {
   }
   .abot h1{
       font-size: 28px;
-      color: #ed3237;
+      color: rgba(225,225,225,0.7);
       text-align: left;
       margin: 0 50px 0 50px;
   }
@@ -275,46 +275,67 @@ div#slider figure {
   }
   .wysd div {
     margin-top: 30px;
+    margin-bottom: 50px;
   }
   .works{
     width: 100%;
-    background-color: rgba(0,0,0,0.9);
-    padding: 50px 0 50px 0;
-    display: none;
+    /* height: 500px; */
+    background-image: url(../images/backimg.jpg);
+    background-size: cover;
+    /* display: none; */
+  }
+  .wrksback{
+    /* padding: 50px 0 50px 0; */
   }
   .works h2{
-    margin: 0;
-    text-align: center;
+    /* margin-left: 100px; */
+    text-align: left;
+    font-size: 35px;
+    padding-top: 70px;
   }
   .works div{
-    margin: 50px 50px 50px 45px;
-    height: 222px;
+    /* margin: 50px 50px 50px 45px; */
+    height: 300px;
+  }
+  .wrks{
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    width: 100%;
+  }
+  .wkes{
+  }
+  .wrktext{
+    width: 48%;
+    margin-left: 100px;
+  }
+  .tumbworks{
+    width: 52%;
+    padding-top: 50px;
   }
   .tumbworks div{
     /* text-align: center; */
     display: flex;
     width: 100%;
   }
-  .tumbworks article:hover {
-    transition: 0.70s;
-    -webkit-transition: 0.70s;
-    -moz-transition: 0.70s;
-    -ms-transition: 0.70s;
-    -o-transition: 0.70s;
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
+  .andsa{
+    margin-left: 100px;
   }
-
+  .divns {
+    text-align: right;
+    margin-right: 100px;
+  }
+  .divns h2{
+    text-align: right;
+  }
   .tumbworks article img {
   	position: absolute;
+    width: 18%;
+    /* height: 50px; */
   }
 
   .top {
   	animation-name: fade;
-  	/* animation-timing-function: ease-in-out; */
+  	animation-timing-function: ease-in-out;
   	animation-iteration-count: infinite;
   	animation-duration: 5s;
   	animation-direction: alternate;
@@ -340,19 +361,7 @@ div#slider figure {
   .works div article img{
     border: 5px solid gray;
     border-radius: 10px;
-    height: 260px;
-  }
-  .works div article:hover{
-    transition: 0.70s;
-    -webkit-transition: 0.70s;
-    -moz-transition: 0.70s;
-    -ms-transition: 0.70s;
-    -o-transition: 0.70s;
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
+    /* height: 260px; */
   }
   .works div article p{
     color: #c3102e;
@@ -1597,15 +1606,15 @@ div#slider figure {
     background-color: rgba(225,225,225,0);
     margin-top: 20px ;
     padding: 8px 11px 8px 11px;
-    border: 2px solid black;
+    border: 1px solid black;
     margin-right: 30px;
     color: black;
     font-weight: 1400;
   }
   .fa-inr:hover{
     color: #ed3237;
-    background-color: white;
-    border: 2px solid white;
+    background-color: rgba(225,225,225,0.7);
+    border: 1px solid rgba(225,225,225,0.7);
   }
   .phones{
     font-size: 16px;
@@ -1614,22 +1623,22 @@ div#slider figure {
     background-color: rgba(225,225,225,0);
     margin-top: 20px ;
     padding: 8px;
-    border: 2px solid black;
+    border: 1px solid black;
     margin-right: 30px;
     color: black;
     font-weight: 1400;
   }
   .fa-phone:hover{
     color: #ed3237;
-    background-color: white;
-    border: 2px solid white;
+    background-color: rgba(225,225,225,0.7);
+    border: 1px solid rgba(225,225,225,0.7);
   }
   .search{
     cursor: pointer;
     font-size: 5px;
     border-radius: 50%;
     letter-spacing: 1px;
-    border: 2px solid black;
+    border: 1px solid black;
     background-color: rgba(225,225,225,0);
     text-orientation: upright;
     text-align: center;
@@ -1638,8 +1647,8 @@ div#slider figure {
     margin-top: 20px;
   }
   .search:hover{
-    background-color: white;
-    border: 2px solid white;
+    background-color: rgba(225,225,225,0.7);
+    border: 1px solid rgba(225,225,225,0.7);
   }
   .dropdown-content {
     display: none;
@@ -2505,7 +2514,7 @@ div#slider figure {
   .footer{
     width: 100%;
     margin: auto;
-    background-color: #323232;
+    background-color: black;
     color:white;
     align-items: center;
   }
@@ -2650,7 +2659,7 @@ div#slider figure {
   .copy{
     width: 100%;
     margin: auto;
-    background-color: #323232;
+    background-color: black;
     color: white;
     padding-top: 30px;
     text-align: center;
