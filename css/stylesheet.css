@@ -305,7 +305,7 @@ div#slider figure {
   .wkes{
   }
   .wrktext{
-    width: 48%;
+    width: 40%;
     margin-left: 100px;
   }
   .tumbworks{
@@ -373,7 +373,7 @@ div#slider figure {
   .testo{
     width: 100%;
     display: flex;
-    background-color: #ed3237;
+    background-color: #c3102e;
     /* background-image: url(../images/backimg.jpg); */
     background-repeat: no-repeat;
     background-position: bottom;
@@ -410,7 +410,7 @@ div#slider figure {
     /* background-color: rgba(0,0,0,0.8); */
     height: 500px;
     width: 50%;
-    padding-top: 90px;
+    padding-top: 50px;
   }
   .container strong{
     color: white;
@@ -422,11 +422,12 @@ div#slider figure {
     margin-right: 10px;
   }
   .container h2{
-    text-align: center;
-    display: none;
+    text-align: left;
+    font-size: 40px;
+    /* display: none; */
     margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30PX;
+    /* padding-top: 30px; */
+    /* padding-bottom: 30PX; */
   }
   /* Slides */
   .mySlide {
@@ -769,10 +770,23 @@ div#slider figure {
     padding: 10px;
   }
   .rows{
+    /* display: none; */
+  }
+  .divns{
+    display: none;
+  }
+  .wrktext{
+    padding-left: 20px;
+  }
+  .wrktext h2{
+    text-align: center;
+  }
+  .wrktext h2 br{
     display: none;
   }
   .clients{
     width: 100%;
+    display: none;
     padding-top: 30px;
   }
   .clients h2{
@@ -1139,8 +1153,12 @@ div#slider figure {
   .container h2{
     text-align: center;
     margin: auto;
+    color: #ed3237;
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+  .container h2 br{
+    display: none;
   }
   /* Slides */
   .mySlide {
@@ -1606,7 +1624,7 @@ div#slider figure {
     background-color: rgba(225,225,225,0);
     margin-top: 20px ;
     padding: 8px 11px 8px 11px;
-    border: 1px solid black;
+    border: 2.5px solid black;
     margin-right: 30px;
     color: black;
     font-weight: 1400;
@@ -1614,7 +1632,7 @@ div#slider figure {
   .fa-inr:hover{
     color: #ed3237;
     background-color: rgba(225,225,225,0.7);
-    border: 1px solid rgba(225,225,225,0.7);
+    border: 2.5px solid rgba(225,225,225,0.7);
   }
   .phones{
     font-size: 16px;
@@ -1623,7 +1641,7 @@ div#slider figure {
     background-color: rgba(225,225,225,0);
     margin-top: 20px ;
     padding: 8px;
-    border: 1px solid black;
+    border: 2.5px solid black;
     margin-right: 30px;
     color: black;
     font-weight: 1400;
@@ -1631,14 +1649,14 @@ div#slider figure {
   .fa-phone:hover{
     color: #ed3237;
     background-color: rgba(225,225,225,0.7);
-    border: 1px solid rgba(225,225,225,0.7);
+    border: 2.5px solid rgba(225,225,225,0.7);
   }
   .search{
     cursor: pointer;
     font-size: 5px;
     border-radius: 50%;
     letter-spacing: 1px;
-    border: 1px solid black;
+    border: 2.5px solid black;
     background-color: rgba(225,225,225,0);
     text-orientation: upright;
     text-align: center;
@@ -1648,7 +1666,7 @@ div#slider figure {
   }
   .search:hover{
     background-color: rgba(225,225,225,0.7);
-    border: 1px solid rgba(225,225,225,0.7);
+    border: 2.5px solid rgba(225,225,225,0.7);
   }
   .dropdown-content {
     display: none;
