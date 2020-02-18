@@ -1610,7 +1610,7 @@ p{
   .moree article p{
     border-radius: 25px;
     cursor: pointer;
-    width: 400px;
+    width: 200px;
     border: 1px solid #c3102e;
     margin: auto;
   }
@@ -2387,6 +2387,7 @@ p{
     text-align: center;
     font-size: 30px;
     padding-top: 50px;
+    font-weight: 1000;
   }
   .channel p{
     text-align: left;
