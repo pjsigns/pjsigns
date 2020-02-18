@@ -538,7 +538,8 @@ p{
     color: black;
     font-weight: 1400;
   }
-  .fa-inr:hover{
+  .fa-inr {
+    display: none;
     color: #ed3237;
     background-color: rgba(225,225,225,0.7);
     border: 2.5px solid rgba(225,225,225,0.7);
@@ -554,6 +555,7 @@ p{
     margin-right: 30px;
     color: black;
     font-weight: 1400;
+    display: none;
   }
   .fa-phone:hover{
     color: #ed3237;
@@ -591,7 +593,7 @@ p{
     padding: 8px;
   }
   .search_box {
-    background-color: rgba(225, 225, 225, .9);
+    background-color: rgba(0, 0, 0, .9);
     position: fixed;
     margin-right: 100px;
     right: 15px;
@@ -616,18 +618,21 @@ p{
   }
   .search_box div article{
     margin-right: 20px;
+    /* width: 200px; */
+    /* border: 1px solid white; */
   }
   .search_box div h2{
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 1000;
     text-align: left;
     color: #c3102e;
     /* text-decoration: underline; */
   }
   .search_box div a{
-    color: black;
+    color: white;
     font-size: 14px;
     font-weight: 1000;
+    padding-left: 10px;
   }
   .search_box div a:hover{
     font-weight:700;
@@ -655,6 +660,7 @@ p{
     background-size: cover;
     margin: auto;
     display: flex;
+    border-bottom: 1px solid gray;
     z-index: 11;
   }
   .llogo{
@@ -703,7 +709,8 @@ p{
     top: 100%;
     display: none;
   }
-
+  nav article  div{
+  }
   nav div div div  {
     top: 0;
     background: #999;
