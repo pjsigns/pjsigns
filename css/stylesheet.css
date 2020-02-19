@@ -1029,7 +1029,6 @@ div#slider figure {
   }
   .bannerimg {
     padding-top: 70px;
-    height: 220px;
   }
   .banner{
     width: 100%;
@@ -1040,7 +1039,7 @@ div#slider figure {
     width: 100%;
     background-color: rgba(0,0,0,0.8);
     text-align: center;
-    padding-top: 80px;
+    padding-top: 220px;
   }
   .abot h1{
       font-size: 24px;
