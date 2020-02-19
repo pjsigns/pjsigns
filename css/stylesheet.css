@@ -168,6 +168,8 @@ div#slider figure {
     width: 100%;
     margin: auto;
     padding-top: 120px;
+    height: 500px;
+    /* position: relative; */
   }
   .densed{
     color: black;
@@ -184,7 +186,7 @@ div#slider figure {
     padding-top: 50px;
   }
   .abot{
-    width: 100%;
+    width: 60%;
     padding-bottom: 50px;
   }
   .abot h1{
@@ -1022,10 +1024,12 @@ div#slider figure {
     color:#dcd9d9;
   }
   .bans {
+    position: absolute;
     display: none;
   }
   .bannerimg {
     padding-top: 70px;
+    height: 220px;
   }
   .banner{
     width: 100%;
@@ -1036,7 +1040,7 @@ div#slider figure {
     width: 100%;
     background-color: rgba(0,0,0,0.8);
     text-align: center;
-    padding-top: 30px;
+    padding-top: 80px;
   }
   .abot h1{
       font-size: 24px;
