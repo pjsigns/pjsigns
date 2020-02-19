@@ -62,7 +62,7 @@ h2{
 body{
   font-family: 'yellow_peas_demoregular';
   color: black;
-  background-image: url(../images/backimg.jpg);
+  /* background-image: url(../images/backimg.jpg); */
 }
 p{
   font-family: 'yellow_peas_demoregular';
@@ -849,11 +849,9 @@ div#slider figure {
 
   #thumbsList ul li img:hover {
     opacity: 0.5;
-
     -webkit-transform: scale(2) rotate(30deg); /* Safari */
     -ms-transform: scale(2) rotate(30deg); /* IE 9 */
     transform: scale(2) rotate(30deg); /* Standard syntax */
-
     transition: transform 10s ease, opacity 1s ease;
   }
 
@@ -987,9 +985,10 @@ div#slider figure {
       height: 100%;
       width: 100%;
       user-select: none;
-      background-image: url(../images/backimg.jpg);
+      /* background-image: url(../images/backimg.jpg); */
       background-repeat: no-repeat;
       background-size: cover;
+      background-color: black;
       background-attachment: fixed;
   }
 
@@ -2983,6 +2982,7 @@ div#slider figure {
     background-color: #141414;
     color:white;
     align-items: center;
+    padding-top: 35%;
   }
   .contact1{
     display: none;
