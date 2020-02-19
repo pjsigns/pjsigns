@@ -159,7 +159,7 @@ div#slider figure {
       height: 100%;
       width: 100%;
       user-select: none;
-      /* background-image: url(../images/earth.gif); */
+      /* background-image: url(../images/backimg.jpg); */
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
@@ -512,7 +512,7 @@ div#slider figure {
       height: 100%;
       width: 100%;
       user-select: none;
-      background-image: url(../images/earth.gif);
+      background-image: url(../images/backimg.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
@@ -987,7 +987,7 @@ div#slider figure {
       height: 100%;
       width: 100%;
       user-select: none;
-      background-image: url(../images/earth.gif);
+      background-image: url(../images/backimg.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
@@ -1031,7 +1031,7 @@ div#slider figure {
     padding-top: 70px;
   }
   .banner{
-    width: 100%;
+
     margin: auto;
 
   }
@@ -1039,7 +1039,7 @@ div#slider figure {
     width: 100%;
     background-color: rgba(0,0,0,0.8);
     text-align: center;
-    padding-top: 220px;
+    padding-top: 45%;
   }
   .abot h1{
       font-size: 24px;
