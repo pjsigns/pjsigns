@@ -1624,20 +1624,21 @@ div#slider figure {
     height: 35px;
   }
   .quoote{
-    font-size: 15px;
-    letter-spacing: 2px;
-    border-radius: 50%;
+    font-size: 13px;
+    /* letter-spacing: 2px; */
+    border-radius: 30px;
     background-color: rgba(225,225,225,0);
     margin-top: 20px ;
-    padding: 8px 11px 8px 11px;
+    padding: 6px 10px 5px 10px;
     border: 2.5px solid black;
     margin-right: 30px;
     color: black;
-    font-weight: 1400;
+    font-weight: 1000;
   }
-  .fa-inr {
-    display: none;
-    color: #ed3237;
+  .quoote:hover {
+    font-weight: 1400;
+    color: black;
+    text-decoration: none;
     background-color: rgba(225,225,225,0.7);
     border: 2.5px solid rgba(225,225,225,0.7);
   }
