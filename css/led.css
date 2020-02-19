@@ -1452,7 +1452,9 @@ p{
 
 /* footer */
 @media screen and (min-width:1200px) {
-
+  strong{
+    color: #c3102e;
+  }
   .footer{
     width: 100%;
     margin: auto;
@@ -1467,8 +1469,8 @@ p{
     display: flex;
     width: 100%;
     margin: auto;
-    height: 300px;
-    padding: 50px 50px 0 90px;
+    /* height: 300px; */
+    padding: 50px 00px 0 50px;
   }
   .sign{
     margin-top: -15px;
@@ -1576,7 +1578,7 @@ p{
     color: black;
   }
   .bro p a{
-    color: #c3102e;
+    color: white;
   }
   .bro p a:hover{
     color: white;
