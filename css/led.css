@@ -380,6 +380,10 @@ p{
   .odd{
     background-color: rgba(0,0,0,0.9);
   }
+  .photos div{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
   .channel{
     width: 100%;
     background-color: rgba(0,0,0,0.7);
@@ -453,7 +457,7 @@ p{
   }
   .photos h2{
     color: white;
-    padding: 50px 0 0 25px;
+    padding: 0px 0 0 25px;
     text-align: left;
   }
   .photos p{
