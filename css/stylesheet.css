@@ -165,10 +165,10 @@ div#slider figure {
       background-attachment: fixed;
   }
   .banner{
-    width: 100%;
-    margin: auto;
+    /* width: 100%; */
+    /* margin: auto; */
     padding-top: 120px;
-    height: 500px;
+    /* height: 500px; */
     /* position: relative; */
   }
   .densed{
@@ -183,7 +183,7 @@ div#slider figure {
     /* background-image: url(../images/inddz.gif); */
     background-size: cover;
     display: flex;
-    padding-top: 50px;
+    padding-top: 35%;
   }
   .abot{
     width: 60%;
@@ -199,10 +199,14 @@ div#slider figure {
     color: #dcd9d9;
     font-size: 18px;
     margin: 0 50px 0 50px;
+    text-align: justify;
+    text-justify: inter-word;
   }
   .abt p  {
     color: white;
     margin: 0px 100px 0px 100px;
+    text-align: justify;
+    text-justify: inter-word;
   }
 
   .about div img{
@@ -224,6 +228,8 @@ div#slider figure {
   }
   .counts div p{
     padding: 0;
+    text-align: justify;
+    text-justify: inter-word;
   }
   .counts article span{
     font-size: 40px;
@@ -270,6 +276,10 @@ div#slider figure {
   .whyd h2{
     text-align: center;
     margin: auto;
+  }
+  .whyd p{
+    text-align: justify;
+    text-justify: inter-word;
   }
   .wysd img{
     width: 450px;
@@ -1033,9 +1043,7 @@ div#slider figure {
     padding-top: 70px;
   }
   .banner{
-
     margin: auto;
-
   }
   .about{
     width: 100%;
@@ -1435,6 +1443,12 @@ div#slider figure {
 
 /* //design// */
 @media screen and (min-width:1200px) {
+  body{
+    background-image: url(../images/backimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
   .stb{
     display: none;
   }
@@ -1446,8 +1460,9 @@ div#slider figure {
     text-align: left;
   }
   .design p{
+    width: 60%;
     margin: 30px 100px 30px 100px;
-    justify-content: left;
+    /* text-align: justify; */
   }
   .design img{
     width: 100%;

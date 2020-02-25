@@ -73,6 +73,8 @@ p{
   font-size:15px;
   letter-spacing: 1px;
   font-weight: 700;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 @media screen and (min-width:1200px){
@@ -143,6 +145,8 @@ p{
     width: 400px;
     border: 1px solid #c3102e;
     margin: auto;
+    text-align: justify;
+    text-justify: inter-word;
   }
   .more article p:hover{
     background-color: #c3102e;
@@ -161,6 +165,8 @@ p{
     margin: 30px 100px 0px 100px;
     padding-bottom: 50px;
     width: 60%;
+    text-align: justify;
+    text-justify: inter-word;
   }
   .subs{
     background-color: rgba(0,0,0,0.7);
@@ -2402,7 +2408,7 @@ p{
     font-weight: 1000;
   }
   .channel p{
-    text-align: left;
+    text-align: justify;
     /* padding-bottom: 50px; */
   }
   .companies article img{
