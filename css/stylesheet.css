@@ -1650,7 +1650,7 @@ div#slider figure {
     background-color: rgba(225,225,225,0);
     margin-top: 20px ;
     padding: 6px 10px 5px 10px;
-    border: 2.5px solid black;
+    border: 2.5px solid white;
     margin-right: 30px;
     color: black;
     font-weight: 1000;
@@ -1682,20 +1682,16 @@ div#slider figure {
   }
   .search{
     cursor: pointer;
-    font-size: 5px;
-    border-radius: 50%;
+    /* font-size: 5px; */
+    /* border-radius: 50%; */
     letter-spacing: 1px;
-    border: 2.5px solid black;
+    /* border: 2.5px solid white; */
     background-color: rgba(225,225,225,0);
     text-orientation: upright;
     text-align: center;
     font-family: 'yellow_peas_demoregular';
     font-weight: lighter;
-    margin-top: 20px;
-  }
-  .search:hover{
-    background-color: rgba(225,225,225,0.7);
-    border: 2.5px solid rgba(225,225,225,0.7);
+    margin-top: 5px;
   }
   .dropdown-content {
     display: none;
@@ -1704,11 +1700,14 @@ div#slider figure {
 
   .search a:hover{
     color: #ed3237;
+
   }
   .search a{
-    color: black;
-    font-size: 15px;
+    color: white;
+    font-size: 30px;
+    /* transform: rotate(-45deg); */
     padding: 8px;
+    /* font-family: 'yellow_peas_demoregular'; */
   }
   .search_box {
     background-color: rgba(0, 0, 0, .9);
