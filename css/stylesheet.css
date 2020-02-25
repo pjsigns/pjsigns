@@ -771,6 +771,9 @@ div#slider figure {
   .tumbworks{
     display: none;
   }
+  .abot{
+    padding-bottom: 30px;
+  }
   .works{
     background-color: black;
   }
@@ -792,6 +795,9 @@ div#slider figure {
   }
   .wrktext{
     padding-left: 20px;
+  }
+  .why_text p{
+    padding-bottom: 30px;
   }
   .wrktext h2{
     text-align: center;

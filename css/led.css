@@ -73,8 +73,6 @@ p{
   font-size:15px;
   letter-spacing: 1px;
   font-weight: 700;
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 @media screen and (min-width:1200px){
@@ -131,6 +129,7 @@ p{
   .channel p a{
     color: #428bca;
   }
+
   .more{
     margin-bottom: 10px;
   }
@@ -145,8 +144,6 @@ p{
     width: 400px;
     border: 1px solid #c3102e;
     margin: auto;
-    text-align: justify;
-    text-justify: inter-word;
   }
   .more article p:hover{
     background-color: #c3102e;
@@ -214,6 +211,8 @@ p{
     color: white;
     font-weight: 700;
     width: 60%;
+    text-align: justify;
+    text-justify: inter-word;
   }
   .photos article{
     text-align: center;
