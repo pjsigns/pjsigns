@@ -773,6 +773,9 @@ div#slider figure {
   strong{
     color: white;
   }
+  .wrktext{
+    display: none;
+  }
   .tumbworks{
     display: none;
   }
