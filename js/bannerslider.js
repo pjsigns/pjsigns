@@ -6,7 +6,7 @@
     var set = $.extend(
       {
         slidePause: 5000,
-        fadeSpeed: 2500,
+        fadeSpeed: 3000,
         autoPlay: "on",
         showArrows: "off",
         hideDots: "off",

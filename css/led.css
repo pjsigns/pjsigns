@@ -375,8 +375,13 @@ p{
   .lb-data .lb-close{display:block;float:right;width:30px;height:30px;background:url(../images/close.png) top right no-repeat;text-align:right;outline:0;filter:alpha(Opacity=70);opacity:.7;-webkit-transition:opacity .2s;-moz-transition:opacity .2s;-o-transition:opacity .2s;transition:opacity .2s}
   .lb-data .lb-close:hover{cursor:pointer;filter:alpha(Opacity=100);opacity:1}
 
-    .morecontent span {
-      display: none;
+  .morecontent span {
+    display: none;
+  }
+  body{
+    background-image: url(../images/backimg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
   }
   .morelink {
       /* display: block; */
@@ -385,7 +390,7 @@ p{
     display: none;
   }
   .odd{
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,0.7);
   }
   .photos div{
     padding-top: 30px;
@@ -464,7 +469,7 @@ p{
   }
   .photos h2{
     color: white;
-    padding: 0px 0 0 25px;
+    padding: 30px 0 0 25px;
     text-align: left;
   }
   .photos p{
@@ -477,6 +482,9 @@ p{
   .photos article{
     text-align: center;
     width: 100%;
+  }
+  .photos article:last-child{
+    padding-bottom: 50px;
   }
   .photos article img{
     width: 120px;;
@@ -1494,6 +1502,7 @@ p{
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
+    display: none;
     margin-right:10px;
   }
   .side {
