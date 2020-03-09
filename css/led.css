@@ -114,7 +114,7 @@ p{
   }
   .channel{
     width: 100%;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,1);
     padding-top: 120px;
     color: white;
     text-align: center;

@@ -1468,14 +1468,15 @@ div#slider figure {
   }
   .design{
     width: 100%;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,1);
     padding-top: 120px;
     color: white;
     text-align: left;
   }
   .design p{
     width: 60%;
-    margin: 30px 100px 30px 100px;
+    margin: 30px 100px 0px 100px;
+    padding-bottom: 30px;
     /* text-align: justify; */
   }
   .design img{
@@ -1487,6 +1488,7 @@ div#slider figure {
     padding-top: 50px;
   }
   .photos{
+    background-color: rgba(0,0,0,0.6);
     width: 100%;
     display: flex;
   }
