@@ -145,6 +145,10 @@ div#slider figure {
 }
 
 @media screen and (min-width:1200px) {
+  strong{
+    color: #a9a6ad;
+    font-weight: 1000
+  }
   #thumbsList{
     display: none;
   }
@@ -280,6 +284,10 @@ div#slider figure {
   .whyd p{
     text-align: justify;
     text-justify: inter-word;
+    padding-bottom: 20px;
+  }
+  .whyd p strong{
+    font-size: 16px;
   }
   .wysd img{
     width: 450px;
@@ -315,8 +323,7 @@ div#slider figure {
     display: flex;
     width: 100%;
   }
-  .wkes{
-  }
+
   .wrktext{
     width: 40%;
     margin-left: 100px;
@@ -767,11 +774,9 @@ div#slider figure {
     background-size: cover;
     background-attachment: fixed;
   }
-  footer strong{
-    color: #c3102e;
-  }
   strong{
     color: white;
+    font-weight: 1000;
   }
   .wrktext{
     display: none;
@@ -1278,6 +1283,9 @@ div#slider figure {
     padding-top: 120px;
     background-color: rgba(0,0,0,0.9);;
   }
+  .advin{
+    margin-top: 20px;
+  }
   .contact div{
     display: flex;
   }
@@ -1397,6 +1405,9 @@ div#slider figure {
     width: 100%;
     padding-top: 120px;
     background-color: rgba(0,0,0,0.8);
+  }
+  .advin{
+    margin-top: 20px;
   }
   .formall{
     display: none;
@@ -2573,8 +2584,9 @@ div#slider figure {
 
 /* footer */
 @media screen and (min-width:1200px) {
-  strong{
-    color: #c3102e;
+  footer strong{
+    color: white;
+    font-weight: 1000;
   }
   .footer{
     width: 100%;
@@ -2593,6 +2605,7 @@ div#slider figure {
     /* height: 300px; */
     padding: 50px 00px 0 50px;
   }
+
   .sign{
     margin-top: -15px;
   }
@@ -3028,6 +3041,12 @@ div#slider figure {
     width: 100%;
     margin: auto;
     padding-top: 20px;
+  }
+  .advin p{
+    padding-top:10px;
+  }
+  .advin p:last-child{
+    padding-top:20px;
   }
   .sign{
     display: none;

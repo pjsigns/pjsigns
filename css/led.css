@@ -45,6 +45,7 @@ a,img {
 }
 strong{
   color: #c3102e;
+  font-weight: 1000;
 }
 h1{
   font-family: 'yellow_peas_demoregular';
@@ -129,7 +130,10 @@ p{
   .channel p a{
     color: #428bca;
   }
+ h2 strong{
+   color: white;
 
+ }
   .more{
     margin-bottom: 10px;
   }
@@ -1466,7 +1470,7 @@ p{
 /* footer */
 @media screen and (min-width:1200px) {
   strong{
-    color: #c3102e;
+    color: white;
   }
   .footer{
     width: 100%;
