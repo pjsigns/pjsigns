@@ -14,12 +14,11 @@ use FormGuide\Handlx\FormHandler;
 $pp = new FormHandler();
 
 $validator = $pp->getValidator();
+$validator->fields(['name','email'])->areRequired()->maxLength(50);
 $validator->field('email')->isEmail();
-$validator->field('message')->maxLength(6000);
+$validator->field('comments')->maxLength(6000);
 
 
-$pp->attachFiles(['image']);
-$pp->attachFiles(['images']);
 
 
 $pp->sendEmailTo('sales@pjsigns.in'); // ← Your email here
