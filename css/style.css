@@ -39,11 +39,7 @@ body a:hover{
 	margin: 0;
 	padding-left: 0;
 }
-.enquiry{
-	font-size: 30px;
-	font-weight: 900;
-	color: black;
-}
+
 .drop li ul {
 	visibility: hidden;
   /* opacity: 0; */
@@ -148,10 +144,7 @@ body a:hover{
 	background-size:cover;
 	position: relative;
 }
-.deo{
-	/* padding-left: 28px; */
-	display: flex;
-}
+
 @media screen and (max-width: 768px){
 	.banner1{
 		min-height: 600px;
@@ -2268,6 +2261,11 @@ div#team {
 	.wthree-contact:before {
 		top: -16.5%;
 	}
+	.enquiry{
+		font-size: 30px;
+		font-weight: 900;
+		color: black;
+	}
 }
 @media screen and (max-width: 1440px){
 	.w3_agileits-adopt-right img {
@@ -2281,6 +2279,11 @@ div#team {
 	}
 	.client-img {
 		min-height: 357px;
+	}
+	.enquiry{
+		font-size: 30px;
+		font-weight: 900;
+		color: black;
 	}
 }
 @media screen and (max-width: 1366px){
@@ -2315,6 +2318,15 @@ div#team {
 	.gallery-grids.glry-grid1 span.b-animate.b-from-left {
 		top: 46%;
 		right: 40%;
+	}
+	.deo{
+		/* padding-left: 28px; */
+		display: flex;
+	}
+	.enquiry{
+		font-size: 30px;
+		font-weight: 900;
+		color: black;
 	}
 }
 @media screen and (max-width: 1280px){
@@ -2356,6 +2368,15 @@ div#team {
 	}
 	li.callbacks1_s3 {
 		right: 1%;
+	}
+	.deo{
+		/* padding-left: 28px; */
+		display: flex;
+	}
+	.enquiry{
+		font-size: 30px;
+		font-weight: 900;
+		color: black;
 	}
 }
 @media screen and (max-width: 1080px){
@@ -2407,6 +2428,15 @@ div#team {
 	.agileinfo-contact-left:before{
 		bottom:-8%;
 	}
+	.deo{
+		/* padding-left: 28px; */
+		display: flex;
+	}
+	.enquiry{
+		font-size: 30px;
+		font-weight: 900;
+		color: black;
+	}
 }
 @media screen and (max-width: 1050px){
 	.banner {
@@ -2418,11 +2448,23 @@ div#team {
 	.b-animate-go:hover .b-from-left {
 		left: 40%;
 	}
-
+	.deo{
+		/* padding-left: 28px; */
+		display: flex;
+	}
+	.enquiry{
+		font-size: 30px;
+		font-weight: 900;
+		color: black;
+	}
 }
 @media screen and (max-width: 1024px){
 	.banner-text {
 		margin-top: 12em;
+	}
+	.deo{
+		/* padding-left: 28px; */
+		display: flex;
 	}
 	.banner {
 		min-height: 650px;
@@ -2435,6 +2477,11 @@ div#team {
 	}
 	.client-text {
 		padding: 1em 2em 0.5em;
+	}
+	.enquiry{
+		font-size: 30px;
+		font-weight: 900;
+		color: black;
 	}
 }
 @media screen and (max-width: 991px){
@@ -2517,6 +2564,10 @@ div#team {
 	.agileinfo-contact-left:before {
 		bottom: 0;
 	}
+	.deo{
+		/* padding-left: 28px; */
+		display: flex;
+	}
 }
 @media screen and (max-width: 900px){
 	.banner {
@@ -2554,6 +2605,10 @@ div#team {
 	}
 	li.callbacks1_s3 {
 		right: 2.6%;
+	}
+	.deo{
+		/* padding-left: 28px; */
+		display: flex;
 	}
 
 }
