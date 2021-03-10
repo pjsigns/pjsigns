@@ -148,8 +148,9 @@ body a:hover{
 	background-size:cover;
 	position: relative;
 }
-.number{
+.deo{
 	/* padding-left: 28px; */
+	display: flex;
 }
 @media screen and (max-width: 768px){
 	.banner1{
