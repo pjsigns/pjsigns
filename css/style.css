@@ -144,7 +144,19 @@ body a:hover{
 	background-size:cover;
 	position: relative;
 }
-
+.enquiry{
+	font-size: 30px;
+	font-weight: 900;
+	color: black;
+}
+.deo{
+	/* padding-left: 28px; */
+	display: flex;
+}
+.deo p{
+	/* padding-left: 28px; */
+	padding-left: 10px;
+}
 @media screen and (max-width: 768px){
 	.banner1{
 		min-height: 600px;
@@ -193,6 +205,19 @@ body a:hover{
 		background:url(../images/picbann.jpg)no-repeat center 0px;
 		background-size:cover;
 		position: relative;
+	}
+	.enquiry{
+		font-size: 15px;
+		font-weight: 900;
+		color: black;
+	}
+	.deo{
+		/* padding-left: 28px; */
+		display: inline;
+	}
+	.deo p{
+		/* padding-left: 28px; */
+		padding-left:0px;
 	}
 }
 @keyframes slidy {
@@ -2261,11 +2286,7 @@ div#team {
 	.wthree-contact:before {
 		top: -16.5%;
 	}
-	.enquiry{
-		font-size: 30px;
-		font-weight: 900;
-		color: black;
-	}
+
 }
 @media screen and (max-width: 1440px){
 	.w3_agileits-adopt-right img {
@@ -2280,11 +2301,7 @@ div#team {
 	.client-img {
 		min-height: 357px;
 	}
-	.enquiry{
-		font-size: 30px;
-		font-weight: 900;
-		color: black;
-	}
+
 }
 @media screen and (max-width: 1366px){
 	.banner {
@@ -2319,15 +2336,7 @@ div#team {
 		top: 46%;
 		right: 40%;
 	}
-	.deo{
-		/* padding-left: 28px; */
-		display: flex;
-	}
-	.enquiry{
-		font-size: 30px;
-		font-weight: 900;
-		color: black;
-	}
+
 }
 @media screen and (max-width: 1280px){
 	.banner {
@@ -2369,15 +2378,7 @@ div#team {
 	li.callbacks1_s3 {
 		right: 1%;
 	}
-	.deo{
-		/* padding-left: 28px; */
-		display: flex;
-	}
-	.enquiry{
-		font-size: 30px;
-		font-weight: 900;
-		color: black;
-	}
+
 }
 @media screen and (max-width: 1080px){
 	.banner-w3lstext h3 {
@@ -2428,15 +2429,7 @@ div#team {
 	.agileinfo-contact-left:before{
 		bottom:-8%;
 	}
-	.deo{
-		/* padding-left: 28px; */
-		display: flex;
-	}
-	.enquiry{
-		font-size: 30px;
-		font-weight: 900;
-		color: black;
-	}
+
 }
 @media screen and (max-width: 1050px){
 	.banner {
@@ -2448,24 +2441,13 @@ div#team {
 	.b-animate-go:hover .b-from-left {
 		left: 40%;
 	}
-	.deo{
-		/* padding-left: 28px; */
-		display: flex;
-	}
-	.enquiry{
-		font-size: 30px;
-		font-weight: 900;
-		color: black;
-	}
+
 }
 @media screen and (max-width: 1024px){
 	.banner-text {
 		margin-top: 12em;
 	}
-	.deo{
-		/* padding-left: 28px; */
-		display: flex;
-	}
+
 	.banner {
 		min-height: 650px;
 	}
@@ -2478,11 +2460,7 @@ div#team {
 	.client-text {
 		padding: 1em 2em 0.5em;
 	}
-	.enquiry{
-		font-size: 30px;
-		font-weight: 900;
-		color: black;
-	}
+
 }
 @media screen and (max-width: 991px){
 	.w3ls-section {
@@ -2564,10 +2542,7 @@ div#team {
 	.agileinfo-contact-left:before {
 		bottom: 0;
 	}
-	.deo{
-		/* padding-left: 28px; */
-		display: flex;
-	}
+
 }
 @media screen and (max-width: 900px){
 	.banner {
@@ -2606,10 +2581,7 @@ div#team {
 	li.callbacks1_s3 {
 		right: 2.6%;
 	}
-	.deo{
-		/* padding-left: 28px; */
-		display: flex;
-	}
+
 
 }
 @media screen and (max-width: 800px){
