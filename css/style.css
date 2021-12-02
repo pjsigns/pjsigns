@@ -81,7 +81,7 @@ body a:hover{
 }
 .content_about h1{
 	padding: 50px 20px 15px 20px;
-	color: #1a75bc;
+	color: #ed3237;
 	text-align: center;
 }
 .content_about p{
@@ -771,10 +771,10 @@ body a:hover{
 		/*-- about --*/
 		.agile-about-left {
 			padding: 3em;
-			background: #fed201;
+			background: #000030;
 		}
 		h2.agileits-title {
-			color: #1a75bc;
+			color: #ed3237;
 			font-size: 2.2em;
 			text-transform: capitalize;
 		}
@@ -789,7 +789,7 @@ body a:hover{
 			letter-spacing: 1px;
 		}
 		.agile-about-left p, .agileits_service_right p {
-			color: #000;
+			color: #ffffff;
 			font-size: 1em;
 			line-height: 1.8em;
 			margin: 0;
@@ -1476,7 +1476,7 @@ body a:hover{
 	.breeds1-left {
 		float: left;
 		width: 50%;
-		background: #fed201;
+		background: #000030;
 		padding:1.2em 2em;
 		transition:0.5s all;
 		height: 218px;
@@ -1525,23 +1525,23 @@ body a:hover{
 		padding-right: 15px;
 	}
 	.w3lsbreeds-grid:hover div.breeds-right  {
-		background: #fed201;
+		background: #000030;
 	}
 	.w3lsbreeds-grid:hover.w3lsbreeds-grid h4 {
-		color: #1a75bc;
+		color: #ed3237;
 	}
 	.w3lsbreeds-grid:hover.w3lsbreeds-grid p,.breeds1-left p{
-		color: #000;
+		color: #ffffff;
 
 	}
 	.w3lsbreeds-grid:hover div.breeds1-left{
 		background: #ed3237;
 	}
 	.breeds1-left h4{
-		color:#1a75bc;
+		color:#ed3237;
 	}
 	.w3lsbreeds-grid:hover div.breeds1-left h4{
-		color:#fed201
+		color:#000030
 	}
 	.w3lsbreeds-grid:hover .wthree-almub{
 		-webkit-transform: scale(1.5);
@@ -1866,21 +1866,21 @@ body a:hover{
 	}
 	.blog-w3grid-text {
 		padding: 4em 2em;
-		background: gray;
+		background: #ed3237;
 	}
 	.cver{
 		padding: 4em 2em;
-		background: #fed201;
+		background: #000030;
 	}
 
 	.blog-agileinfo h4 {
-		color: #fed201;
+		color: #000030;
 		font-size: 1.6em;
 		text-transform: uppercase;
 		font-weight: 300;
 	}
 	.cver h4{
-		color: #1a75bc;
+		color: #ed3237;
 		font-size: 1.6em;
 		text-transform: uppercase;
 		font-weight: 300
@@ -1918,7 +1918,7 @@ body a:hover{
 		color: #fff;
 	}
 	.cver p{
-		color: black;
+		/* color: black; */
 	}
 	.blog-w3grid-img.blog-img-rght {
 		float: right;
@@ -2037,7 +2037,7 @@ body a:hover{
 		font-size: 1.2em;
 		padding: 1em;
 		color: #fff;
-		background: #1a75bc;
+		background: #ed3237;
 		transition: .5s all;
 	}
 	.address-row:hover span.glyphicon {
@@ -2055,7 +2055,7 @@ body a:hover{
 		font-weight: 300;
 	}
 	.address-row p a {
-		color:#1a75bc;
+		color:#ed3237;
 	}
 	.address-row p a:hover{
 		color: #999;
@@ -2113,7 +2113,7 @@ body a:hover{
 		letter-spacing: 2px;
 	}
 	.copyw3-agile p a{
-		color:#1a75bc;
+		color:#ed3237;
 	}
 	.copyw3-agile p a:hover{
 		color:#fff;
@@ -2432,16 +2432,16 @@ body a:hover{
   }
 	.eveer1{
 		/* background-color: #c3102e; */
-		/* border: 5px solid #fed201; */
+		/* border: 5px solid #000030; */
 	}
 	.eveer{
-		background-color: #fed201;
+		background-color: #000030;
 	}
 	.eveer1 button{
-		background-color: #fed201;
+		background-color: #000030;
 	}
   .opens{
-		/* background-color: #fed201; */
+		/* background-color: #000030; */
     color: black;
     font-weight: 500;
     padding-left: 100px;
@@ -2509,7 +2509,7 @@ body a:hover{
   }
   .submit input{
     width: 250px;
-    background-color: #fed201;
+    background-color: #000030;
     border-radius: 25px;
     margin-bottom: 30px;
 		border: none;
@@ -2545,16 +2545,16 @@ body a:hover{
   }
 	.eveer1{
 		/* background-color: #c3102e; */
-		/* border: 5px solid #fed201; */
+		/* border: 5px solid #000030; */
 	}
 	.eveer{
-		background-color: #fed201;
+		background-color: #000030;
 	}
 	.eveer1 button{
-		background-color: #fed201;
+		background-color: #000030;
 	}
   .opens{
-		/* background-color: #fed201; */
+		/* background-color: #000030; */
     color: black;
     font-weight: 500;
     padding-left: 100px;
@@ -2622,7 +2622,7 @@ body a:hover{
   }
   .submit input{
     width: 250px;
-    background-color: #fed201;
+    background-color: #000030;
     border-radius: 25px;
     margin-bottom: 30px;
 		border: none;
@@ -2658,13 +2658,13 @@ body a:hover{
   }
 	.eveer1{
 		/* background-color: #c3102e; */
-		/* border: 5px solid #fed201; */
+		/* border: 5px solid #000030; */
 	}
 	.eveer{
-		background-color: #fed201;
+		background-color: #000030;
 	}
 	.eveer1 button{
-		background-color: #fed201;
+		background-color: #000030;
 		margin: 30px 0 50px 0;
     background-color: white;
     border-radius: 25px;
@@ -2673,7 +2673,7 @@ body a:hover{
     height: 30px;
 	}
   .opens{
-		/* background-color: #fed201; */
+		/* background-color: #000030; */
     color: black;
     font-weight: 500;
     padding: 20px;
@@ -2741,7 +2741,7 @@ body a:hover{
   }
   .submit input{
     width: 250px;
-    background-color: #fed201;
+    background-color: #000030;
     border-radius: 25px;
     margin-bottom: 30px;
 		border: none;
