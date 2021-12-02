@@ -1603,6 +1603,7 @@ pre code {
   }
   .formd{
     display: flex;
+    padding-left: 160px;
   }
 }
 .container-fluid {
