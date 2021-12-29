@@ -171,6 +171,12 @@ body a:hover{
 	background-size:cover;
 	position: relative;
 }
+.banner10{
+	min-height: 795px;
+	background:url(../images/picban10.jpg)no-repeat center 0px;
+	background-size:cover;
+	position: relative;
+}
 
 .banner{
 	min-height: 795px;
