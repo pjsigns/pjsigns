@@ -406,7 +406,7 @@ body a:hover{
 	}
 	.menu .toggle-menu li {
 		display: block;
-		margin: 10px auto;
+		/* margin: 10px auto; */
 		text-align: center;
 	}
 	.menu .toggle-menu li a {
