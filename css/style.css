@@ -2062,7 +2062,7 @@ body a:hover{
 		font-size: 1.2em;
 		padding: 1em;
 		color: #fff;
-		background: #ed3237;
+		background: #0b1929;
 		transition: .5s all;
 	}
 	.address-row:hover span.glyphicon {
@@ -2080,7 +2080,7 @@ body a:hover{
 		font-weight: 300;
 	}
 	.address-row p a {
-		color:#ed3237;
+		color: #012f98;
 	}
 	.address-row p a:hover{
 		color: #4285f4;
@@ -2448,6 +2448,9 @@ body a:hover{
   }
   .recent_works{
     width: 100%;
+  }
+  .btn{
+    background-color: #0b1929;
   }
   .recent_works .breeds-right{
     height: 100%;
