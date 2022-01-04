@@ -2461,6 +2461,8 @@ body a:hover{
 .forenq button{
   background-color: #0b1929;
   border-radius: 30px;
+  font-size: 12px;
+  padding: 5px 15px;
   border: 2px solid white;
   color: White;
 }
