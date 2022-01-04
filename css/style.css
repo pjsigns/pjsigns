@@ -104,7 +104,7 @@ body a:hover{
 	text-align: center;
 }
 .banner-1sttext{
-	padding-top: 30px;
+	padding: 10px;
 	/* font-size: 2em; */
 }
 #particles-js {
@@ -289,7 +289,7 @@ body a:hover{
 	}
 
 	.header {
-		/* padding-top: 2em; */
+		background-color: #0b1929;
 	}
 	/*-- menu-navigation --*/
 	.menu {
@@ -319,12 +319,15 @@ body a:hover{
 		height: 46px;
 		width: 46px;
 		top:15px;
+    right: -514px;
 		display: block;
 		z-index: 99;
 		-webkit-transition: linear 0.5s all;
 		-moz-transition: linear 0.5s all;
 		transition: linear 0.5s all;
 		outline: none;
+    /* padding-bottom: 30px; */
+    margin-bottom: 20px;
 	}
 	.menu .navicon:before, .menu .navicon:after {
 		background: #fff;
@@ -378,10 +381,10 @@ body a:hover{
 		display: block;
 		position: absolute;
 		width: 250px;
-		background-color: #FFF;
+		background-color: #0b1929;
 		padding: 2em;
 		top: 60px;
-		right: 8px;
+		right: -514px;
 		opacity: 0;
 		-webkit-transition: ease-in 0.5s all;
 		-moz-transition: ease-in 0.5s all;
@@ -417,7 +420,7 @@ body a:hover{
 	}
 	.menu .toggle-menu li a {
 		text-decoration: none;
-		color: #333;
+		color: #fff;
 		display: inline-block;
 		text-align: center;
 		font-size: 1.2em;
@@ -454,8 +457,8 @@ body a:hover{
 	}
 	.logo {
 		float: left;
-		padding: 30px 10px 10px 10px;
-		background: rgba(225, 225, 225, 0.9);
+		padding: 7px 10px 10px 10px;
+		/* background: rgba(225, 225, 225, 0.9); */
 		border-radius: 0 0 5px 5px;
 	}
 	.logo h3 {
@@ -463,7 +466,7 @@ body a:hover{
 		line-height: 0.7em;
 	}
 	.logo h3 img{
-		width: 150px;
+		width: 100px;
 	}
 	.logo h3 a{
 		color: #FFFFFF;
@@ -523,10 +526,11 @@ body a:hover{
 	/*-- //social-icons --*/
 	/*-- banner-text --*/
 	.banner-text {
-		margin-top: 16em;
+		margin-top: 36em;
+    /* padding-left: 350px; */
 	}
 	.banner-w3lstext h3{
-		font-size: 3em;
+		font-size: 1.3em;
 		color: #fff;
 		font-weight: 100;
 		text-align: center;
@@ -537,11 +541,11 @@ body a:hover{
 		text-decoration:none;
 	}
 	.banner-w3lstext p {
-		font-size: 1.2em;
+		font-size: 12px;
 		color: #fff;
 		text-align: center;
-		line-height: 2em;
-		width: 74%;
+		line-height: 1.5em;
+		width: 80%;
 		margin: 1em auto;
 		font-weight: 300;
 	}
@@ -826,9 +830,9 @@ body a:hover{
 			margin-bottom: 1em;
 		}
 		.agile-about-right {
-			background: url(../images/about.jpg) no-repeat center;
-			background-size: cover;
-			min-height: 428px;
+			/* background: url(../images/aboutimage.png) no-repeat center; */
+			/* background-size: cover; */
+			/* min-height: 428px; */
 		}
 		.agile-about-bottom-left h3.agileits-title {
 			color: #000;
@@ -1515,7 +1519,7 @@ body a:hover{
 		overflow:hidden;
 	}
 	.w3lsbreeds-grid {
-		margin-top: 2em;
+		margin-top: 60px;;
 	}
 	.w3lsbreeds-grid h4 ,.breeds1-left h4{
 		font-size: 1.4em;
@@ -1891,7 +1895,7 @@ body a:hover{
 	}
 	.blog-w3grid-text {
 		padding: 4em 2em;
-		background: #ed3237;
+		background: #0b1929;
 	}
 	.cver{
 		padding: 4em 2em;
@@ -1899,7 +1903,7 @@ body a:hover{
 	}
 
 	.blog-agileinfo h4 {
-		color: #0b1929;
+		color: #ed3237;
 		font-size: 1.6em;
 		text-transform: uppercase;
 		font-weight: 300;
@@ -2432,11 +2436,51 @@ body a:hover{
 }
 
 @media screen and (min-width:1200px) {
+  #about{
+    padding-top: 60px;
+  }
+  .abtbackground{
+    background-color: #0b1929;
+  }
+.forenq{
+  display: flex;
+  color: white;
+  float: right;
+  padding-right: 250px;
+  padding-top: 20px;
+}
+.forenq p{
+  padding-right: 30px;
+  color: White;
+  padding-top: 3px;
+}
+.forenq p a{
+  /* padding-right: 30px; */
+  color: White
+}
+.forenq button{
+  background-color: #0b1929;
+  border-radius: 30px;
+  border: 2px solid white;
+  color: White;
+}
+
+  video{
+    width: 100%;
+  }
 	#reused_form article{
 		display: flex;
 	}
+  .about_content{
+    display: flex;
+  }
+
+.agile-about-right img{
+  height: 400px;
+}
   .about_content div{
     display: flex;
+    /* width: 50%; */
     padding-top: 50px;
   }
   .about_content div article{
@@ -2521,7 +2565,7 @@ body a:hover{
     margin: auto;
     width: 85%;
     background-color: #0b1929;
-    margin-top: 50px;
+    margin-top: 60px;
   }
   .sectors_container{
     /* display: flex; */

@@ -41,7 +41,8 @@ html[xmlns] .slides {display: block;}
     border: 0px;
     position: relative;
     zoom: 1;
-    padding: 2em 0;
+    /* width: 600px; */
+    /* padding: 2em 0; */
     background: rgba(0, 0, 0, 0.5);
 }
 /* .flexclr{
