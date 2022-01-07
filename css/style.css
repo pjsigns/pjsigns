@@ -7,11 +7,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 html {
     overflow: auto;
 }
+@font-face {
+    font-family: 'yellow_peas_demoregular';
+    src: url('yellow_peas_demo-webfont.woff2') format('woff2'),
+         url('yellow_peas_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body{
 	margin:0;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'yellow_peas_demoregular';
+  font-weight: bold;
 	background: #fff;
 }
+p{
+  font-family: 'yellow_peas_demoregular';
+  letter-spacing: 1px;
+}
+
 /* Scrollbar Styling */
 ::-webkit-scrollbar {
     width: 5px;
@@ -39,7 +52,8 @@ body a{
 }
 h1,h2,h3,h4,h5,h6{
 	margin:0;
-	font-family: 'Scada', sans-serif;
+  font-family: 'yellow_peas_demoregular';
+  font-weight: 900;
 }
 p{
 	margin:0;
@@ -100,7 +114,7 @@ body a:hover{
 	color: black;
 	line-height: 2em;
   font-size: 1.3em;
-	padding: 0 15px 131px 15px;
+	padding: 0 15px 108px 15px;
 	text-align: center;
 }
 .banner-1sttext{
@@ -115,6 +129,46 @@ body a:hover{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+}
+.about_us{
+  width: 85%;
+  margin: auto;
+}
+.about_us div{
+  display: flex;
+  padding-top: 60px;
+}
+.about_us article{
+  width: 50%;
+  padding: 12% 50px 0 50px;
+}
+.about_us article h2{
+  color: #ed3237;
+}
+.about_img img{
+  width: 47.5%;
+  margin: auto;
+}
+.logo p{
+  font-size: 8px;
+  padding-top: 1px;
+  letter-spacing: 0.6px;
+  color: White;
+  font-weight: 700;
+  /* margin-top: -20px; */
+  /* text-align: right; */
+  margin-left: 6px;
+}
+.logo i{
+  font-size: 8px;
+  /* padding-top: 1px; */
+  /* letter-spacing: 1px; */
+  color: White;
+  float: right;
+  font-weight:400;
+  margin-top: -30px;
+  /* text-align: right; */
+  margin-left: 95px;
 }
 /*-- banner --*/
 .banner1{
@@ -405,9 +459,9 @@ body a:hover{
 
 .testim .cont div h2 {
     color: #ed3237;
-    font-size: 1em;
+    font-size: 23px;
     margin: 15px 0;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .testim .cont div p {
@@ -981,7 +1035,7 @@ body a:hover{
 		height: 46px;
 		width: 46px;
 		top:15px;
-    right: -514px;
+    right: -1200%;
 		display: block;
 		z-index: 99;
 		-webkit-transition: linear 0.5s all;
@@ -1090,7 +1144,7 @@ body a:hover{
 		-webkit-transition: linear 0.5s all;
 		-moz-transition: linear 0.5s all;
 		transition: linear 0.5s all;
-		font-weight: 400;
+		font-weight: 900;
 		padding: 5px 0;
 		margin: 0 auto;
 	}
@@ -1192,9 +1246,9 @@ body a:hover{
     /* padding-left: 350px; */
 	}
 	.banner-w3lstext h3{
-		font-size: 1.3em;
+		font-size: 1.8em;
 		color: #fff;
-		font-weight: 100;
+		/* font-weight: 100; */
 		text-align: center;
 		text-transform:capitalize;
 	}
@@ -1203,13 +1257,13 @@ body a:hover{
 		text-decoration:none;
 	}
 	.banner-w3lstext p {
-		font-size: 12px;
+		font-size: 15px;
 		color: #fff;
 		text-align: center;
 		line-height: 1.5em;
 		width: 80%;
 		margin: 1em auto;
-		font-weight: 300;
+		/* font-weight: 300; */
 	}
 	/*-- //banner --*/
 	.w3ls-section{
@@ -1221,7 +1275,7 @@ body a:hover{
 		/* color: #ffffff; */
     padding-top: 80px;
 		margin-bottom: 1.2em;
-		font-weight: 300;
+		/* font-weight: 300; */
 		text-align: center;
 		position:relative;
 
@@ -1473,7 +1527,7 @@ body a:hover{
 			text-transform: uppercase;
 			margin: 1em 0;
 			line-height: 1.8em;
-			font-weight: 600;
+			font-weight: 900;
 			letter-spacing: 1px;
 		}
 		.agile-about-left p, .agileits_service_right p {
