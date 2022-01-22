@@ -3206,6 +3206,10 @@ body a:hover{
   .quick_link{
     padding-top: 25px;
   }
+  .quick_link a{
+    color: White;
+    font-weight: 900;
+  }
   .links{
     padding-top: 50px;
   }
