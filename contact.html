@@ -15,7 +15,7 @@
     <link rel=stylesheet href='css/style-core.css' type=text/css media=all />
     <link rel=stylesheet href='css/pjsigns-style-custom.css' type=text/css media=all />
 
-    <link rel=stylesheet id=gdlr-core-google-font-css href='https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext%2Cdevanagari%2Ccyrillic-ext%2Cvietnamese%2Ccyrillic&amp;ver=5.0.3' type=text/css media=all />
+    <!-- <link rel=stylesheet id=gdlr-core-google-font-css href='https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext%2Cdevanagari%2Ccyrillic-ext%2Cvietnamese%2Ccyrillic&amp;ver=5.0.3' type=text/css media=all /> -->
 
 <!-- Return to Top -->
 <script src="script.js"></script>
@@ -23,7 +23,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
 <a href="https://api.whatsapp.com/send?phone=+9198848984 84&text=Hello%21." class="float" target="_blank">
 <i class="fa fa-whatsapp my-float"></i>
 </a>
@@ -263,7 +263,8 @@ Nagalkeni, Chromepet,
                         </div>
                     </div>
                     <div class="wrapper">
-                      <header>Send us a Message</header>
+                      <header>LEAVE US YOUR INFO HERE<br>WE WILL GET BACK TO YOU SOON.</header>
+                      <!-- <p>AND WE WILL GET BACK TO YOU.</p> -->
                       <form action="#">
                         <div class="dbl-field">
                           <div class="field">
@@ -327,9 +328,9 @@ Nagalkeni, Chromepet,
     </div>
 
 
-    <script src='js/jquery/jquery.js'></script>
-    <script src='js/jquery/jquery-migrate.min.js'></script>
-    <script src='plugins/goodlayers-core/plugins/combine/script.js'></script>
+    <!-- <script src='js/jquery/jquery.js'></script> -->
+    <!-- <script src='js/jquery/jquery-migrate.min.js'></script> -->
+    <!-- <script src='plugins/goodlayers-core/plugins/combine/script.js'></script> -->
     <script>
         var gdlr_core_pbf = {
             "admin": "",
@@ -342,17 +343,49 @@ Nagalkeni, Chromepet,
         };
     </script>
     <script src='plugins/goodlayers-core/include/js/page-builder.js'></script>
-    <script src='js/jquery/ui/effect.min.js'></script>
-    <script src='js/jquery.mmenu.min.js'></script>
-    <script src='js/jquery.superfish.min.js'></script>
-    <script>
+    <script type="text/javascript">
+    const form = document.querySelector("form"),
+    statusTxt = form.querySelector(".button-area span");
+
+    form.onsubmit = (e)=>{
+      e.preventDefault();
+      statusTxt.style.color = "#0D6EFD";
+      statusTxt.style.display = "block";
+      statusTxt.innerText = "Sending your message...";
+      form.classList.add("disabled");
+
+      let xhr = new XMLHttpRequest();
+      xhr.open("POST", "message.php", true);
+      xhr.onload = ()=>{
+        if(xhr.readyState == 4 && xhr.status == 200){
+          let response = xhr.response;
+          if(response.indexOf("Email and message field is required!") != -1 || response.indexOf("Enter a valid email address!") != -1 || response.indexOf("Sorry, failed to send your message!") != -1){
+            statusTxt.style.color = "red";
+          }else{
+            form.reset();
+            setTimeout(()=>{
+              statusTxt.style.display = "none";
+            }, 3000);
+          }
+          statusTxt.innerText = response;
+          form.classList.remove("disabled");
+        }
+      }
+      let formData = new FormData(form);
+      xhr.send(formData);
+    }
+    </script>
+    <!-- <script src='js/jquery/ui/effect.min.js'></script> -->
+    <!-- <script src='js/jquery.mmenu.min.js'></script> -->
+    <!-- <script src='js/jquery.superfish.min.js'></script> -->
+    <!-- <script>
         var pjsigns_script_core = {
             "home_url": "index.html"
         };
-    </script>
-    <script src='js/plugins.min.js'></script>
-    <script type="text/javascript" src="plugins/quform/js/plugins.js"></script>
-    <script type="text/javascript" src="plugins/quform/js/scripts.js"></script>
+    </script> -->
+    <!-- <script src='js/plugins.min.js'></script> -->
+    <!-- <script type="text/javascript" src="plugins/quform/js/plugins.js"></script> -->
+    <!-- <script type="text/javascript" src="plugins/quform/js/scripts.js"></script> -->
 
 
 </body>
