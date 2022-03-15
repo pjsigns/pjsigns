@@ -6,23 +6,17 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body{
-  display: flex;
-  padding: 0 10px;
-  min-height: 100vh;
-  background: #0D6EFD;
-  align-items: center;
-  justify-content: center;
-}
+
 ::selection{
   color: #fff;
   background: #0D6EFD;
 }
 .wrapper{
-  width: 715px;
+  width: 50%;
   background: #fff;
+  margin: auto;
   border-radius: 5px;
-  box-shadow: 10px 10px 10px rgba(0,0,0,0.05);
+  box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.07);
 }
 .wrapper header{
   font-size: 22px;
