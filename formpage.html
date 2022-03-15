@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Simple Email Form Using HTML &amp; CSS - reusable form</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+            <link rel=stylesheet href='plugins/goodlayers-core/plugins/combine/style.css' type=text/css media=all />
+            <link rel=stylesheet href='plugins/goodlayers-core/include/css/page-builder.css' type=text/css media=all />
+            <link rel=stylesheet href='plugins/revslider/public/assets/css/settings.css' type=text/css media=all />
+            <link rel=stylesheet href='css/style-core.css' type=text/css media=all />
+            <link rel=stylesheet href='css/pjsigns-style-custom.css' type=text/css media=all />
+
+            <link rel=stylesheet id=gdlr-core-google-font-css href='https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext%2Cdevanagari%2Ccyrillic-ext%2Cvietnamese%2Ccyrillic&amp;ver=5.0.3' type=text/css media=all />
+
+        <!-- Return to Top -->
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://api.whatsapp.com/send?phone=+9198848984 84&text=Hello%21." class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+        </a>
+          <link rel="icon" type="image/x-icon" href="upload/FAVICON.ICO">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="form.css" >
+        <script src="form.js"></script>
+    </head>
+    <body >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h2>Feedback</h2>
+                    <p> Please provide your feedback below: </p>
+                    <form role="form" method="post" id="reused_form">
+                      <div class="quform-elements">
+                          <div class="quform-element">
+                              <p>
+                                  <br>
+                                  <span class="wpcf7-form-control-wrap your-name">
+                                      <input id="name" type="text" name="name" size="40" class="input1" aria-required="true" aria-invalid="false" placeholder="Name*">
+                                  </span>
+                              </p>
+                          </div>
+                          <div class="quform-element">
+                              <p>
+                                  <br>
+                                  <span class="wpcf7-form-control-wrap your-email">
+                                      <input id="email" type="text" name="email" size="40" class="input1" aria-required="true" aria-invalid="false" placeholder="Email*">
+                                  </span>
+                              </p>
+                          </div>
+<div class="quform-element">
+                              <p>
+                                  <br>
+                                  <span class="wpcf7-form-control-wrap your-name">
+                                      <input id="phone" type="text" name="phone" size="40" class="input1" aria-required="true" aria-invalid="false" placeholder="Phone*">
+                                  </span>
+                              </p>
+                          </div>
+                          <div class="quform-element">
+                              <p>
+                                  <br>
+                                  <span class="wpcf7-form-control-wrap your-message">
+                                      <textarea  id="message" name="message" cols="40" rows="10" class="input1" aria-invalid="false" placeholder="Message*"></textarea>
+                                  </span>
+                              </p>
+                          </div>
+                          <p>
+                              <!-- Begin Submit button -->
+                              <div class="quform-submit">
+                                  <div class="quform-submit-inner">
+                                      <button type="submit" class="submit-button"><span>Send</span></button>
+                                  </div>
+                                  <div class="quform-loading-wrap"><span class="quform-loading"></span></div>
+                              </div>
+                          </p>
+                      </div>
+                    </form>
+                    <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Posted your feedback successfully!</h3> </div>
+                    <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
